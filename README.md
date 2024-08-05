@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/b34fe840-f3a4-4b66-9c83-c1c63107cc02)
+![image](https://github.com/user-attachments/assets/81e60655-96a8-455b-864f-fc12dd15d15d)
+
 
 # 👋 안녕하세요! 저는 문영식입니다.
 
