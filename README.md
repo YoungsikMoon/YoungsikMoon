@@ -6,7 +6,7 @@
 - **운영체제**: Windows, Linux
 - **프로그래밍 언어**: Java, Python
 - **데이터베이스**: Oracle, MS-SQL, MySQL, MongoDB, Tibero, PostgreSQL
-- **도구**: V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub, FileZilla, MobaXterm
+- **도구**: AWS, V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub
 
 ---
 
