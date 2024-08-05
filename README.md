@@ -5,8 +5,8 @@
 ## 🛠️ 기술 스택
 - **운영체제**: Windows, Linux
 - **프로그래밍 언어**: Java, Python
-- **데이터베이스**: Oracle, MS-SQL, MySQL, MongoDB, Tibero, PostgreSQL
-- **도구**: AWS, V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub
+- **데이터베이스**: Oracle, MS-SQL, MySQL, MongoDB, MariaDB, Tibero6, PostgreSQL
+- **도구**: AWS, OCI, V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub, Flask, Streamit
 
 ---
 
