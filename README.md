@@ -1,12 +1,33 @@
-- 👋 Hi, I’m YoungsikMoon
-- 👀 I’m interested in about you
-- 🌱 I’m currently learning abouy you
-- 💞️ I’m looking to collaborate on you
-- 📫 How to reach me you
-- 😄 Pronouns: you
-- ⚡ Fun fact: you
+# 👋 안녕하세요! 저는 YoungsikMoon입니다.
 
-<!---
-YoungsikMoon/YoungsikMoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 👀 저에 대해 알아보세요
+저는 인공지능, 머신러닝, 딥러닝 분야에 열정을 가진 개발자입니다. 최신 기술 트렌드를 반영하여 혁신적인 솔루션을 개발하는 것을 목표로 하고 있습니다.
+
+## 🌱 현재 배우고 있는 것
+지속적인 학습을 통해 인공지능의 기초부터 고급 개념까지 깊이 있는 지식을 쌓고 있습니다. TensorFlow, PyTorch, Scikit-learn 등을 활용하여 다양한 프로젝트를 진행하고 있습니다.
+
+## 💞️ 함께 협업하고 싶습니다
+저는 팀워크를 중요시하며, 다양한 배경을 가진 사람들과 협력하여 창의적인 문제 해결을 이끌어내는 것을 즐깁니다. 함께 프로젝트를 진행하며 서로의 지식을 나누고 성장할 수 있기를 희망합니다.
+
+## 📫 연락 방법
+협업에 관심이 있으시다면 언제든지 저에게 연락해 주세요!
+- 이메일: your-email@example.com
+- LinkedIn: [YoungsikMoon](https://www.linkedin.com/in/youngsikmoon)
+
+## 😄 재미있는 사실
+저는 문제 해결을 위해 복잡한 알고리즘을 사용할 뿐만 아니라, 매일 새로운 기술을 배우는 것을 즐깁니다. 여러분과 함께 더 많은 것을 배우고 싶습니다!
+
+## 🛠️ 기술 스택
+- **프로그래밍 언어**: Python, R
+- **프레임워크**: TensorFlow, Keras, PyTorch
+- **데이터 분석**: Pandas, NumPy, Matplotlib, Seaborn
+- **버전 관리**: Git, GitHub
+
+## 📂 프로젝트
+- **AI 기반 추천 시스템**: 사용자 데이터를 분석하여 개인화된 추천을 제공하는 시스템 개발
+- **딥러닝을 활용한 이미지 분류**: CNN 모델을 사용하여 이미지 데이터를 분류하는 프로젝트
+
+## 🌟 기여
+제 프로젝트에 기여하고 싶으시다면, 언제든지 Pull Request를 보내주세요!
+
+감사합니다!
