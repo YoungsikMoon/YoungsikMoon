@@ -52,12 +52,11 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 ### 센텍정보기술
 - **솔루션**:
   - 배치자동화솔루션 (Jobmind)
-- **주요 고객**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
 - **업무**:
-  - 솔루션 영업 (BMT POC 도입)
-  - 솔루션 구축 및 유지보수
-  - 사내 시스템 구축 및 관리
+  - 솔루션 영업 구축 및 유지보수
+  - 사내 시스템 구축 및 유지보수
   - 신입 기술자 교육 자료 및 양성
+- **주요 고객**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
 
 ### 에스에스앤씨
 - **솔루션**: 
@@ -78,7 +77,7 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 - **업무**:
   - 반응형 웹 개발
   - 고객 DB 관리 및 CS
-- **주요 고객**: 비투씨
+- **주요 고객**: SNS 사용자, 마케팅기업
 ---
 
 ## 🌟 🌱 🤝 🌍
