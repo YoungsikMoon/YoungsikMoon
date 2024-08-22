@@ -19,12 +19,13 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ---
 
-## 📂 AI Project Experience (portfolio)
-- **NLP** : Webtoon Insight Generation Project
-- **TTS & STT** : Employment Support System for People with Disabilities and the Elderly
-- **Imeage** : Interview Automation Project
-- **Object** :  Missing Person Search Project, Fall Detection
+## 📂 Project Experience (portfolio)
 - **Final** : LLM Service Optimized for Finance and Stock Domains
+- **Object** :  Missing Person Search Project, Fall Detection
+- **Imeage** : Interview Automation Project
+- **TTS & STT** : Employment Support System for People with Disabilities and the Elderly
+- **NLP** : Webtoon Insight Generation Project
+- **[JavaWebPrograming](youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service
 
 ---
 
@@ -34,8 +35,8 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Docker** - 한국소프트웨어산업협회, KOSA
 - **Docker** - 동부교육
 - **Linux** - KT ds University
-- **X-Internet & MiPlatform** - 투비소프트
-- **Java Develop** - 미래능력개발교육원
+- **X-Internet & MiPlatform** - 투비소프트 [19.03.12~19.03.13 : 16h]
+- **Java Develop** - 미래능력개발교육원 [18.08~19.04 : 9m]
 
 ---
 
