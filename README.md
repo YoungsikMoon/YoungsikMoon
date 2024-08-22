@@ -1,7 +1,13 @@
 ![image](https://github.com/user-attachments/assets/81e60655-96a8-455b-864f-fc12dd15d15d) 
-# 👋 "Hello! I am MoonYoungSik. 
+# 👋Hello! My name is MoonYoungSik.
 
-I value teamwork and enjoy collaborating with people from diverse backgrounds to drive creative solutions to problems. I hope to share knowledge, learn, and grow together while working on projects."
+I place a high value on teamwork and thrive in collaborative environments where I can work alongside individuals from diverse backgrounds to develop innovative solutions to challenges.
+
+I look forward to sharing knowledge, learning from one another, and growing together throughout our projects.
+
+In addition to the IT experience outlined below, I bring a wealth of social experiences that enrich my perspective.
+
+These varied experiences enable me to adapt seamlessly to any environment.
 
 ---
 
