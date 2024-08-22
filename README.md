@@ -13,6 +13,15 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 
 ---
 
+## 📂 AI Project Experience
+- **Natural Language Processing** : 웹툰 인사이트 도출 프로젝트
+- **TTS & STT** : 장애인/노인 취업 지원 시스템 프로젝트
+- **Imeage Recognize** : 면접 자동화 프로젝트
+- **Object Detection** : 실종자 탐색 프로젝트, 추락 감지 프로젝트
+- **Final Project** : 금융과 주식 도메인에 최적화된 LLM 서비스
+
+---
+
 ## 🎓 IT Education
 - **machine learning & Deep learning Develop** - Alpaco
 - **Kubernetes** - 한국소프트웨어산업협회, KOSA
@@ -21,7 +30,7 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 - **Linux** - KT ds University
 - **X-Internet & MiPlatform** - 투비소프트
 - **Java Develop** - 미래능력개발교육원
- 
+
 ---
 
 ## 📜 Certification
@@ -38,19 +47,11 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 
 ---
 
-## 📂 AI Project Experience
-- **Natural Language Processing** : 웹툰 인사이트 도출 프로젝트
-- **TTS & STT** : 장애인/노인 취업 지원 시스템 프로젝트
-- **Imeage Recognize** : 면접 자동화 프로젝트
-- **Object Detection** : 실종자 탐색 프로젝트, 추락 감지 프로젝트
-- **Final Project** : 금융과 주식 도메인에 최적화된 LLM 서비스
-
----
-
 ## 👀 Company Experience
 
 ### 센텍정보기술
-- **솔루션**: 배치자동화솔루션 (Jobmind)
+- **솔루션**:
+  - 배치자동화솔루션 (Jobmind)
 - **주요 고객**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
 - **업무**:
   - 솔루션 영업 (BMT POC 도입)
@@ -81,12 +82,10 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 ---
 
 ## 🌟 🌱 🤝 🌍
-
-
 ## 📫 연락 방법
 관심이 있으시다면 언제든지 저에게 연락해 주세요!
 - **HP : 010-9008-4362**
 
 ---
 
-Thank you 💞️
+# Thank you 💞️
