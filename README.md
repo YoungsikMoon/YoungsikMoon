@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/81e60655-96a8-455b-864f-fc12dd15d15d) 
-# 👋Hello! My name is MoonYoungSik.
+# 👋Hello! My name is MoonYoungSik. 95.11.18
 
 I place a high value on teamwork and thrive in collaborative environments where I can work alongside individuals from diverse backgrounds to develop innovative solutions to challenges.
 
