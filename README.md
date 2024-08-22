@@ -1,5 +1,7 @@
 ![image](https://github.com/user-attachments/assets/81e60655-96a8-455b-864f-fc12dd15d15d) 
-# 👋 "Hello! I am MoonYoungSik. I value teamwork and enjoy collaborating with people from diverse backgrounds to drive creative solutions to problems. I hope to share knowledge, learn, and grow together while working on projects."
+# 👋 "Hello! I am MoonYoungSik. 
+
+I value teamwork and enjoy collaborating with people from diverse backgrounds to drive creative solutions to problems. I hope to share knowledge, learn, and grow together while working on projects."
 
 ---
 
