@@ -55,40 +55,40 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ## 👀 Company Experience
 
-### 센텍정보기술
-- **솔루션**:
-  - 배치자동화솔루션 (Jobmind)
-- **업무**:
-  - 솔루션 영업 구축 및 유지보수
-  - 사내 시스템 구축 및 유지보수
-  - 신입 기술자 교육 자료 및 양성
-- **주요 고객**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
+### Centec [http://centec.kr]
+- **Solutions**:
+  - Batch Automation Solution (Jobmind)
+- **Responsibilities**:
+  - Development and maintenance of solution sales
+  - Implementation and maintenance of internal systems
+  - Creation and training of onboarding materials for new technical staff
+- **Clients**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
 
-### 에스에스앤씨
-- **솔루션**: 
-  - 엔드포인트 보안 (Samsung ESCORT)
-  - 스마트팩토리 보안 (Samsung SmartDTM)
-  - 랜섬웨어 보안 (Samsung SentinelOne)
-  - 출력물 보안 (SecuPrint)
-  - ERP (e-spider)
-  - 분실 PC 보안 (ForgotPC)
-- **업무**:
+### SSNC [https://www.ssnc.co.kr/]
+- **Solutions**: 
+  - Endpoint Security (Samsung ESCORT)
+  - Smart Factory Security (Samsung SmartDTM)
+  - Ransomware Protection (Samsung SentinelOne)
+  - Print Security (SecuPrint)
+  - ERP System (e-spider)
+  - Lost PC Security (ForgotPC)
+- **Responsibilities**:
   - 솔루션 구축, 유지보수, 매뉴얼작성
   - 기타 IT 기술지원
-- **주요 고객**: 삼성SDS, SK이노베이션, SK차이나, SK어드밴스, SK임업, SK매직, SK머티리얼즈, CJ올리브네트웍스, CJ헬스케어, 한국콜마홀딩스, 한국콜마중국, 네이버InS, 일진글로벌, YKK, 빙그레, 오뚜기, 삼양, 동우화인캠, DB하이텍, DB생명, GS홈쇼핑
+- **Clients**: 삼성SDS, SK이노베이션, SK차이나, SK어드밴스, SK임업, SK매직, SK머티리얼즈, CJ올리브네트웍스, CJ헬스케어, 한국콜마홀딩스, 한국콜마중국, 네이버InS, 일진글로벌, YKK, 빙그레, 오뚜기, 삼양, 동우화인캠, DB하이텍, DB생명, GS홈쇼핑
 
-### 아이디스트
-- **담당 솔루션**:
-  - SNS 자동 관리 서비스 (grammer)
-- **업무**:
-  - 반응형 웹 개발
-  - 고객 DB 관리 및 CS
-- **주요 고객**: SNS 사용자, 마케팅기업
+### idist [closed down]
+- **Solutions**:
+  - SNS Automation Management Service (grammer)
+- **Responsibilities**:
+  - Responsive web development
+  - Customer database management and customer support
+- **Clients**: SNS Users, Marketing Companies
 ---
 
-## 🌟 🌱 🤝 🌍
-## 📫 연락 방법
-관심이 있으시다면 언제든지 저에게 연락해 주세요!
+## 🌟 🌱  🌍
+## 📫 Connect
+If you need me. please call me 🤝
 - **HP : [PHONE_REMOVED]**
 
 ---
