@@ -58,8 +58,6 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
   - 사내 시스템 구축 및 관리
   - 신입 기술자 교육 자료 및 양성
 
----
-
 ### 에스에스앤씨
 - **솔루션**: 
   - 엔드포인트 보안 (Samsung ESCORT)
@@ -72,8 +70,6 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
   - 솔루션 구축, 유지보수, 매뉴얼작성
   - 기타 IT 기술지원
 - **주요 고객**: 삼성SDS, SK이노베이션, SK차이나, SK어드밴스, SK임업, SK매직, SK머티리얼즈, CJ올리브네트웍스, CJ헬스케어, 한국콜마홀딩스, 한국콜마중국, 네이버InS, 일진글로벌, YKK, 빙그레, 오뚜기, 삼양, 동우화인캠, DB하이텍, DB생명, GS홈쇼핑
-
----
 
 ### 아이디스트
 - **담당 솔루션**:
