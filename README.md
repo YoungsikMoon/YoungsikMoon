@@ -62,7 +62,8 @@ These varied experiences enable me to adapt seamlessly to any environment.
   - Development and maintenance of solution sales
   - Implementation and maintenance of internal systems
   - Creation and training of onboarding materials for new technical staff
-- **Clients**: 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
+- **Clients**:
+  - 신한카드, 삼성 SDS, 마스턴투자운용, 애큐온저축은행 등
 
 ### SSNC [https://www.ssnc.co.kr/]
 - **Solutions**: 
@@ -75,7 +76,8 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Responsibilities**:
   - 솔루션 구축, 유지보수, 매뉴얼작성
   - 기타 IT 기술지원
-- **Clients**: 삼성SDS, SK이노베이션, SK차이나, SK어드밴스, SK임업, SK매직, SK머티리얼즈, CJ올리브네트웍스, CJ헬스케어, 한국콜마홀딩스, 한국콜마중국, 네이버InS, 일진글로벌, YKK, 빙그레, 오뚜기, 삼양, 동우화인캠, DB하이텍, DB생명, GS홈쇼핑
+- **Clients**:
+  - 삼성SDS, SK이노베이션, SK차이나, SK어드밴스, SK임업, SK매직, SK머티리얼즈, CJ올리브네트웍스, CJ헬스케어, 한국콜마홀딩스, 한국콜마중국, 네이버InS, 일진글로벌, YKK, 빙그레, 오뚜기, 삼양, 동우화인캠, DB하이텍, DB생명, GS홈쇼핑
 
 ### idist [closed down]
 - **Solutions**:
@@ -83,7 +85,8 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Responsibilities**:
   - Responsive web development
   - Customer database management and customer support
-- **Clients**: SNS Users, Marketing Companies
+- **Clients**:
+  - SNS Users, Marketing Companies
 ---
 
 ## 🌟 🌱  🌍
