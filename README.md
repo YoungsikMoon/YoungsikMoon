@@ -13,7 +13,7 @@ I value teamwork and enjoy collaborating with people from diverse backgrounds to
 
 ---
 
-## 📂 AI Project Experience
+## 📂 AI Project Experience (portfolio)
 - **Natural Language Processing** : 웹툰 인사이트 도출 프로젝트
 - **TTS & STT** : 장애인/노인 취업 지원 시스템 프로젝트
 - **Imeage Recognize** : 면접 자동화 프로젝트
