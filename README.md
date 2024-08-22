@@ -35,7 +35,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Kubernetes** - 한국소프트웨어산업협회, KOSA 
 - **Docker** - 한국소프트웨어산업협회, KOSA
 - **Docker** - 동부교육
-- **Linux** - KT ds University 
+- **Linux** - KT ds University [21.10.2 ~ 21.11.6]
 - **X-Internet & MiPlatform** - 투비소프트 [19.03]
 - **Java Develop** - 미래능력개발교육원 [18.08~19.04 : 9m]
 
