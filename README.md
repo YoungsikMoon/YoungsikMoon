@@ -25,7 +25,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Imeage** : Interview Automation Project
 - **TTS & STT** : Employment Support System for People with Disabilities and the Elderly
 - **NLP** : Webtoon Insight Generation Project
-- **[JavaWebPrograming](youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service
+- **[JavaWebPrograming](http://youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service
 
 ---
 
