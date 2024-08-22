@@ -49,10 +49,10 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **E-Test(e-Professionals)** - KOPE
 - **2종 보통 운전면허** - 경찰청(운전면허시험관리단)
 - **2종 소형 운전면허** - 경찰청(운전면허시험관리단)
+- **와인소믈리에** - KWAC
+- **커피바리스타** - 한국바리스타협회
 - **전산응용건축제도기능사** - 산국합업인력공단
 - **건축도장기능사** - 산국합업인력공단
-- **커피바리스타** - 한국바리스타협회
-- **와인소믈리에** - KWAC
 
 ---
 
