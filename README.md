@@ -39,7 +39,6 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Linux** - KT ds University 
 - **X-Internet & MiPlatform** - 투비소프트 [19.03]
 - **Java Develop** - 미래능력개발교육원 [18.08~19.04 : 9m]
-- **사이버진로교육** - 한국고용정보원 [18.1.17 ~ 18.2.29 : 1m]
 
 ---
 
@@ -50,6 +49,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **E-Test(e-Professionals)** - KOPE
 - **2종 보통 운전면허** - 경찰청(운전면허시험관리단)
 - **2종 소형 운전면허** - 경찰청(운전면허시험관리단)
+- **진로컨설팅** - 한국고용정보원
 - **와인소믈리에** - KWAC
 - **커피바리스타** - 한국바리스타협회
 - **전산응용건축제도기능사** - 산국합업인력공단
