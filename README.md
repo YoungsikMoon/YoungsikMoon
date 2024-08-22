@@ -20,21 +20,23 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 📂 Project Experience (portfolio)
-- **Final** : LLM Service Optimized for Finance and Stock Domains
-- **Object** :  Missing Person Search Project, Fall Detection
-- **Imeage** : Interview Automation Project
-- **TTS & STT** : Employment Support System for People with Disabilities and the Elderly
-- **NLP** : Webtoon Insight Generation Project
-- **[JavaWebPrograming](http://youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service
+- **[Final](https://github.com/YoungsikMoon/05.-InBest)** : LLM Service Optimized for Finance and Stock Domains [24.6.25 ~ 24.8.20 : 2m]
+- **[Object](https://github.com/YoungsikMoon/04.-DarkInsight)** :  Missing Person Search Project, Fall Detection [24.6.07 ~ 24.6.19 : 12d]
+- **[Imeage](https://github.com/YoungsikMoon/03.-Find_Imo)** : Interview Automation Project [24.5.08 ~ 24.5.20 : 12d]
+- **[TTS&STT](https://github.com/YoungsikMoon/02.-FORS)** : Employment Support System for People with Disabilities and the Elderly [24.4.21 ~ 24.5.3 : 12d]
+- **[NLP](https://github.com/YoungsikMoon/01.-alpha911)** : Webtoon Insight Generation Project [24.3.22 ~ 24.4.10]
+- **[TextMining](https://github.com/YoungsikMoon/00.-Text-Mining/blob/main/%EB%A7%9B%EC%9E%88%EB%8A%94_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%B6%84%EC%84%9D_%EB%AC%B8%EC%98%81%EC%8B%9D.ipynb)** : Text mining book writing [24.3 ~ 24.6 : 2m]
+- **[JavaWebPrograming](http://youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service [19.2.11 ~ 19.3.11 : 1m]
+- **[JavaPrograming]** : Pizza making System (18.10.15 ~ 18.10.20 : 5d) 
 
 ---
 
 ## 🎓 IT Education
-- **machine learning & Deep learning Develop** - Alpaco
-- **Kubernetes** - 한국소프트웨어산업협회, KOSA
+- **machine learning & Deep learning Develop** - Alpaco [24.2.26~24.8.29 : 6m]
+- **Kubernetes** - 한국소프트웨어산업협회, KOSA 
 - **Docker** - 한국소프트웨어산업협회, KOSA
 - **Docker** - 동부교육
-- **Linux** - KT ds University
+- **Linux** - KT ds University 
 - **X-Internet & MiPlatform** - 투비소프트 [19.03.12~19.03.13 : 16h]
 - **Java Develop** - 미래능력개발교육원 [18.08~19.04 : 9m]
 
