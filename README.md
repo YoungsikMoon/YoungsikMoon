@@ -20,11 +20,11 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 📂 AI Project Experience (portfolio)
-- **Natural Language Processing** : 웹툰 인사이트 도출 프로젝트
-- **TTS & STT** : 장애인/노인 취업 지원 시스템 프로젝트
-- **Imeage Recognize** : 면접 자동화 프로젝트
-- **Object Detection** : 실종자 탐색 프로젝트, 추락 감지 프로젝트
-- **Final Project** : 금융과 주식 도메인에 최적화된 LLM 서비스
+- **NLP** : Webtoon Insight Generation Project
+- **TTS & STT** : Employment Support System for People with Disabilities and the Elderly
+- **Imeage** : Interview Automation Project
+- **Object** :  Missing Person Search Project, Fall Detection
+- **Final** : LLM Service Optimized for Finance and Stock Domains
 
 ---
 
