@@ -27,7 +27,6 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **[NLP](https://github.com/YoungsikMoon/01.-alpha911)** : Webtoon Insight Generation Project [24.3.22 ~ 24.4.10]
 - **[TextMining](https://github.com/YoungsikMoon/00.-Text-Mining/blob/main/%EB%A7%9B%EC%9E%88%EB%8A%94_%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%B6%84%EC%84%9D_%EB%AC%B8%EC%98%81%EC%8B%9D.ipynb)** : Text mining book writing [24.3 ~ 24.6 : 2m]
 - **[JavaWebPrograming](http://youtube.com/watch?v=BDou4zE-RDQ)** : Bus charter service [19.2.11 ~ 19.3.11 : 1m]
-- **[JavaPrograming]** : Pizza making System (18.10.15 ~ 18.10.20 : 5d) 
 
 ---
 
