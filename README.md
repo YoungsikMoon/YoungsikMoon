@@ -37,8 +37,9 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **Docker** - 한국소프트웨어산업협회, KOSA
 - **Docker** - 동부교육
 - **Linux** - KT ds University 
-- **X-Internet & MiPlatform** - 투비소프트 [19.03.12~19.03.13 : 16h]
+- **X-Internet & MiPlatform** - 투비소프트 [19.03]
 - **Java Develop** - 미래능력개발교육원 [18.08~19.04 : 9m]
+- **사이버진로교육** - 한국고용정보원 [18.1.17 ~ 18.2.29 : 1m]
 
 ---
 
