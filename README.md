@@ -56,7 +56,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ---
 
-## 👀 Company Experience
+## 👀 Company History
 
 ### Centec [http://centec.kr]
 - **Solutions**:
