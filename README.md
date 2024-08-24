@@ -21,7 +21,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ## 📂 Project Experience (portfolio)
 - **[Final](https://github.com/YoungsikMoon/05.-InBest)** : LLM Service Optimized for Finance and Stock Domains [24.6.25 ~ 24.8.20 : 2m]
-- **[Object](https://github.com/YoungsikMoon/04.-DarkInsight)** :  Missing Person Search Project, Fall Detection [24.6.07 ~ 24.6.19 : 12d]
+- **[Object](https://github.com/YoungsikMoon/04.-ObjectDetection)** :  Missing Person Search Project, Fall Detection [24.6.07 ~ 24.6.19 : 12d]
 - **[Imeage](https://github.com/YoungsikMoon/03.-Find_Imo)** : Interview Automation Project [24.5.08 ~ 24.5.20 : 12d]
 - **[TTS&STT](https://github.com/YoungsikMoon/02.-FORS)** : Employment Support System for People with Disabilities and the Elderly [24.4.21 ~ 24.5.3 : 12d]
 - **[NLP](https://github.com/YoungsikMoon/01.-alpha911)** : Webtoon Insight Generation Project [24.3.22 ~ 24.4.10]
