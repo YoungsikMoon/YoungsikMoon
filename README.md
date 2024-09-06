@@ -15,7 +15,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 - **O/S**: Windows, Linux
 - **Programing Language**: Java, Python
 - **Database**: Oracle, MS-SQL, MySQL, MongoDB, MariaDB, Tibero6, PostgreSQL
-- **Tools**: AWS, OCI, V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub
+- **Tools**: AWS, OCI, V-BOX, VMware, VSCode, Eclipse, Tomcat, JupyterNotebook, Anaconda, MS-Office, GitHub, Docker, FastAPI
 
 ---
 
