@@ -32,7 +32,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ## 🎓 IT Education
 - **dinolaps MAI Agent automation** - dinoLaps [24.12.13~25.1.3 : 3w] 
-- **dinolaps MAI Agent ** - dinoLaps [24.10.29~24.11.18 : 3w]
+- **dinolaps MAI Agent** - dinoLaps [24.10.29~24.11.18 : 3w]
 - **machine learning & Deep learning Develop** - Alpaco [24.2.26~24.8.29 : 6m]
 - **Kubernetes** - 한국소프트웨어산업협회, KOSA 
 - **Docker** - 한국소프트웨어산업협회, KOSA
