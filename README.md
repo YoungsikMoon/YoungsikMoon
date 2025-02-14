@@ -20,6 +20,9 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 📂 Project Experience (portfolio)
+- **[Spring Boot]** : 올려야 함..
+- **[Fusion AutoCounter and AutoFolderCreator]** : 올려야 함..
+- **[Youtube Downloader]** : 올려야 함..
 - **[Final](https://github.com/YoungsikMoon/05.-InBest)** : LLM Service Optimized for Finance and Stock Domains [24.6.25 ~ 24.8.20 : 2m]
 - **[Object](https://github.com/YoungsikMoon/04.-ObjectDetection)** :  Missing Person Search Project, Fall Detection [24.6.07 ~ 24.6.19 : 12d]
 - **[Imeage](https://github.com/YoungsikMoon/03.-Find_Imo)** : Interview Automation Project [24.5.08 ~ 24.5.20 : 12d]
@@ -31,9 +34,11 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 🎓 IT Education
-- **dinolaps MAI Agent automation** - dinoLaps [24.12.13~25.1.3 : 3w] 
-- **dinolaps MAI Agent** - dinoLaps [24.10.29~24.11.18 : 3w]
-- **machine learning & Deep learning Develop** - Alpaco [24.2.26~24.8.29 : 6m]
+- **technology blog competition** - 에이븐 [25.2.7~25.2.14 : 1w] 1등
+- **technology blog competition** - 에이븐 [25.2.3~25.2.7 : 1w] 1등등
+- **dinolaps MAI Agent automation** - 디노랩스 [24.12.13~25.1.3 : 3w]  2등
+- **dinolaps MAI Agent** - 디노랩스 [24.10.29~24.11.18 : 3w] 2등
+- **machine learning & Deep learning Develop** - 알파코 [24.2.26~24.8.29 : 6m]
 - **Kubernetes** - 한국소프트웨어산업협회, KOSA 
 - **Docker** - 한국소프트웨어산업협회, KOSA
 - **Docker** - 동부교육
