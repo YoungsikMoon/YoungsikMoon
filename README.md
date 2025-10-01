@@ -35,7 +35,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 
 ## 🎓 IT Education
 - **technology blog competition** - 에이븐 [25.2.7~25.2.14 : 1w] 1등
-- **technology blog competition** - 에이븐 [25.2.3~25.2.7 : 1w] 1등등
+- **technology blog competition** - 에이븐 [25.2.3~25.2.7 : 1w] 1등
 - **dinolaps MAI Agent automation** - 디노랩스 [24.12.13~25.1.3 : 3w]  2등
 - **dinolaps MAI Agent** - 디노랩스 [24.10.29~24.11.18 : 3w] 2등
 - **machine learning & Deep learning Develop** - 알파코 [24.2.26~24.8.29 : 6m]
@@ -70,6 +70,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
   - oDoo : Open Source Developer
   - Autodesk Fusion : Addin system PM developer
   - SmartLine2 : Springboot & React sub developer
+  - KPI2.0 : ALL
 
 ### Centec [http://centec.kr]
 - **Solutions**:
