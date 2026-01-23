@@ -69,8 +69,9 @@ These varied experiences enable me to adapt seamlessly to any environment.
   - Robot CoffeeMachine : API, order, monitoring... etc main PM developer
   - oDoo : Open Source Developer
   - Autodesk Fusion : Addin system PM developer
-  - SmartLine2 : Springboot & React sub developer
-  - KPI2.0 : ALL
+  - SmartLine2 : Springboot & React & PostgreSQL sub developer
+  - KPI2.0 : everything (Pyside6)
+  - SmartDash : everything (FastAPI React19 PostgreSQL)
 
 ### Centec [http://centec.kr]
 - **Solutions**:
