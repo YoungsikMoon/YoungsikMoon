@@ -22,7 +22,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ## 📂 Project Experience (portfolio)
 - **[Spring Boot]** : 올려야 함..
 - **[Fusion AutoCounter and AutoFolderCreator]** : 올려야 함..
-- **[Youtube Downloader]** : 올려야 함..
+- **[YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui)** : Windows GUI downloader with Excel batch support, progress tracking, and runtime logs
 - **[Final](https://github.com/YoungsikMoon/05.-InBest)** : LLM Service Optimized for Finance and Stock Domains [24.6.25 ~ 24.8.20 : 2m]
 - **[Object](https://github.com/YoungsikMoon/04.-ObjectDetection)** :  Missing Person Search Project, Fall Detection [24.6.07 ~ 24.6.19 : 12d]
 - **[Imeage](https://github.com/YoungsikMoon/03.-Find_Imo)** : Interview Automation Project [24.5.08 ~ 24.5.20 : 12d]
