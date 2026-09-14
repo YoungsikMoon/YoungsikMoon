@@ -20,6 +20,7 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 📂 Project Experience (portfolio)
+- **[Secu Book](https://github.com/YoungsikMoon/secu-book.git)** : 웹 실무 보안 책 작성. (커뮤니티 유저분들과 함께 개선 중)
 - **[Spring Boot]** : 올려야 함..
 - **[Fusion AutoCounter and AutoFolderCreator]** : 올려야 함..
 - **[YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui)** : Windows GUI downloader with Excel batch support, progress tracking, and runtime logs [25.1.20 ~ 26.8.28]
