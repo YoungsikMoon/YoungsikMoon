@@ -109,9 +109,6 @@ These varied experiences enable me to adapt seamlessly to any environment.
 ---
 
 ## 🌟 🌱  🌍
-## 📫 Connect
-If you need me. please call me 🤝
-- **HP : [PHONE_REMOVED]**
 
 ---
 
