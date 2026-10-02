@@ -101,6 +101,7 @@ AI로 개발할 수 있는 환경이 열려도, 만들고 싶은 것을 명확�
 
 | 프로젝트 | 내용 |
 | --- | --- |
+| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest) | 파일 정리 미리보기, 확장자·정규식·크기별 사용자 규칙과 마지막 작업 되돌리기를 지원하는 Python·PySide6 데스크톱 프로그램 |
 | [Secu Book](https://github.com/YoungsikMoon/secu-book) | 커뮤니티와 함께 개선하는 웹 실무 보안 책 |
 | [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) | Excel 일괄 작업, 진행 상태와 실행 로그를 지원하는 Windows GUI 도구 |
 | [InBest](https://github.com/YoungsikMoon/05.-InBest) | 금융·주식 도메인의 LLM 서비스 프로젝트 |
