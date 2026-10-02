@@ -34,6 +34,17 @@ AI로 개발할 수 있는 환경이 열려도, 만들고 싶은 것을 명확�
 
 [BuildBrief 사용해 보기](https://buildbrief.moon0sik.cloud/)
 
+## 개인 도구 · HWPX-HWP 변환기
+
+구형 한컴오피스에서 HWPX 문서를 열지 못하는 호환성 문제를 해결하기 위해 만든 Windows 데스크톱 프로그램입니다. 한컴오피스 설치나 인터넷 연결 없이 HWPX를 실제 HWP 5.x 문서로 변환합니다.
+
+- **사용 흐름:** 파일 추가·드래그 앤 드롭 → 변환 → 원본 HWPX와 결과 HWP의 좌우 비교 미리보기
+- **구현:** Python·PySide6 기반 UI에 rhwp, hwpConverter 등 오픈소스 엔진을 통합하고, 문서 구조·본문 비교 경고와 기존 파일 덮어쓰기 방지를 적용
+- **배포:** Windows 실행 파일과 소스를 공개한 1.0.0 릴리스. 앱 자체 코드는 MIT 라이선스
+- **호환 범위:** 최신 개체·차트·OLE 등은 변환 결과가 달라질 수 있어 비교 미리보기로 확인 가능
+
+[소스 코드](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)
+
 ## 대표 실무 프로젝트
 
 ### SmartDash · 기업 업무 통합 B2B SaaS
@@ -101,6 +112,7 @@ AI로 개발할 수 있는 환경이 열려도, 만들고 싶은 것을 명확�
 
 | 프로젝트 | 내용 |
 | --- | --- |
+| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest) | 한컴오피스 없이 HWPX를 HWP 5.x로 변환하고 원본·결과를 비교하는 오프라인 데스크톱 프로그램 |
 | [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest) | 파일 정리 미리보기, 확장자·정규식·크기별 사용자 규칙과 마지막 작업 되돌리기를 지원하는 Python·PySide6 데스크톱 프로그램 |
 | [Secu Book](https://github.com/YoungsikMoon/secu-book) | 커뮤니티와 함께 개선하는 웹 실무 보안 책 |
 | [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) | Excel 일괄 작업, 진행 상태와 실행 로그를 지원하는 Windows GUI 도구 |
