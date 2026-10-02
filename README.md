@@ -19,7 +19,7 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 **핵심 기술:** Python · FastAPI · React · TypeScript · PostgreSQL · AWS
 
 <details>
-<summary>SmartDash 기술적 문제 해결 사례 · 로그인부터 업무 처리와 운영까지</summary>
+<summary>SmartDash 기술적 문제 해결 사례 · 로그인부터 업무 처리와 운영까지 (내용이 매우 길어요. 스크롤압박 주의!)</summary>
 
 ### 설계의 출발점
 
