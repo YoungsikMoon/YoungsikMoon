@@ -68,6 +68,14 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 [소스 코드](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)
 
+### YouTube Downloader · 반복 다운로드를 한 번에 처리하는 도구
+
+여러 영상과 재생목록을 목록으로 관리하고 내려받는 Windows GUI 프로그램입니다. URL을 직접 입력하거나 Excel 목록을 불러와 항목별 저장 폴더와 파일명을 지정할 수 있어, 반복적인 다운로드와 파일 정리 작업에 활용합니다.
+
+기존 오픈소스 GUI를 바탕으로 Excel 일괄 처리, 목록 편집과 입력 검증, 진행률·속도·남은 시간 표시, 성공·실패 통계와 실행 로그 기능을 확장했습니다. 다운로드에는 yt-dlp, 영상·음성 병합에는 FFmpeg를 사용합니다.
+
+[소스 코드와 사용법](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)
+
 ## 경력과 기술
 
 보안·금융 IT 현장에서 시스템의 안정성과 운영 요구를 익혔고, 직접 사업을 운영하며 재고·매입·지출·근태·급여 관리를 시스템화했습니다. 지금은 그 경험을 고객의 업무와 비용을 이해하는 B2B 제품 개발에 연결하고 있습니다.
@@ -98,7 +106,7 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 ## 공개 기록
 
-LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 경험의 관점으로 정리합니다. 아래에는 팀 실험과 학습 자료, 그 밖의 공개 작업을 모았습니다. 각 저장소 README에서 역할과 구현 범위를 확인할 수 있습니다.
+LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 경험의 관점으로 정리합니다. 아래에는 팀 실험과 연구·학습 자료, 그 밖의 공개 작업을 모았습니다. 각 저장소 README에서 역할과 구현 범위를 확인할 수 있습니다.
 
 <details>
 <summary>팀 프로젝트·AI 실험</summary>
@@ -115,14 +123,13 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 </details>
 
 <details>
-<summary>그 밖의 구현·학습·집필</summary>
+<summary>그 밖의 구현·연구·학습·집필</summary>
 
 | 작업 | 내용 |
 | --- | --- |
 | [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF) | Vue·Spring Boot 기반 문서 편집과 Playwright PDF 변환 |
-| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) | Excel 일괄 작업과 실행 로그를 지원하는 Windows GUI 도구 |
 | [Secu Book](https://github.com/YoungsikMoon/secu-book) | 커뮤니티와 함께 개선하는 웹 실무 보안 책 |
-| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining) | 텍스트 전처리·분류 학습 노트 |
+| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining) | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
 | [Spring Security](https://github.com/YoungsikMoon/SpringSecurity) · [Spring JWT](https://github.com/YoungsikMoon/SpringJWT) | 세션·토큰 인증 흐름 학습 |
 
 </details>
