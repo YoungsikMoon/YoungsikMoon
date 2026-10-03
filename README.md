@@ -305,7 +305,7 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 | Frontend | React, TypeScript, TanStack Query, Zustand |
 | Data & Messaging | PostgreSQL, MS SQL Server, Valkey / Redis, MQTT, InfluxDB |
 | Infrastructure | Linux, AWS, Oracle Cloud Infrastructure, Docker, GitHub Actions |
-| Desktop & Automation | PySide6, tkinter, Selenium |
+| Desktop & Automation | PySide6, tkinter, Selenium, n8n |
 | AI 프로젝트 경험 | LLM, NLP, 객체 탐지, STT / TTS, PyTorch |
 
 
