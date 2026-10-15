@@ -10,6 +10,17 @@
 
 [LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
 
+## 기술 스택
+
+| 영역 | 기술 |
+| --- | --- |
+| Backend | Python, FastAPI, Java, Spring Boot, SQLAlchemy, Alembic |
+| Frontend | React, TypeScript, TanStack Query, Zustand |
+| Data & Messaging | PostgreSQL, MS SQL Server, Valkey / Redis, MQTT, InfluxDB |
+| Infrastructure | Linux, AWS, Oracle Cloud Infrastructure, Docker, GitHub Actions |
+| Desktop & Automation | PySide6, tkinter, Selenium, n8n |
+| AI 프로젝트 경험 | LLM, NLP, 객체 탐지, STT / TTS, PyTorch |
+
 ## 경험과 기록
 
 보안·금융 IT → 직접 사업 운영 → AI 교육 → B2B 제품 개발로 경험을 넓혀 왔습니다.
@@ -23,318 +34,6 @@
 | 2019.04<br>–2020.05 | **에스에스앤씨 · 기술본부 대리 / 매니저**<br>재직 · 엔드포인트·스마트팩토리 보안 솔루션 구축과 운영, POC, DB 마이그레이션 |
 | 2018.08<br>–2019.04 | **미래능력개발교육원 · 웹개발자를 위한 보안프로그램 전문가**<br>국비지원 교육 · Java·Spring·JSP·RDBMS·Linux 기반 웹 개발과 보안 교육, 팀 프로젝트 최우수상 |
 | 2017.10<br>–2018.02 | **아이디스트**<br>프리랜서 · SNS 마케팅 자동화 서비스 판매 페이지 개발, CS와 원격 기술지원 |
-
-<details>
-<summary><strong>MES·KPI·ERP 연동에서 담당한 일</strong></summary>
-
-**SmartLine2 · MES**
-
-인수인계 문서 없이 소스와 DB를 분석해 업무 흐름을 파악하고, Spring Boot·React 기반 기능 개선과 운영 담당
-
-**KPI 2.0 · 데이터 수집·전송**
-
-정부지원사업 OpenAPI를 바탕으로 Python·PySide6·PostgreSQL 기반 스케줄러 기획·설계·개발·운영
-
-**SmartLinePlus**
-
-자사 MES와 Odoo ERP 연동 및 커스텀 모듈 개발
-
-**MES 장애 복구**
-
-고객사 실행 장애의 원인 분석, 복구와 재발 방지를 위한 재빌드
-
-**협동로봇 커피머신**
-
-키오스크·주문 관리 시스템 개발. 로봇 제어를 제외한 소프트웨어 담당
-
-**Fusion 360 KPI 수집**
-
-데이터 수집·전송 유틸리티 기획·개발·운영
-
-</details>
-
-<details>
-<summary><strong>SmartDash 기술 설계와 문제 해결 · 92개 사례</strong></summary>
-
-인증·권한과 공통 화면에서 시작해, 업무 메뉴와 운영으로 이어지는 구현 사례입니다. 관심 있는 항목을 펼쳐 읽을 수 있습니다.
-
-<details>
-<summary><strong>전체 설계와 도메인 구조</strong></summary>
-
-고객사마다 조직, 권한, 업무 용어와 처리 방식이 다르지만, 기능을 회사별로 복제하면 수정 비용과 운영 위험이 함께 커집니다. 공통 제품 안에서 **회사·조직·사용자 정책을 조합**하고, 업무별 상태 전이와 데이터 정합성을 서버에서 통제하는 방향으로 설계했습니다.
-
-프런트엔드는 React·TypeScript의 `app / pages / widgets / features / shared` 계층으로, 백엔드는 FastAPI의 도메인별 라우터·서비스·저장소로 구성했습니다. 고객사별 메뉴 순서와 노출 범위는 설정에 따라 달라집니다.
-
-</details>
-
-**접속과 공통 구조**
-
-<details>
-<summary><strong>로그인과 계정 보호</strong></summary>
-
-- **비밀번호만 알면 계정에 접근할 수 있는 문제:** 비밀번호 인증에 TOTP 기반 추가 인증을 연결했습니다. 인증기 등록은 코드 확인 후 확정하고, 이미 사용한 인증 코드는 다시 사용할 수 없도록 처리했습니다. MFA 비밀값은 암호화하고 복구 코드는 해시로 저장합니다.
-- **인증기 교체·복구 과정의 우회와 중복 사용:** 등록 확인 정보를 계정·비밀번호 상태·유효기간에 연결하고, 인증기 등록·교체·복구 코드 소비에 같은 계정 행 잠금을 적용했습니다. 복구 코드는 한 번만 사용되며, 인증기 교체 시 기존 세션을 폐기합니다.
-- **반복 로그인 시도와 정상 사용자 잠금:** 서버 프로세스별 메모리 대신 PostgreSQL에 시도 제한을 공유합니다. 클라이언트 및 계정·클라이언트 조합의 제한을 구분해, 한 곳의 실패가 계정 전체의 영구 잠금으로 이어지지 않도록 했습니다. MFA·복구 시도에도 별도 제한을 둡니다.
-- **JWT가 유효하지만 실제 계정 상태가 바뀐 경우:** 서명과 만료만 검사하지 않고 서버 세션, 사용자 상태, 인증 방식과 비밀번호 상태를 함께 확인합니다. 로그아웃·세션 취소·비밀번호 변경 이후에는 기존 인증 정보로 계속 접근할 수 없도록 했습니다.
-- **장시간 방치된 화면과 여러 기기의 로그인 관리:** 유휴 만료와 절대 만료를 구분하고, 세션 목록·개별 종료·동시 세션 제한을 연결했습니다. 만료된 세션이 활동 갱신으로 되살아나지 않도록 서버에서 확인합니다.
-- **로그인 이후의 민감한 작업 보호:** 재인증이 필요한 API에는 비밀번호 확인 증명을 요구합니다. 증명을 현재 세션과 요청 메서드·경로에 묶고 짧은 유효기간을 적용해 다른 작업에 재사용하는 것을 제한했습니다.
-
-</details>
-
-<details>
-<summary><strong>멀티테넌시와 권한 경계</strong></summary>
-
-- **다른 회사의 식별자를 요청에 넣는 문제:** 인증된 사용자의 회사를 기준으로 조회·변경 범위를 결정하고, 요청한 회사 및 대상 리소스의 회사가 일치하는지 확인합니다. 회사 간 데이터 격리는 애플리케이션의 조회 조건과 서비스 검증으로 구현하며, 회사별 물리 DB 분리를 전제로 하지 않습니다.
-- **관리자 역할 이름만으로 권한이 확대되는 문제:** 전역 관리자, 실제 회사 관리자 배정, 위임된 기능 권한을 구분했습니다. 단순한 역할 문자열 대신 서버에서 확인한 관리자 상태와 기능 정책으로 허용 여부를 판단합니다.
-- **메뉴가 보인다는 이유로 모든 동작이 허용되는 문제:** 메뉴 진입, 조회 범위, 생성·수정·삭제·가져오기·승인 권한을 분리했습니다. 화면의 버튼 제어와 별개로 API에서 다시 검사하며, 본인 자료와 타인 자료의 변경 권한도 구분합니다.
-- **같은 회사 안에서도 부서별 공개 범위가 다른 문제:** 메뉴별로 조직·사용자·분류 등의 범위 정책을 적용합니다. 회사 경계 안에서도 인사, 결재, 영업과 같은 업무의 열람 조건을 별도로 판단합니다.
-- **계정을 바꿨는데 이전 회사의 조회 결과가 남는 문제:** 프런트엔드의 QueryClient를 회사·사용자 조합에 따라 새로 구성했습니다. 개인 테이블 설정에도 소유자 식별을 적용해, 공용 PC의 계정 전환에서 이전 사용자의 캐시와 설정이 섞이는 것을 방지합니다.
-- **HTTP 밖의 접근 경로 누락:** 파일 내려받기, 외부 공유 링크와 WebSocket에도 인증·소유 관계·세션 검증을 적용했습니다. 채팅 연결은 장시간 DB 세션을 붙잡지 않도록 인증 조회와 연결 수명을 분리했습니다.
-
-</details>
-
-<details>
-<summary><strong>공통 화면과 고객사 커스터마이징</strong></summary>
-
-- **고객사마다 다른 메뉴명·배치·외부 업무 도구:** 변경하지 않는 메뉴 식별자와 표시용 이름·순서·부모 관계를 분리했습니다. 고객사별 표시 설정과 외부 링크 메뉴를 덧씌우고, 하위 메뉴를 부모로 지정하는 순환 구조는 거부합니다.
-- **커스터마이징이 제품 전체 설정을 훼손하는 문제:** 기본 메뉴 정의와 회사별 재정의를 나눴습니다. 표시 설정을 초기화하면 기본값으로 돌아갈 수 있으며, 회사의 커스텀 메뉴는 해당 회사 범위에서만 조회합니다.
-- **부서와 개인마다 다른 표 구성:** 열 표시·순서·폭·고정 등의 설정을 공통 테이블 구조로 다룹니다. 서비스 기본값 → 회사 정책 → 부서 정책 → 사용자 설정 순서로 병합해 공통 기준과 개인 작업 방식을 함께 지원합니다.
-- **화면마다 다른 탐색·표시 방식:** 공통 레이아웃, 사이드바, 작업 탭과 테이블 구성 요소를 재사용합니다. 회사별 솔루션명, 테마와 UI 배율을 반영하고, 좁은 화면에서는 사이드바와 헤더 배치를 조정합니다.
-- **기능 확장이 초기 화면 로딩에 미치는 영향:** 업무 페이지를 지연 로딩하고 로딩 상태를 공통 처리합니다. 서버 조회 상태는 TanStack Query로, 인증·화면 설정은 Zustand로 관리해 역할을 나눴습니다.
-
-홈 자체는 현재 기본 진입 화면입니다. 전사 통합 대시보드가 완성되었다고 표현하지 않으며, 실제 통계는 구현된 업무별 현황판에서 제공합니다.
-
-</details>
-
-**업무 메뉴**
-
-<details>
-<summary><strong>그룹웨어·인사·파일</strong></summary>
-
-**알림**
-
-독립적인 알림 센터 화면은 개발 예정입니다. 현재 구현된 설문 응답 알림과 기준정보 검토 알림은 각각의 업무 흐름에 연결되어 있으며, 이를 통합 알림 센터의 완성으로 표현하지 않습니다.
-
-**결재**
-
-- **양식과 결재선이 바뀌어 과거 문서가 달라지는 문제:** 문서 생성 시 양식 버전을 고정하고, 상신 시 결재선·입력값·첨부파일을 스냅샷으로 보존합니다. 현재 설정과 당시 결재 회차의 기록을 구분합니다.
-- **승인·반려·회수가 동시에 들어오는 문제:** 문서 버전 확인과 행 잠금, 일관된 잠금 순서를 적용했습니다. 현재 상태에서 허용되는 행위와 담당자를 확인하고, 먼저 반영된 작업과 충돌하는 요청은 거부합니다.
-- **관리자라는 이유로 비공개 결재까지 노출되는 문제:** 임시 문서, 비공개 문서, 회사 공개 문서의 열람 조건을 구분합니다. 회차별 참여자와 공개 상태를 기준으로 목록·상세·첨부파일 접근을 함께 판단합니다.
-- **목록의 문서 수만큼 조회가 반복되는 문제:** 결재선과 표시 정보를 일괄 조회한 뒤 키로 매핑하도록 바꿨습니다. 결재선 100개·각 1단계·공통 결재자 조건의 SQLite 격리 재현에서 SQL 실행을 **401회에서 5회로 줄이고 응답 동일성을 확인**했습니다. 운영 응답시간 개선율을 의미하는 수치는 아닙니다.
-
-**메일**
-
-- **SMTP 발송은 성공했는데 보낸편지함 동기화가 실패하는 문제:** 발송과 보낸편지함 저장을 별도 단계로 다루고 발송 기록·멱등 정보를 확인합니다. 동기화 실패를 전체 발송 실패로 취급해 동일 메일을 다시 보내는 상황을 방지합니다.
-- **메일 제공자별 보낸편지함 처리 차이:** 자동 저장되는 제공자와 수동 추가가 필요한 제공자를 구분했습니다. 제공자별 동작 차이를 서비스 로직에 반영해 보낸 메일의 중복 저장을 줄입니다.
-- **캐시를 통해 다른 사람의 메일을 읽는 문제:** 캐시 조회 전에도 메일 계정의 소유자·삭제 상태를 확인합니다. SMTP 인증 전에는 암호화 연결과 인증서 조건을 확인하고, 첨부파일에도 회사 범위를 적용합니다.
-
-**게시판**
-
-- **게시물 이동이 다른 구역의 정렬까지 바꾸는 문제:** 동일 구역 안의 이웃 항목만 교환하고, 구역을 옮길 때는 대상 구역의 순서에 반영합니다.
-- **게시글·댓글·본문 이미지의 권한이 따로 움직이는 문제:** 게시판 범위와 수정 주체를 확인하고, 첨부 묶음과 리치텍스트 이미지가 해당 업무에 속하는지 검증합니다. 댓글은 공통 처리 구조를 사용하되 각 업무의 접근 조건을 유지합니다.
-
-**설문**
-
-- **폼마다 다른 입력 조건을 화면 검증만으로 처리하는 문제:** 숫자, 선택지, 날짜·기간, 파일 등 필드 유형별 검증을 서버에도 구현했습니다. 기간 역전·중복 구간·선택 개수·파일 조건 등을 입력 규칙으로 다룹니다.
-- **외부 로그인 후 잘못된 주소로 돌아가거나 인증 요청이 재사용되는 문제:** OAuth 반환 주소를 검증하고 PKCE, 브라우저 연결 정보와 일회성 상태값을 사용합니다.
-- **설문 응답을 영업 자료로 여러 번 반영하는 문제:** 원본 응답과 고객 보호 자료의 연결을 보존하고, 반영 여부를 확인합니다. 검토·보류·복원 흐름과 이미 반영된 응답의 처리 조건을 구분합니다.
-
-**예약**
-
-- **같은 자원의 겹치는 시간과 점검 중 예약:** 예약 구간의 중첩과 자원의 점검 기간·상태를 서버에서 검사합니다. 시작·종료의 유효성을 확인하고 예약 취소 상태를 충돌 판단에서 구분합니다.
-- **대리 예약과 다중 신청자의 권한:** 본인 예약과 타인·다중 신청자 예약을 다른 권한으로 처리합니다. 대상 사용자와 자원이 같은 회사 및 허용 범위에 속하는지도 확인합니다.
-
-차량 전용 메뉴는 개발 예정입니다. 공용 자원 예약 기능을 차량 운행·정비 관리 전체의 구현으로 확장해 설명하지 않습니다.
-
-**비품**
-
-- **여러 명에게 배정한 비품 수량이 중복 계산되는 문제:** 사용 수량과 사용자 관계를 분리해 다중 사용자 배정이 수량 배수로 저장되지 않도록 했습니다.
-- **인사 정보가 바뀌어 사용 이력을 해석하기 어려운 문제:** 사용 시점의 사용자 표시 정보를 스냅샷으로 기록하고, 분류·비품별 접근 범위와 사용 기간 조건을 함께 확인합니다.
-
-**인사**
-
-- **부서 이동과 퇴사로 발령 기간이 겹치는 문제:** 발령 시작·종료일을 검증하고 이력 순서에 맞춰 이전 배정의 종료일과 현재 배정 상태를 정리합니다.
-- **인사 이동 후 영업 담당 데이터가 이전 조직에 남는 문제:** 부서 변경과 관련 영업 자료 이관을 연결합니다. 대상 자료와 이관 권한을 확인한 뒤 소유자·부서 정보를 함께 변경하고, 일부만 이전되는 상황을 방지합니다.
-- **민감한 인사 첨부파일의 우회 접근:** 직원 자료의 조회 범위와 다운로드 세션을 확인하고, 파일이 연결된 원래 직원의 접근 조건을 적용합니다.
-
-**근태**
-
-- **사용자 기기 시각과 자정 경계에서 근무일이 달라지는 문제:** 서버 시각으로 출근을 기록하고 퇴근은 열린 출근 기록에 연결합니다. 자정을 넘겨 퇴근해도 원래 출근의 근무일을 유지합니다.
-- **중복 출근과 잘못된 퇴근 순서:** 활성 직원 연결 상태, 미종료 출근, 시간 순서를 검증합니다. 중복 요청이 DB 제약에 걸린 경우 충돌 응답과 롤백으로 처리합니다.
-- **기록 정정 후 출퇴근 관계가 깨지는 문제:** 연결된 출퇴근 기록의 날짜와 순서를 함께 검증하고, 퇴근 기록이 남은 출근을 단독 삭제하지 못하게 했습니다. GPS 정보는 위치 기록에 사용하며 위치 위변조 방지까지 보장하는 기능으로 설명하지 않습니다.
-
-**파일과 공유**
-
-- **파일 식별자만으로 다른 업무의 첨부파일에 접근하는 문제:** 파일의 회사·소유 관계와 결재·인사·댓글 등 원래 업무의 권한을 함께 확인합니다.
-- **공유 비밀값이 URL과 로그에 남는 문제:** 공개 링크의 비밀값 전달·교환 흐름을 분리하고, 해당 리소스에 한정된 접근 상태로 교환합니다. 공유 취소 여부와 요청 출처도 확인합니다.
-- **악성 파일 검사 실패를 정상 파일로 처리하는 문제:** 업로드·전달 경로에 검사 절차를 두고, 검사 실패·용량 초과·검사 불가 상태에서는 통과시키지 않는 방식으로 처리합니다.
-
-파일 업로드·다운로드·공유 기능과 별도로, 사이드바의 독립 파일공유 관리 화면은 개발 예정으로 구분합니다.
-
-</details>
-
-<details>
-<summary><strong>프로젝트와 작업 관리</strong></summary>
-
-- **프로젝트 담당자와 작업 담당자의 책임 범위 차이:** 다중 담당자를 지원하면서 프로젝트 관리와 작업 편집 조건을 나눴습니다. 조직 범위와 참여 관계를 함께 검사하고, 관리자 예외도 담당자 조정 등 허용한 필드에 한정합니다.
-- **작업 진행률이 수동 완료 상태를 덮어쓰는 문제:** 자동 산출 상태와 수동 지정 상태를 구분합니다. 작업 변경으로 자동 완료 조건이 깨졌을 때의 재개와 사용자의 명시적 완료를 다르게 처리합니다.
-- **개인 화면에 팀 전체 업무가 집계되는 문제:** 개인 요약에서는 현재 사용자의 작업을 기준으로 집계하되, 작업 배정 없이 프로젝트 담당자로만 참여한 경우도 처리합니다.
-- **드래그 정렬이 서로 다른 우선순위·기간 그룹을 섞는 문제:** 정렬 가능한 그룹을 서버에서 검사하고 그룹 내부 순서만 변경합니다. 재정렬은 항목별 반복 조회 대신 묶음 조회·갱신으로 처리합니다.
-
-</details>
-
-<details>
-<summary><strong>고객·연락처·영업 기회</strong></summary>
-
-**연락처**
-
-- **고객사마다 필요한 고객 정보 항목이 다른 문제:** 사용자 정의 필드와 필터를 도입했습니다. 값이 존재하는 필드의 유형 변경이나 사용 중인 선택지 삭제는 막아 기존 자료의 의미를 보존합니다.
-- **다른 분류의 필드 구성을 재사용하면서 고객 데이터까지 복사되는 문제:** 필드 정의를 복사할 때 새 식별자를 발급하고 실제 입력값은 복사하지 않습니다. 원본 분류의 회사와 조회 범위를 먼저 확인합니다.
-- **Excel 가져오기로 중복·오류가 대량 반영되는 문제:** 미리보기에서 신규·변경·변경 없음·중복·오류를 구분하고, 실제 반영 시 다시 검증합니다. 화면에서 통과한 미리보기만 믿고 저장하지 않습니다.
-
-**영업 기회**
-
-- **상품 마스터 가격 변경이 기존 영업 금액까지 바꾸는 문제:** 관심 상품의 수량과 적용 단가를 거래에 보존하고, 기존 항목과 새로 추가한 항목의 처리 기준을 나눴습니다.
-- **클라이언트가 전송한 합계와 상세 금액의 불일치:** 서버에서 항목별 금액과 합계를 계산합니다. 음수·중복 상품·허용 범위를 넘는 금액과 다른 회사의 품목을 거부합니다.
-- **과거 거래에 포함된 비활성 품목 처리:** 기존 거래의 이력은 유지하되 비활성 품목을 새 거래에 추가하는 동작과 구분합니다. 영업 단계와 분류 범위, 활동·댓글의 접근 조건도 함께 적용합니다.
-
-</details>
-
-<details>
-<summary><strong>판매·견적·수주</strong></summary>
-
-**현황판**
-
-현재 수주 요약을 연결했습니다. 견적·배송·청구 통계 탭은 개발 예정으로, 통합 판매 분석 전체가 완성된 상태와 구분합니다.
-
-**견적**
-
-- **공급자 정보가 바뀌어 과거 견적서 내용이 변하는 문제:** 견적 생성 시 공급자 정보를 스냅샷으로 저장합니다. 문서의 당시 발행 정보와 현재 회사 설정을 분리합니다.
-- **고객에게 보낸 승인 링크의 만료·중복 처리:** 공개 승인 요청에 만료·취소 상태와 단일 처리 조건을 적용했습니다. 이미 처리된 요청을 다시 승인하는 상황을 막고, 비밀값 전달은 공개 링크 접근 흐름과 연결합니다.
-- **사용자 정의 양식의 실행·외부 자원 접근 위험:** 템플릿 표현식을 제한하고 출력 이스케이프를 적용합니다. PDF 생성기는 외부 자원 요청을 차단하도록 구성해 문서 변환이 임의 네트워크 접근으로 이어지지 않게 했습니다.
-
-**수주**
-
-- **수량·단가·세금·합계의 계산 기준 불일치:** 공통 가격 계산 로직으로 항목과 문서 합계를 산출합니다. 업무 번호도 회사 범위와 공통 채번 체계에 연결합니다.
-- **여러 수주 항목 출고 중 일부만 반영되는 문제:** 항목별 잔량, 위치, 예약과 전체 재고 할당을 먼저 검증한 뒤 출고를 생성합니다. 같은 수주 항목의 요청은 합산해 초과 출고를 검사합니다.
-- **출고 요청 재시도로 재고가 두 번 차감되는 문제:** 요청의 항목·메타데이터·예약 정보를 포함해 멱등성을 판단합니다. 같은 요청은 기존 완료 결과를 반환하고, 같은 키의 다른 요청은 충돌로 처리합니다.
-
-배송의 **운송사 API·송장·배송 추적 연동**과 독립 청구 업무는 개발 예정입니다. 구현된 수주 출고 처리를 운송사 연동 완료로 표현하지 않습니다.
-
-</details>
-
-<details>
-<summary><strong>제조·품목·재고·생산</strong></summary>
-
-**현황판**
-
-- **중간 공정 실적을 합산해 완성 수량이 부풀려지는 문제:** 최종 공정 산출을 기준으로 생산 통계를 계산하고 정정 기록을 반영합니다. 초과 생산과 목표가 없는 경우도 구분합니다.
-- **요약 지표와 상세 목록의 조회 조건 불일치:** 기간·품목·분류 범위를 통계와 상세 조회에 전달하고 서버 페이지네이션을 사용합니다. 조회 실패는 실적 0건과 구분해 표시합니다.
-
-생산 통계는 구현되어 있으며 설비·제품/자재·공정의 추가 통계 패널은 개발 예정입니다.
-
-**설비**
-
-- **설비·소모품의 분류와 담당자가 회사 경계를 벗어나는 문제:** 분류 계층과 담당자의 소속을 검증하고, 설비 및 소모품 관리 기능별 권한을 적용합니다.
-- **현장 Excel 자료를 그대로 넣어 기준정보가 틀어지는 문제:** 설비·소모품별 가져오기 검증과 기존 값 비교를 두고, 이력 입력의 유효성을 확인합니다.
-
-**공정**
-
-- **사용 중인 공정 삭제로 작업 정의가 끊기는 문제:** 연결된 품목·작업 정의를 조회하고 참조 중인 공정의 삭제를 거부합니다. 삭제 판단과 변경에는 행 잠금을 적용하고 실제 사용처를 확인할 수 있게 했습니다.
-- **기본 소모품 설정과 작업 정의 생성의 동시 변경:** 공정과 관련 품목을 일정한 순서로 잠가 기준정보 갱신과 작업 정의 생성이 서로 다른 상태를 참조하는 상황을 통제합니다.
-
-**품목 · BOM과 작업 정의**
-
-- **상품·자재가 분리되어 같은 실물을 중복 관리하는 문제:** 통합 품목을 기준으로 판매·제조 등의 사용 역할과 추적 방식을 다룹니다. 활성 제조 정의가 있는 품목은 해당 역할 제거·비활성화·삭제 전에 사용 관계를 확인합니다.
-- **BOM이 자신을 다시 참조하는 문제:** 직접·간접 순환을 검사하고 회사의 BOM 그래프 변경을 직렬화합니다. 서로 다른 경로에 같은 품목이 등장하는 정상적인 조립 구조와 순환을 구분합니다.
-- **다단계 BOM에서 누적 수량이 틀어지는 문제:** 경로별 구성품 식별과 Decimal 연산으로 누적 소요량을 계산하고 응답 경계에서 반올림합니다. 탐색 깊이는 제한하되 순환 검사를 화면 펼침 깊이에 의존시키지 않습니다.
-- **개정 승인과 생산 중 기준 변경:** BOM·작업 정의에 개정과 승인 수명주기를 두고, 같은 품목의 충돌 가능한 승인은 잠금으로 직렬화합니다. 생산 지시에는 구성품과 공정 스냅샷을 사용해 현재 마스터 변경과 실행 기준을 분리합니다.
-
-**재고**
-
-- **현재 수량만 저장하면 입출고 원인을 추적하기 어려운 문제:** 입출고 이동과 라인, 위치·로트·시리얼, 원본 출처를 연결하는 원장 구조로 관리합니다. 수량은 Decimal로 처리하고 시리얼 단위의 수량 조건을 별도로 검증합니다.
-- **동시 출고가 같은 재고를 중복 소비하는 문제:** 일정한 순서로 잠금을 획득한 뒤 선입선출(FIFO) 재고를 할당합니다. 같은 요청의 반복 라인이 동일 입고분을 두 번 배정받지 않도록 누적 할당량을 반영합니다.
-- **예약한 재고를 다른 주문이 사용하는 문제:** 가용 수량에서 예약을 구분하고, 해당 수요가 소유한 예약만 출고·이동과 함께 소비하도록 했습니다. 부분 소비와 남은 예약 수량도 추적합니다.
-- **취소를 단순 수량 더하기로 처리해 원가·시리얼 상태가 깨지는 문제:** 원본 이동과 역거래를 연결하고 실제 출처의 반대 변화를 적용합니다. 이미 설치된 자산이나 후속 작업에 연결된 시리얼은 별도 조건 없이 되돌릴 수 없도록 했습니다.
-
-**구매**
-
-- **총재고만 보고 구매 필요량을 잘못 판단하는 문제:** 안전재고와 가용재고를 비교해 보충이 필요한 품목과 제안 수량을 표시합니다. 수량 계산에는 정밀도를 유지하는 공통 변환을 사용합니다.
-- **부족 품목을 확인한 뒤 다시 찾아야 하는 문제:** 품목의 재고 화면과 등록된 구매 링크를 연결해 확인과 후속 작업을 이어갈 수 있게 했습니다. 현재 범위는 보충 판단이며 자동 발주·매입 정산은 구현 완료로 주장하지 않습니다.
-
-**생산**
-
-- **미승인 계획이나 잘못된 수주·품목으로 생산이 시작되는 문제:** 계획의 수주·품목·담당자·회사 범위를 검증하고 승인·취소 조건을 서비스에서 관리합니다.
-- **병렬·순차 공정의 입력과 산출 기록 순서가 달라지는 문제:** 공정 흐름과 선행 조건, 양품 산출과 입고 가능량을 연결합니다. 선행 실적이 나중에 입력된 경우도 완료 판정에 반영합니다.
-- **자재 부분 반납이 원가와 추적 관계를 끊는 문제:** 원래 출고 라인과 원가 출처를 보존한 채 반납을 기록합니다. 이미 반납한 수량과 완제품에 추적된 수량을 차감해 반납 상한을 계산하고, 재투입에서도 원본 출처를 유지합니다.
-- **실적 정정이 이미 확정된 후속 재고를 바꾸는 문제:** 변경 버전, 공정 용량, 마감·정산·재고 연결 여부를 확인한 뒤 정정합니다. 이전 기록을 덮어쓰기만 하지 않고 행위자와 변경 이력을 남깁니다.
-- **검사가 끝나지 않았는데 후속 공정으로 넘어가는 문제:** 필수 검사 충족 여부를 실행 조건에 연결합니다. 수치·판정 유형과 허용 범위를 검증하고 재검사·정정 기록을 구분해 보존합니다.
-- **부분 완성·입고 취소·복구에서 원가가 이중 배부되는 문제:** 이미 입고에 배부한 작업 원가와 미배부 원가를 구분하고, 복구 시 원래 입고의 재료·원가 범위를 확인합니다. 출처가 불명확한 금액을 임의의 0으로 처리하지 않습니다.
-
-</details>
-
-<details>
-<summary><strong>파트너 영업과 가격 정책</strong></summary>
-
-- **부서 필터를 바꿨는데 통계가 다른 범위를 보여 주는 문제:** 선택한 조직 범위를 현황판 조회 조건에 유지합니다. 상품 검색은 입력 반응과 조회 갱신을 분리하고, 범위 전환 시 무거운 화면 갱신을 조정합니다.
-- **가격 정책 변경의 근거가 사라지는 문제:** 가격 관련 값이 바뀔 때 정책 버전을 기록하고 일반 설명 수정과 구분합니다. 가격 변경의 영향 범위를 미리 확인할 수 있게 했습니다.
-- **표준 가격과 개별 협의 가격이 뒤섞이는 문제:** 카탈로그 기준 가격과 거래에 적용된 협의 가격을 구분합니다. 개별 조정에는 가격과 사유를 요구하고 변경 이벤트를 기록합니다.
-- **여러 파트너의 고객 보호 요청 충돌:** 사업자 정보와 회사명 중복, 영업 승인 증빙, 보호 기간과 승인 권한을 검사합니다. 승인된 고객명의 변경과 보호 기간 조정에는 별도 조건을 적용합니다.
-- **설문에서 접수한 고객이 영업 단계로 전환될 때 정보가 바뀌는 문제:** 원본 응답과 전환 자료를 연결하고 전환 시점의 금액 정보를 보존합니다. 현재 단계와 종료된 영업의 수정 가능 범위를 구분합니다.
-- **담당자 변경으로 일부 자료만 이관되는 문제:** 이관 대상 전체의 존재·상태·권한과 새 담당자를 먼저 검증합니다. 관련 소유자·부서 정보를 함께 변경하고 실패 시 부분 변경을 남기지 않도록 처리합니다.
-
-</details>
-
-<details>
-<summary><strong>개발 예정 기능</strong></summary>
-
-| 메뉴·기능 | 현재 범위와 개발 계획 |
-| --- | --- |
-| 회계 · 계좌·세금·급여 | 개발 예정. 일부 기반 코드와 금액 계산 기능이 있어도 회계 처리·세무 신고·급여 정산이 완성되었다고 설명하지 않음 |
-| 배송 · 운송사 연동 | 개발 예정. 수주 출고·재고 처리는 구현했지만 운송사 API·송장 발급·배송 추적은 별도 범위 |
-| 청구 | 독립 청구 업무와 관련 통계 개발 예정 |
-| 웹사이트 · 개발·고객 센터·웹 채팅·행사 | 기본 메뉴 기준 전용 화면 개발 예정. 내부 채팅과 고객지원 기반 코드는 대외 웹사이트 제품의 완성과 구분 |
-
-</details>
-
-**관리와 운영**
-
-<details>
-<summary><strong>관리자 정책·감사·운영</strong></summary>
-
-- **회사 관리자가 제품 운영자의 전체 권한을 갖는 문제:** 회사 관리자 배정과 전역 관리자 기능을 분리했습니다. 기능 정책, 조직 범위, 메뉴 재정의와 테이블 정책을 각자의 관리 단위로 다룹니다.
-- **정책이 어디서 적용되었는지 알기 어려운 문제:** 기본값·상속·직접 재정의와 최종 적용 상태를 정책 화면에서 구분합니다. 메뉴 설정을 바꾸는 행위와 업무 데이터를 변경하는 행위에도 각각의 권한을 적용합니다.
-- **업무 변경은 실패했는데 감사 기록만 남는 문제:** 업무 변경과 감사 이벤트를 같은 DB 트랜잭션에 참여시켜 커밋·롤백을 함께 처리합니다. 여러 번의 flush가 하나의 업무 동작을 불필요하게 중복 기록하지 않도록 묶습니다.
-- **감사 로그 자체가 민감정보 유출 경로가 되는 문제:** 비밀값·본문·사용자 정의 값 등의 기록 범위를 제한하고 마스킹합니다. 접근 거부 로그에는 필요한 행위·주체 정보만 남기며 요청 비밀값을 제외합니다.
-- **네트워크 재시도로 변경 작업이 중복 수행되는 문제:** 요청 키와 본문 해시를 확인해 처리 중 요청·성공 재응답·내용 충돌·재시도 가능한 실패를 구분합니다. 필요한 경로에서는 멱등 결과와 업무 변경을 같은 트랜잭션에 저장합니다.
-- **새 설치와 기존 고객 환경의 DB 구조 차이:** 초기 구성과 기존 환경 변경을 구분하고, 기존 스키마 변경은 Alembic 리비전으로 관리합니다. 배포 과정의 마이그레이션과 상태 확인을 GitHub Actions에 연결했습니다.
-
-</details>
-
-<details>
-<summary><strong>검증 범위</strong></summary>
-
-이 사례들은 개발 코드와 관련 회귀 테스트를 근거로 정리했습니다. 인증 우회·회사 간 접근·권한 없는 변경 같은 거부 경로, 결재·재고·생산의 동시 처리, 원가·수량 정합성과 롤백을 테스트 대상으로 다룹니다. 일부 동시성 검증에는 실제 PostgreSQL을 사용하는 별도 테스트가 있습니다.
-
-**검증은 업무 규칙·거부 경로·데이터 정합성을 중심으로 구성했습니다.** 운영 규모의 부하·장애 복구 성능과 외부 보안 인증은 별도 검증 범위입니다. 메뉴별 구현 범위와 향후 연동 계획은 위에서 구분했습니다.
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>사용 기술과 적용 영역</strong></summary>
-
-| 영역 | 기술 |
-| --- | --- |
-| Backend | Python, FastAPI, Java, Spring Boot, SQLAlchemy, Alembic |
-| Frontend | React, TypeScript, TanStack Query, Zustand |
-| Data & Messaging | PostgreSQL, MS SQL Server, Valkey / Redis, MQTT, InfluxDB |
-| Infrastructure | Linux, AWS, Oracle Cloud Infrastructure, Docker, GitHub Actions |
-| Desktop & Automation | PySide6, tkinter, Selenium, n8n |
-| AI 프로젝트 경험 | LLM, NLP, 객체 탐지, STT / TTS, PyTorch |
-
-</details>
 
 <details>
 <summary><strong>교육·수상·자격</strong></summary>
@@ -361,216 +60,194 @@
 
 </details>
 
-## 도구와 연구 모음
+## 도구 모음
 
-직접 구현한 도구와 문서, 연구 기록, 참고용 외부 프로젝트를 용도에 맞게 찾아볼 수 있습니다.
+도구와 연구·학습 자료 **74개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-<details>
-<summary><strong>개인 도구·구현·집필 자료</strong></summary>
-
-| 도구·자료 | 용도와 구현 범위 |
-| --- | --- |
-| [BuildBrief](https://github.com/YoungsikMoon/buildbrief) · [사용하기](https://buildbrief.moon0sik.cloud/) | 아이디어를 기획 초안과 AI 전달문으로 정리하는 상용화 전 프로토타입 |
-| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest) | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
-| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest) | 사용자 규칙·미리보기·작업 되돌리기를 지원하는 파일 정리 도구 |
-| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases) | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
-| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF) | Vue·Spring Boot 웹 에디터와 Playwright PDF 변환 구현 |
-| [Secu Book](https://github.com/YoungsikMoon/secu-book) | 비개발자·바이브코더를 위한 웹 실무 보안 책과 무료 PDF |
-
-</details>
-
-<details>
-<summary><strong>AI 연구·팀 실험·인증 학습</strong></summary>
-
-| 기록 | 연구·학습 내용 |
-| --- | --- |
-| [InBest](https://github.com/YoungsikMoon/05.-InBest) | 주가·뉴스 분석 팀 프로젝트. 뉴스 수집·분석, LLM 실험과 Streamlit 화면 담당 |
-| [Object Detection](https://github.com/YoungsikMoon/04.-ObjectDetection) | 쓰러짐 감지 팀 프로젝트와 사람 탐지 개인 실험 |
-| [Find Imo](https://github.com/YoungsikMoon/03.-Find_Imo) | ViT·MLP-Mixer 이미지 모델 연구. AI 면접 적용은 구상 단계 |
-| [FORS](https://github.com/YoungsikMoon/02.-FORS) | 음성 인식·LLM 서비스 실험. 음성 데이터 가공과 한국어 모델 실험 참여 |
-| [Alpha911](https://github.com/YoungsikMoon/01.-alpha911) | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
-| [전세버스 서비스 시연](https://www.youtube.com/watch?v=BDou4zE-RDQ) | Java 웹 개발 팀 프로젝트 |
-| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining) | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
-| [Spring Security](https://github.com/YoungsikMoon/SpringSecurity) · [Spring JWT](https://github.com/YoungsikMoon/SpringJWT) | 세션·토큰 인증 흐름 학습 |
-
-</details>
-
-### 포크한 도구 모음
-
-필요할 때 찾아 쓰기 위해 보관한 외부 프로젝트 **59개**를 용도별로 모았습니다. 분류를 펼치면 한국어 설명과 내 포크 저장소 링크를 볼 수 있습니다. 프로젝트의 저작권과 기여는 각 원저작자에게 있으며, 설치·지원 환경·이용 조건은 해당 저장소에서 확인할 수 있습니다.
-
-목록 기준: **2026.10.15** · 분류 안에서 도구를 찾으려면 먼저 펼친 뒤 브라우저의 페이지 검색을 사용하세요.
-
-<details>
-<summary><strong>용도별 도구 목록 펼치기 · 59개 / 11개 분류</strong></summary>
+목록 기준: **2026.10.15**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 5개</summary>
 
-에이전트를 관리하거나 외부 프로그램·지식 저장소에 연결할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [herdr-web-ui](https://github.com/YoungsikMoon/herdr-web-ui) | 터미널의 Claude Code 에이전트를 웹·모바일에서 관리하는 herdr 플러그인 |
-| [skills](https://github.com/YoungsikMoon/skills) | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
-| [orca-orchestration-dev](https://github.com/YoungsikMoon/orca-orchestration-dev) | 감독형 멀티 에이전트로 웹·앱 기능 개발을 조율하는 Claude 스킬 |
-| [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything) | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
-| [akb](https://github.com/YoungsikMoon/akb) | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
+| [herdr-web-ui](https://github.com/YoungsikMoon/herdr-web-ui)<br><sub>포크</sub> | 터미널의 Claude Code 에이전트를 웹·모바일에서 관리하는 herdr 플러그인 |
+| [skills](https://github.com/YoungsikMoon/skills)<br><sub>포크</sub> | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
+| [orca-orchestration-dev](https://github.com/YoungsikMoon/orca-orchestration-dev)<br><sub>포크</sub> | 감독형 멀티 에이전트로 웹·앱 기능 개발을 조율하는 Claude 스킬 |
+| [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything)<br><sub>포크</sub> | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
+| [akb](https://github.com/YoungsikMoon/akb)<br><sub>포크</sub> | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
 
 </details>
 
 <details>
 <summary><strong>코드 검색·구조 분석·문서화</strong> · 5개</summary>
 
-기존 코드의 구조와 변경 영향을 파악하고 설명 자료를 만들 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [semble](https://github.com/YoungsikMoon/semble) | 자연어로 필요한 코드만 찾아 에이전트의 읽기 범위와 토큰 사용을 줄이는 CLI·MCP |
-| [Cascade](https://github.com/YoungsikMoon/Cascade) | 화면부터 DB 컬럼까지 연결해 코드 변경 영향 범위를 추적하는 지식 그래프·MCP |
-| [GitNexus](https://github.com/YoungsikMoon/GitNexus) | 브라우저에서 저장소·ZIP을 지식 그래프로 만들고 Graph RAG로 코드를 탐색하는 도구 |
-| [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/YoungsikMoon/PocketFlow-Tutorial-Codebase-Knowledge) | 코드베이스를 분석해 구조와 동작을 설명하는 튜토리얼을 생성하는 도구 |
-| [code_to_tutorial](https://github.com/YoungsikMoon/code_to_tutorial) | 소스 코드를 이해하기 쉬운 튜토리얼로 정리하는 도구 |
+| [semble](https://github.com/YoungsikMoon/semble)<br><sub>포크</sub> | 자연어로 필요한 코드만 찾아 에이전트의 읽기 범위와 토큰 사용을 줄이는 CLI·MCP |
+| [Cascade](https://github.com/YoungsikMoon/Cascade)<br><sub>포크</sub> | 화면부터 DB 컬럼까지 연결해 코드 변경 영향 범위를 추적하는 지식 그래프·MCP |
+| [GitNexus](https://github.com/YoungsikMoon/GitNexus)<br><sub>포크</sub> | 브라우저에서 저장소·ZIP을 지식 그래프로 만들고 Graph RAG로 코드를 탐색하는 도구 |
+| [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/YoungsikMoon/PocketFlow-Tutorial-Codebase-Knowledge)<br><sub>포크</sub> | 코드베이스를 분석해 구조와 동작을 설명하는 튜토리얼을 생성하는 도구 |
+| [code_to_tutorial](https://github.com/YoungsikMoon/code_to_tutorial)<br><sub>포크</sub> | 소스 코드를 이해하기 쉬운 튜토리얼로 정리하는 도구 |
 
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 4개</summary>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 5개</summary>
 
-코드를 검토하거나 취약점·프로그램 동작을 분석할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [ponytail](https://github.com/YoungsikMoon/ponytail) | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
-| [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill) | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
-| [shannon](https://github.com/YoungsikMoon/shannon) | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
-| [rea](https://github.com/YoungsikMoon/rea) | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
+| [Secu Book](https://github.com/YoungsikMoon/secu-book)<br><sub>집필</sub> | 비개발자·바이브코더를 위한 웹 실무 보안 책과 무료 PDF |
+| [ponytail](https://github.com/YoungsikMoon/ponytail)<br><sub>포크</sub> | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
+| [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill)<br><sub>포크</sub> | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
+| [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
+| [rea](https://github.com/YoungsikMoon/rea)<br><sub>포크</sub> | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
 
 </details>
 
 <details>
 <summary><strong>UI·UX·디자인·다이어그램</strong> · 4개</summary>
 
-화면을 개선하거나 시각 자료와 개발 명세를 만들 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [impeccable](https://github.com/YoungsikMoon/impeccable) | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
-| [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills) | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
-| [octo-design](https://github.com/YoungsikMoon/octo-design) | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
-| [vive-md](https://github.com/YoungsikMoon/vive-md) | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
+| [impeccable](https://github.com/YoungsikMoon/impeccable)<br><sub>포크</sub> | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
+| [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
+| [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
+| [vive-md](https://github.com/YoungsikMoon/vive-md)<br><sub>포크</sub> | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
 
 </details>
 
 <details>
-<summary><strong>문서·한글·PDF·OCR</strong> · 7개</summary>
+<summary><strong>문서·한글·PDF·OCR</strong> · 9개</summary>
 
-문서를 변환·편집하거나 PDF·이미지에서 내용을 추출할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [kordoc](https://github.com/YoungsikMoon/kordoc) | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
-| [rhwp](https://github.com/YoungsikMoon/rhwp) | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
-| [markitdown](https://github.com/YoungsikMoon/markitdown) | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
-| [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf) | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
-| [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector) | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
-| [GLM-OCR](https://github.com/YoungsikMoon/GLM-OCR) | 문서 이미지에서 텍스트와 내용을 추출하는 GLM 기반 OCR 모델 |
-| [genoffice](https://github.com/YoungsikMoon/genoffice) | AI 에이전트를 내장한 Word·Excel·PowerPoint·PDF·Markdown 편집 앱 |
+| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF)<br><sub>개인 구현</sub> | Vue·Spring Boot 웹 에디터와 Playwright PDF 변환 구현 |
+| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)<br><sub>개인 구현</sub> | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
+| [kordoc](https://github.com/YoungsikMoon/kordoc)<br><sub>포크</sub> | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
+| [rhwp](https://github.com/YoungsikMoon/rhwp)<br><sub>포크</sub> | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
+| [markitdown](https://github.com/YoungsikMoon/markitdown)<br><sub>포크</sub> | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
+| [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf)<br><sub>포크</sub> | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
+| [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector)<br><sub>포크</sub> | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
+| [GLM-OCR](https://github.com/YoungsikMoon/GLM-OCR)<br><sub>포크</sub> | 문서 이미지에서 텍스트와 내용을 추출하는 GLM 기반 OCR 모델 |
+| [genoffice](https://github.com/YoungsikMoon/genoffice)<br><sub>포크</sub> | AI 에이전트를 내장한 Word·Excel·PowerPoint·PDF·Markdown 편집 앱 |
 
 </details>
 
 <details>
 <summary><strong>로컬 LLM·추론·RAG</strong> · 5개</summary>
 
-내 장비에서 모델을 실행하거나 검색 기반 AI 서비스를 구성할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [whichllm](https://github.com/YoungsikMoon/whichllm) | GPU·CPU·메모리를 확인해 내 컴퓨터에서 실행 가능한 LLM을 추천하는 도구 |
-| [magnitude](https://github.com/YoungsikMoon/magnitude) | 내 하드웨어에 맞는 로컬 모델을 기존 코딩 에이전트에 연결하는 추론 서버 |
-| [turbo-fieldfare](https://github.com/YoungsikMoon/turbo-fieldfare) | Apple M 시리즈 Mac에서 Gemma 4 26B-A4B의 메모리 사용을 줄여 추론하는 코드 |
-| [Personal-AI-Router](https://github.com/YoungsikMoon/Personal-AI-Router) | 집 안의 여러 기기에 AI 추론 작업을 분배하는 라우터 |
-| [OneRAG](https://github.com/YoungsikMoon/OneRAG) | 벡터 DB·LLM·재순위화 모델을 바꿔 연결할 수 있는 검색 증강 생성 서버 |
+| [whichllm](https://github.com/YoungsikMoon/whichllm)<br><sub>포크</sub> | GPU·CPU·메모리를 확인해 내 컴퓨터에서 실행 가능한 LLM을 추천하는 도구 |
+| [magnitude](https://github.com/YoungsikMoon/magnitude)<br><sub>포크</sub> | 내 하드웨어에 맞는 로컬 모델을 기존 코딩 에이전트에 연결하는 추론 서버 |
+| [turbo-fieldfare](https://github.com/YoungsikMoon/turbo-fieldfare)<br><sub>포크</sub> | Apple M 시리즈 Mac에서 Gemma 4 26B-A4B의 메모리 사용을 줄여 추론하는 코드 |
+| [Personal-AI-Router](https://github.com/YoungsikMoon/Personal-AI-Router)<br><sub>포크</sub> | 집 안의 여러 기기에 AI 추론 작업을 분배하는 라우터 |
+| [OneRAG](https://github.com/YoungsikMoon/OneRAG)<br><sub>포크</sub> | 벡터 DB·LLM·재순위화 모델을 바꿔 연결할 수 있는 검색 증강 생성 서버 |
 
 </details>
 
 <details>
-<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 6개</summary>
+<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 8개</summary>
 
-음성을 만들거나 입력하고 영상을 번역·재생할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [supertonic](https://github.com/YoungsikMoon/supertonic) | 텍스트를 음성으로 합성하는 경량 음성 생성 모델 |
-| [dia-TTS](https://github.com/YoungsikMoon/dia-TTS) | 텍스트에서 대화형 음성을 생성하는 Dia 음성 합성 모델 |
-| [voicebox](https://github.com/YoungsikMoon/voicebox) | 음성 복제·받아쓰기·음성 생성을 위한 오픈소스 음성 작업 앱 |
-| [zzabis](https://github.com/YoungsikMoon/zzabis) | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
-| [kekedubing](https://github.com/YoungsikMoon/kekedubing) | 영상의 자동 번역과 음성 더빙을 위한 도구 |
-| [nextplayer](https://github.com/YoungsikMoon/nextplayer) | Android용 네이티브 동영상 플레이어 |
+| [FORS](https://github.com/YoungsikMoon/02.-FORS)<br><sub>팀 연구</sub> | 음성 인식·LLM 서비스 실험. 음성 데이터 가공과 한국어 모델 실험 참여 |
+| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)<br><sub>확장 개발</sub> | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
+| [supertonic](https://github.com/YoungsikMoon/supertonic)<br><sub>포크</sub> | 텍스트를 음성으로 합성하는 경량 음성 생성 모델 |
+| [dia-TTS](https://github.com/YoungsikMoon/dia-TTS)<br><sub>포크</sub> | 텍스트에서 대화형 음성을 생성하는 Dia 음성 합성 모델 |
+| [voicebox](https://github.com/YoungsikMoon/voicebox)<br><sub>포크</sub> | 음성 복제·받아쓰기·음성 생성을 위한 오픈소스 음성 작업 앱 |
+| [zzabis](https://github.com/YoungsikMoon/zzabis)<br><sub>포크</sub> | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
+| [kekedubing](https://github.com/YoungsikMoon/kekedubing)<br><sub>포크</sub> | 영상의 자동 번역과 음성 더빙을 위한 도구 |
+| [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
 
 </details>
 
 <details>
-<summary><strong>영상 인식·객체 추적·3D 복원</strong> · 3개</summary>
+<summary><strong>영상 인식·객체 추적·3D 복원</strong> · 5개</summary>
 
-영상 속 객체를 추적하거나 인물·장면을 입체적으로 복원할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [remind-reid-tracker](https://github.com/YoungsikMoon/remind-reid-tracker) | 외형 특징·주변 관계·적응형 메모리로 사라졌다 다시 나타난 객체를 재식별하는 추적기 |
-| [lingbot-map](https://github.com/YoungsikMoon/lingbot-map) | 연속으로 들어오는 영상 데이터에서 장면을 3D로 재구성하는 모델 |
-| [4DAnyone](https://github.com/YoungsikMoon/4DAnyone) | 단일 카메라 영상에서 인물의 시간에 따른 3D 표현을 생성하는 연구 코드 |
+| [Find Imo](https://github.com/YoungsikMoon/03.-Find_Imo)<br><sub>팀 연구</sub> | ViT·MLP-Mixer 이미지 모델 연구. AI 면접 적용은 구상 단계 |
+| [Object Detection](https://github.com/YoungsikMoon/04.-ObjectDetection)<br><sub>팀·개인 실험</sub> | 쓰러짐 감지 팀 프로젝트와 사람 탐지 개인 실험 |
+| [remind-reid-tracker](https://github.com/YoungsikMoon/remind-reid-tracker)<br><sub>포크</sub> | 외형 특징·주변 관계·적응형 메모리로 사라졌다 다시 나타난 객체를 재식별하는 추적기 |
+| [lingbot-map](https://github.com/YoungsikMoon/lingbot-map)<br><sub>포크</sub> | 연속으로 들어오는 영상 데이터에서 장면을 3D로 재구성하는 모델 |
+| [4DAnyone](https://github.com/YoungsikMoon/4DAnyone)<br><sub>포크</sub> | 단일 카메라 영상에서 인물의 시간에 따른 3D 표현을 생성하는 연구 코드 |
 
 </details>
 
 <details>
 <summary><strong>한국 서비스·법령·지원사업·업무 도구</strong> · 8개</summary>
 
-한국 API와 생활 서비스, 사업·법무·쇼핑몰 업무 도구를 찾을 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr) | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
-| [k-skill](https://github.com/YoungsikMoon/k-skill) | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
-| [korean-law-mcp](https://github.com/YoungsikMoon/korean-law-mcp) | 한국 법령·판례·조례·해석을 조회하는 MCP 서버·CLI |
-| [korean-privacy-terms](https://github.com/YoungsikMoon/korean-privacy-terms) | 한국 서비스용 개인정보처리방침·이용약관 초안을 생성하는 Claude Code 스킬 |
-| [sole-search](https://github.com/YoungsikMoon/sole-search) | 소상공인 지원사업을 수집하고 사업자 조건에 맞는 신청 후보를 찾는 에이전트 스킬 |
-| [smartku](https://github.com/YoungsikMoon/smartku) | 스마트스토어·쿠팡 업무를 통합 관리하는 Tauri·Rust 데스크톱 앱 |
-| [stock_mvp](https://github.com/YoungsikMoon/stock_mvp) | 재고 관리 서비스의 MVP 코드 |
-| [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot) | 공공기관용 카카오톡 상담 챗봇 |
+| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr)<br><sub>포크</sub> | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
+| [k-skill](https://github.com/YoungsikMoon/k-skill)<br><sub>포크</sub> | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
+| [korean-law-mcp](https://github.com/YoungsikMoon/korean-law-mcp)<br><sub>포크</sub> | 한국 법령·판례·조례·해석을 조회하는 MCP 서버·CLI |
+| [korean-privacy-terms](https://github.com/YoungsikMoon/korean-privacy-terms)<br><sub>포크</sub> | 한국 서비스용 개인정보처리방침·이용약관 초안을 생성하는 Claude Code 스킬 |
+| [sole-search](https://github.com/YoungsikMoon/sole-search)<br><sub>포크</sub> | 소상공인 지원사업을 수집하고 사업자 조건에 맞는 신청 후보를 찾는 에이전트 스킬 |
+| [smartku](https://github.com/YoungsikMoon/smartku)<br><sub>포크</sub> | 스마트스토어·쿠팡 업무를 통합 관리하는 Tauri·Rust 데스크톱 앱 |
+| [stock_mvp](https://github.com/YoungsikMoon/stock_mvp)<br><sub>포크</sub> | 재고 관리 서비스의 MVP 코드 |
+| [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot)<br><sub>포크</sub> | 공공기관용 카카오톡 상담 챗봇 |
 
 </details>
 
 <details>
-<summary><strong>제품 기획·글쓰기</strong> · 3개</summary>
+<summary><strong>제품 기획·글쓰기</strong> · 4개</summary>
 
-제품을 기획하거나 한국어 글의 표현을 다듬을 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [pm-skills](https://github.com/YoungsikMoon/pm-skills) | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
-| [im-not-ai](https://github.com/YoungsikMoon/im-not-ai) | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
-| [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean) | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
+| [BuildBrief](https://github.com/YoungsikMoon/buildbrief) · [사용하기](https://buildbrief.moon0sik.cloud/)<br><sub>개인 구현</sub> | 아이디어를 기획 초안과 AI 전달문으로 정리하는 상용화 전 프로토타입 |
+| [pm-skills](https://github.com/YoungsikMoon/pm-skills)<br><sub>포크</sub> | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
+| [im-not-ai](https://github.com/YoungsikMoon/im-not-ai)<br><sub>포크</sub> | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
+| [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean)<br><sub>포크</sub> | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
 
 </details>
 
 <details>
-<summary><strong>개발 학습·예제·프레임워크</strong> · 9개</summary>
+<summary><strong>개발 학습·예제·프레임워크</strong> · 12개</summary>
 
-코딩 도구의 사용법, 웹 개발·Odoo·네트워크 예제를 참고할 때.
-
-| 도구 | 용도 |
+| 도구·자료 | 용도 |
 | --- | --- |
-| [codex-101](https://github.com/YoungsikMoon/codex-101) | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
-| [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips) | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
-| [nodejs-nestJS-](https://github.com/YoungsikMoon/nodejs-nestJS-) | Node.js·NestJS 교과서의 예제 소스 코드 |
-| [basic_app1](https://github.com/YoungsikMoon/basic_app1) | Spring Boot 게시판·소셜 로그인·파일 업로드 예제 |
-| [edu-platform](https://github.com/YoungsikMoon/edu-platform) | Next.js·Prisma·MySQL 기반 온라인 교육 서비스 프레임워크 |
-| [Odoo_partner-training](https://github.com/YoungsikMoon/Odoo_partner-training) | 파트너 교육을 단계별 브랜치로 따라가는 예제 코드 |
-| [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation) | Odoo 사용·개발 문서의 원본 소스 |
-| [cs-network-http](https://github.com/YoungsikMoon/cs-network-http) | 제로초의 HTTP·네트워크 CS 강의 교안 |
-| [webgcode](https://github.com/YoungsikMoon/webgcode) | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
+| [Spring JWT](https://github.com/YoungsikMoon/SpringJWT)<br><sub>학습</sub> | 토큰 기반 인증 흐름 학습 |
+| [Spring Security](https://github.com/YoungsikMoon/SpringSecurity)<br><sub>학습</sub> | 세션 기반 인증 흐름 학습 |
+| [전세버스 서비스 시연](https://www.youtube.com/watch?v=BDou4zE-RDQ)<br><sub>팀 프로젝트 시연</sub> | Java 웹 개발 팀 프로젝트 |
+| [codex-101](https://github.com/YoungsikMoon/codex-101)<br><sub>포크</sub> | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
+| [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips)<br><sub>포크</sub> | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
+| [nodejs-nestJS-](https://github.com/YoungsikMoon/nodejs-nestJS-)<br><sub>포크</sub> | Node.js·NestJS 교과서의 예제 소스 코드 |
+| [basic_app1](https://github.com/YoungsikMoon/basic_app1)<br><sub>포크</sub> | Spring Boot 게시판·소셜 로그인·파일 업로드 예제 |
+| [edu-platform](https://github.com/YoungsikMoon/edu-platform)<br><sub>포크</sub> | Next.js·Prisma·MySQL 기반 온라인 교육 서비스 프레임워크 |
+| [Odoo_partner-training](https://github.com/YoungsikMoon/Odoo_partner-training)<br><sub>포크</sub> | 파트너 교육을 단계별 브랜치로 따라가는 예제 코드 |
+| [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation)<br><sub>포크</sub> | Odoo 사용·개발 문서의 원본 소스 |
+| [cs-network-http](https://github.com/YoungsikMoon/cs-network-http)<br><sub>포크</sub> | 제로초의 HTTP·네트워크 CS 강의 교안 |
+| [webgcode](https://github.com/YoungsikMoon/webgcode)<br><sub>포크</sub> | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
 
 </details>
+
+<details>
+<summary><strong>파일 정리·관리</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)<br><sub>개인 구현</sub> | 사용자 규칙·미리보기·작업 되돌리기를 지원하는 파일 정리 도구 |
+
+</details>
+
+<details>
+<summary><strong>금융·데이터 분석</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [InBest](https://github.com/YoungsikMoon/05.-InBest)<br><sub>팀 연구</sub> | 주가·뉴스 분석 팀 프로젝트. 뉴스 수집·분석, LLM 실험과 Streamlit 화면 담당 |
+
+</details>
+
+<details>
+<summary><strong>텍스트 분석·NLP</strong> · 2개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining)<br><sub>연구 노트</sub> | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
+| [Alpha911](https://github.com/YoungsikMoon/01.-alpha911)<br><sub>팀 연구</sub> | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
 
 </details>
