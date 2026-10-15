@@ -6,7 +6,7 @@ B2B 제품 개발, 보안·금융 IT, 직접 사업을 운영한 경험을 바�
 
 [LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
 
-[실무 프로젝트](#실무-프로젝트) · [개인 제품](#직접-만든-개인-제품) · [경력·교육](#경력사업교육) · [공개 기록](#공개-기록)
+[실무 프로젝트](#실무-프로젝트) · [개인 제품](#직접-만든-개인-제품) · [경력·교육](#경력사업교육) · [공개 기록](#공개-기록) · [포크한 도구](#포크한-도구-모음)
 
 ## 실무 프로젝트
 
@@ -431,5 +431,180 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 - 리눅스마스터 2급
 - PCCE(Python) Lv.1
 - E-Test(e-Professionals)
+
+</details>
+
+## 포크한 도구 모음
+
+필요할 때 찾아 쓰기 위해 보관한 외부 프로젝트 **59개**를 용도별로 모았습니다. 분류를 펼치면 한국어 설명과 내 포크 저장소 링크를 볼 수 있습니다. 프로젝트의 저작권과 기여는 각 원저작자에게 있으며, 설치·지원 환경·이용 조건은 해당 저장소에서 확인할 수 있습니다.
+
+목록 기준: **2026.10.15** · 분류 안에서 도구를 찾으려면 먼저 펼친 뒤 브라우저의 페이지 검색을 사용하세요.
+
+<details>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 5개</summary>
+
+에이전트를 관리하거나 외부 프로그램·지식 저장소에 연결할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [herdr-web-ui](https://github.com/YoungsikMoon/herdr-web-ui) | 터미널의 Claude Code 에이전트를 웹·모바일에서 관리하는 herdr 플러그인 |
+| [skills](https://github.com/YoungsikMoon/skills) | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
+| [orca-orchestration-dev](https://github.com/YoungsikMoon/orca-orchestration-dev) | 감독형 멀티 에이전트로 웹·앱 기능 개발을 조율하는 Claude 스킬 |
+| [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything) | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
+| [akb](https://github.com/YoungsikMoon/akb) | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
+
+</details>
+
+<details>
+<summary><strong>코드 검색·구조 분석·문서화</strong> · 5개</summary>
+
+기존 코드의 구조와 변경 영향을 파악하고 설명 자료를 만들 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [semble](https://github.com/YoungsikMoon/semble) | 자연어로 필요한 코드만 찾아 에이전트의 읽기 범위와 토큰 사용을 줄이는 CLI·MCP |
+| [Cascade](https://github.com/YoungsikMoon/Cascade) | 화면부터 DB 컬럼까지 연결해 코드 변경 영향 범위를 추적하는 지식 그래프·MCP |
+| [GitNexus](https://github.com/YoungsikMoon/GitNexus) | 브라우저에서 저장소·ZIP을 지식 그래프로 만들고 Graph RAG로 코드를 탐색하는 도구 |
+| [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/YoungsikMoon/PocketFlow-Tutorial-Codebase-Knowledge) | 코드베이스를 분석해 구조와 동작을 설명하는 튜토리얼을 생성하는 도구 |
+| [code_to_tutorial](https://github.com/YoungsikMoon/code_to_tutorial) | 소스 코드를 이해하기 쉬운 튜토리얼로 정리하는 도구 |
+
+</details>
+
+<details>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 4개</summary>
+
+코드를 검토하거나 취약점·프로그램 동작을 분석할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [ponytail](https://github.com/YoungsikMoon/ponytail) | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
+| [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill) | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
+| [shannon](https://github.com/YoungsikMoon/shannon) | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
+| [rea](https://github.com/YoungsikMoon/rea) | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
+
+</details>
+
+<details>
+<summary><strong>UI·UX·디자인·다이어그램</strong> · 4개</summary>
+
+화면을 개선하거나 시각 자료와 개발 명세를 만들 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [impeccable](https://github.com/YoungsikMoon/impeccable) | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
+| [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills) | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
+| [octo-design](https://github.com/YoungsikMoon/octo-design) | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
+| [vive-md](https://github.com/YoungsikMoon/vive-md) | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
+
+</details>
+
+<details>
+<summary><strong>문서·한글·PDF·OCR</strong> · 7개</summary>
+
+문서를 변환·편집하거나 PDF·이미지에서 내용을 추출할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [kordoc](https://github.com/YoungsikMoon/kordoc) | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
+| [rhwp](https://github.com/YoungsikMoon/rhwp) | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
+| [markitdown](https://github.com/YoungsikMoon/markitdown) | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
+| [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf) | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
+| [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector) | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
+| [GLM-OCR](https://github.com/YoungsikMoon/GLM-OCR) | 문서 이미지에서 텍스트와 내용을 추출하는 GLM 기반 OCR 모델 |
+| [genoffice](https://github.com/YoungsikMoon/genoffice) | AI 에이전트를 내장한 Word·Excel·PowerPoint·PDF·Markdown 편집 앱 |
+
+</details>
+
+<details>
+<summary><strong>로컬 LLM·추론·RAG</strong> · 5개</summary>
+
+내 장비에서 모델을 실행하거나 검색 기반 AI 서비스를 구성할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [whichllm](https://github.com/YoungsikMoon/whichllm) | GPU·CPU·메모리를 확인해 내 컴퓨터에서 실행 가능한 LLM을 추천하는 도구 |
+| [magnitude](https://github.com/YoungsikMoon/magnitude) | 내 하드웨어에 맞는 로컬 모델을 기존 코딩 에이전트에 연결하는 추론 서버 |
+| [turbo-fieldfare](https://github.com/YoungsikMoon/turbo-fieldfare) | Apple M 시리즈 Mac에서 Gemma 4 26B-A4B의 메모리 사용을 줄여 추론하는 코드 |
+| [Personal-AI-Router](https://github.com/YoungsikMoon/Personal-AI-Router) | 집 안의 여러 기기에 AI 추론 작업을 분배하는 라우터 |
+| [OneRAG](https://github.com/YoungsikMoon/OneRAG) | 벡터 DB·LLM·재순위화 모델을 바꿔 연결할 수 있는 검색 증강 생성 서버 |
+
+</details>
+
+<details>
+<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 6개</summary>
+
+음성을 만들거나 입력하고 영상을 번역·재생할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [supertonic](https://github.com/YoungsikMoon/supertonic) | 텍스트를 음성으로 합성하는 경량 음성 생성 모델 |
+| [dia-TTS](https://github.com/YoungsikMoon/dia-TTS) | 텍스트에서 대화형 음성을 생성하는 Dia 음성 합성 모델 |
+| [voicebox](https://github.com/YoungsikMoon/voicebox) | 음성 복제·받아쓰기·음성 생성을 위한 오픈소스 음성 작업 앱 |
+| [zzabis](https://github.com/YoungsikMoon/zzabis) | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
+| [kekedubing](https://github.com/YoungsikMoon/kekedubing) | 영상의 자동 번역과 음성 더빙을 위한 도구 |
+| [nextplayer](https://github.com/YoungsikMoon/nextplayer) | Android용 네이티브 동영상 플레이어 |
+
+</details>
+
+<details>
+<summary><strong>영상 인식·객체 추적·3D 복원</strong> · 3개</summary>
+
+영상 속 객체를 추적하거나 인물·장면을 입체적으로 복원할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [remind-reid-tracker](https://github.com/YoungsikMoon/remind-reid-tracker) | 외형 특징·주변 관계·적응형 메모리로 사라졌다 다시 나타난 객체를 재식별하는 추적기 |
+| [lingbot-map](https://github.com/YoungsikMoon/lingbot-map) | 연속으로 들어오는 영상 데이터에서 장면을 3D로 재구성하는 모델 |
+| [4DAnyone](https://github.com/YoungsikMoon/4DAnyone) | 단일 카메라 영상에서 인물의 시간에 따른 3D 표현을 생성하는 연구 코드 |
+
+</details>
+
+<details>
+<summary><strong>한국 서비스·법령·지원사업·업무 도구</strong> · 8개</summary>
+
+한국 API와 생활 서비스, 사업·법무·쇼핑몰 업무 도구를 찾을 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr) | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
+| [k-skill](https://github.com/YoungsikMoon/k-skill) | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
+| [korean-law-mcp](https://github.com/YoungsikMoon/korean-law-mcp) | 한국 법령·판례·조례·해석을 조회하는 MCP 서버·CLI |
+| [korean-privacy-terms](https://github.com/YoungsikMoon/korean-privacy-terms) | 한국 서비스용 개인정보처리방침·이용약관 초안을 생성하는 Claude Code 스킬 |
+| [sole-search](https://github.com/YoungsikMoon/sole-search) | 소상공인 지원사업을 수집하고 사업자 조건에 맞는 신청 후보를 찾는 에이전트 스킬 |
+| [smartku](https://github.com/YoungsikMoon/smartku) | 스마트스토어·쿠팡 업무를 통합 관리하는 Tauri·Rust 데스크톱 앱 |
+| [stock_mvp](https://github.com/YoungsikMoon/stock_mvp) | 재고 관리 서비스의 MVP 코드 |
+| [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot) | 공공기관용 카카오톡 상담 챗봇 |
+
+</details>
+
+<details>
+<summary><strong>제품 기획·글쓰기</strong> · 3개</summary>
+
+제품을 기획하거나 한국어 글의 표현을 다듬을 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [pm-skills](https://github.com/YoungsikMoon/pm-skills) | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
+| [im-not-ai](https://github.com/YoungsikMoon/im-not-ai) | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
+| [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean) | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
+
+</details>
+
+<details>
+<summary><strong>개발 학습·예제·프레임워크</strong> · 9개</summary>
+
+코딩 도구의 사용법, 웹 개발·Odoo·네트워크 예제를 참고할 때.
+
+| 도구 | 용도 |
+| --- | --- |
+| [codex-101](https://github.com/YoungsikMoon/codex-101) | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
+| [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips) | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
+| [nodejs-nestJS-](https://github.com/YoungsikMoon/nodejs-nestJS-) | Node.js·NestJS 교과서의 예제 소스 코드 |
+| [basic_app1](https://github.com/YoungsikMoon/basic_app1) | Spring Boot 게시판·소셜 로그인·파일 업로드 예제 |
+| [edu-platform](https://github.com/YoungsikMoon/edu-platform) | Next.js·Prisma·MySQL 기반 온라인 교육 서비스 프레임워크 |
+| [Odoo_partner-training](https://github.com/YoungsikMoon/Odoo_partner-training) | 파트너 교육을 단계별 브랜치로 따라가는 예제 코드 |
+| [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation) | Odoo 사용·개발 문서의 원본 소스 |
+| [cs-network-http](https://github.com/YoungsikMoon/cs-network-http) | 제로초의 HTTP·네트워크 CS 강의 교안 |
+| [webgcode](https://github.com/YoungsikMoon/webgcode) | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
 
 </details>
