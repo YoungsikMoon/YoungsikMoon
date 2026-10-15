@@ -1,126 +1,57 @@
 # 문영식 · Youngsik Moon
 
-**Product Engineer — 사업의 문제를 찾고, 고객이 쓰는 제품까지 만듭니다.**
+## 사업을 이해하고,<br>고객의 문제를 제품으로 해결합니다.
 
-B2B SaaS를 기획·개발·운영하고, 일상의 불편을 해결하는 개인 도구를 만듭니다. 보안·금융 IT와 직접 사업을 운영한 경험을 제품 개발에 연결합니다.
+**Product Engineer · Business & IT**
 
-[BuildBrief 사용해 보기](https://buildbrief.moon0sik.cloud/) · [LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
+고객을 만나 문제를 찾고, 사업 모델과 기능을 제안합니다. 기획·설계·개발·배포·운영까지 직접 이어가며, 필요한 기술은 스스로 익힙니다.
 
-## 직접 만든 제품
+보안·금융 IT와 직접 사업을 운영한 경험을 바탕으로 업무 흐름·비용·운영까지 함께 판단합니다. AI를 개발에 활용하고 기술적 판단과 결과 검증을 직접 책임집니다.
 
-<table>
-<tr>
-<td valign="top" width="50%">
-<h3><a href="https://github.com/YoungsikMoon/buildbrief">BuildBrief</a></h3>
-<p>아이디어를 기획 초안과 AI 개발 요청으로 정리하는 도구.</p>
-<p><sub>상용화 전 프로토타입 · HTML / CSS / JavaScript</sub></p>
-<p><a href="https://buildbrief.moon0sik.cloud/">서비스 이용</a> · <a href="https://github.com/YoungsikMoon/buildbrief">코드</a></p>
-</td>
-<td valign="top" width="50%">
-<h3><a href="https://github.com/YoungsikMoon/hwpx-hwp-converter">HWPX → HWP</a></h3>
-<p>한컴오피스 없이 문서를 변환하고 원본과 결과를 비교하는 앱.</p>
-<p><sub>Windows · Python / PySide6</sub></p>
-<p><a href="https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest">다운로드</a> · <a href="https://github.com/YoungsikMoon/hwpx-hwp-converter">코드</a></p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-<h3><a href="https://github.com/YoungsikMoon/CleanFolder">CleanFolder</a></h3>
-<p>규칙으로 파일을 정리하고, 실행 전에 확인하고, 작업을 되돌리는 앱.</p>
-<p><sub>Windows · Python / PySide6</sub></p>
-<p><a href="https://github.com/YoungsikMoon/CleanFolder/releases/latest">다운로드</a> · <a href="https://github.com/YoungsikMoon/CleanFolder">코드</a></p>
-</td>
-<td valign="top" width="50%">
-<h3><a href="https://github.com/YoungsikMoon/youtube-downloader-gui">YouTube Downloader</a></h3>
-<p>Excel 목록으로 영상을 일괄 다운로드하고 진행 상황을 확인하는 앱.</p>
-<p><sub>Windows · yt-dlp / FFmpeg</sub></p>
-<p><a href="https://github.com/YoungsikMoon/youtube-downloader-gui/releases">릴리스</a> · <a href="https://github.com/YoungsikMoon/youtube-downloader-gui">코드</a></p>
-</td>
-</tr>
-</table>
+[LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
+
+## 경험과 기록
+
+보안·금융 IT → 직접 사업 운영 → AI 교육 → B2B 제품 개발로 경험을 넓혀 왔습니다.
+
+| 기간 | 경력·사업·교육 |
+| --- | --- |
+| 2024.11<br>–현재 | **와이씨코퍼레이션 · DX사업본부 수석연구원 / 매니저**<br>재직 · B2B SaaS·MES 기획과 개발, 인프라·운영, PM, 고객 컨설팅과 기술영업 |
+| 2024.02<br>–2024.08 | **알파코 · 딥러닝 부트 캠프**<br>국비지원 교육 · 머신러닝·딥러닝, NLP·음성·이미지 모델 연구와 팀 프로젝트 |
+| 2023.02<br>–2024.02 | **직접 사업 운영**<br>사업 · 재고·매입·지출·근태·급여 관리 시스템화 및 운영 프로세스 개선 후 사업 정리 |
+| 2021.08<br>–2023.02 | **센텍정보기술 · 기술본부 대리 / 매니저**<br>재직 · 금융·기업 고객의 배치 자동화 솔루션 JobMind 구축, POC, 운영과 기술지원 |
+| 2019.04<br>–2020.05 | **에스에스앤씨 · 기술본부 대리 / 매니저**<br>재직 · 엔드포인트·스마트팩토리 보안 솔루션 구축과 운영, POC, DB 마이그레이션 |
+| 2018.08<br>–2019.04 | **미래능력개발교육원 · 웹개발자를 위한 보안프로그램 전문가**<br>국비지원 교육 · Java·Spring·JSP·RDBMS·Linux 기반 웹 개발과 보안 교육, 팀 프로젝트 최우수상 |
+| 2017.10<br>–2018.02 | **아이디스트**<br>프리랜서 · SNS 마케팅 자동화 서비스 판매 페이지 개발, CS와 원격 기술지원 |
 
 <details>
-<summary><strong>제품별 구현과 개발 배경</strong></summary>
+<summary><strong>MES·KPI·ERP 연동에서 담당한 일</strong></summary>
 
-### BuildBrief
+**SmartLine2 · MES**
 
-**아이디어를 개발 가능한 기획으로**
+인수인계 문서 없이 소스와 DB를 분석해 업무 흐름을 파악하고, Spring Boot·React 기반 기능 개선과 운영 담당
 
-아이디어는 있지만 구체적으로 설명하거나 AI 개발 도구에 전달하기 어려운 사람을 위해 만들었습니다. 질문에 답하고 화면을 구성하면, 함께 검토할 기획 초안과 AI 전달문으로 정리할 수 있습니다.
+**KPI 2.0 · 데이터 수집·전송**
 
-[사용해 보기](https://buildbrief.moon0sik.cloud/) · [코드와 설계 설명](https://github.com/YoungsikMoon/buildbrief)
+정부지원사업 OpenAPI를 바탕으로 Python·PySide6·PostgreSQL 기반 스케줄러 기획·설계·개발·운영
 
-현재는 **상용화 전 프로토타입**입니다. 핵심 사용 흐름을 먼저 구현하기 위해 HTML·CSS·JavaScript로 개발했으며, 사용자 피드백에 따라 상용 솔루션으로 발전시킬 계획입니다. 서비스 안에서 AI를 직접 호출하는 방식은 아닙니다.
+**SmartLinePlus**
 
-### HWPX-HWP 변환기
+자사 MES와 Odoo ERP 연동 및 커스텀 모듈 개발
 
-**구형 한컴오피스의 문서 호환 문제 해결**
+**MES 장애 복구**
 
-한컴오피스 설치나 인터넷 연결 없이 HWPX를 HWP 5.x 문서로 변환하는 Windows 프로그램입니다.
+고객사 실행 장애의 원인 분석, 복구와 재발 방지를 위한 재빌드
 
-[소스 코드](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)
+**협동로봇 커피머신**
 
-Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과의 좌우 미리보기, 문서 비교 경고와 덮어쓰기 방지를 구현했습니다. 최신 문서 개체는 변환 결과가 달라질 수 있어 직접 비교할 수 있도록 했습니다.
+키오스크·주문 관리 시스템 개발. 로봇 제어를 제외한 소프트웨어 담당
 
-### CleanFolder
+**Fusion 360 KPI 수집**
 
-**확인하고 되돌릴 수 있는 파일 정리**
-
-확장자·정규식·크기별 사용자 규칙으로 파일을 정리하는 Python·PySide6 데스크톱 프로그램입니다.
-
-[소스 코드](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)
-
-실행 전 미리보기와 마지막 작업 되돌리기를 제공하며, Windows 실행 파일과 소스를 공개했습니다.
-
-### YouTube Downloader
-
-**반복 다운로드를 한 번에 처리하는 도구**
-
-여러 영상과 재생목록을 목록으로 관리하고 내려받는 Windows GUI 프로그램입니다. URL을 직접 입력하거나 Excel 목록을 불러와 항목별 저장 폴더와 파일명을 지정할 수 있어, 반복적인 다운로드와 파일 정리 작업에 활용합니다.
-
-[소스 코드와 사용법](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)
-
-기존 오픈소스 GUI를 바탕으로 Excel 일괄 처리, 목록 편집과 입력 검증, 진행률·속도·남은 시간 표시, 성공·실패 통계와 실행 로그 기능을 확장했습니다. 다운로드에는 yt-dlp, 영상·음성 병합에는 FFmpeg를 사용합니다.
+데이터 수집·전송 유틸리티 기획·개발·운영
 
 </details>
-
-## 지금 만드는 제품 · SmartDash
-
-**기업의 CRM·견적·수주·생산·재고·인사·결재를 연결하는 B2B SaaS.**
-
-와이씨코퍼레이션에서 Odoo 기반 사업의 예상 문제와 기존 솔루션의 한계를 파악하고, 새로운 자사 제품의 비즈니스 모델을 제안했습니다. 기능 기획부터 풀스택 개발, 배포·운영과 고객 기술영업까지 혼자 맡아 진행하고 있습니다.
-
-고객을 직접 만나 요구사항을 제품에 반영하며, 기술영업을 진행한 **9개 고객사에서 도입 의향을 확인**했습니다.
-
-`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `AWS`
-
-<details>
-<summary><strong>SmartDash의 담당 역할과 사업 방향</strong></summary>
-
-### SmartDash
-
-**기업 업무 통합 B2B SaaS**
-
-**와이씨코퍼레이션에서 사업 모델 제안부터 제품 개발·운영, 고객 기술영업까지 주도하고 있습니다.** 그룹웨어, CRM, 견적·수주, 생산·재고, 인사·근태와 설비 데이터를 통합하는 제품입니다.
-
-Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 자사 솔루션의 한계를 파악했고, 앞으로의 사업 방향에 맞는 새로운 자사 솔루션을 제안했습니다. 이후 기능 기획, 시스템·UI/UX 설계, 프론트엔드·백엔드 개발, DB·인프라 구성과 배포·운영을 혼자 맡아 진행하고 있습니다.
-
-고객을 직접 만나 데모와 컨설팅을 진행하고 요구사항을 제품에 반영합니다. 기술영업을 진행한 **9개 고객사에서 도입 의향을 확인**했으며, 정부지원사업 선정과 별개로 제품 도입을 희망하는 고객도 생겼습니다.
-
-**핵심 기술:** Python · FastAPI · React · TypeScript · PostgreSQL · AWS
-
-인증·권한 → 화면 구성 → 업무 처리 → 데이터 정합성 → 감사·운영의 흐름으로 설계했습니다.
-
-</details>
-
-## 기술적으로 고민한 것
-
-- **계정과 회사의 경계** — MFA·서버 세션·민감 작업 재인증을 연결하고, 회사·조직·업무별 데이터 접근을 검증했습니다.
-- **고객사마다 다른 업무 화면** — 제품을 복제하는 대신 메뉴·권한·테이블 설정을 회사·부서·사용자 정책으로 조합했습니다.
-- **업무 기록의 일관성** — 결재·단가·생산 기준을 스냅샷으로 보존하고, 재고 할당과 동시 변경에 잠금·멱등 처리를 적용했습니다.
-- **조회 성능의 근거** — 결재선 일괄 조회로 격리 재현 테스트의 SQL 실행을 **401회 → 5회**로 줄이고 응답 동일성을 확인했습니다.¹
-
-¹ SQLite에서 결재선 100개·각 1단계·공통 결재자 조건으로 재현한 결과입니다.
 
 <details>
 <summary><strong>SmartDash 기술 설계와 문제 해결 · 92개 사례</strong></summary>
@@ -391,77 +322,6 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 </details>
 
-### 그 밖의 실무 프로젝트
-
-<details>
-<summary><strong>MES·KPI·ERP 연동에서 담당한 일</strong></summary>
-
-**SmartLine2 · MES**
-
-인수인계 문서 없이 소스와 DB를 분석해 업무 흐름을 파악하고, Spring Boot·React 기반 기능 개선과 운영 담당
-
-**KPI 2.0 · 데이터 수집·전송**
-
-정부지원사업 OpenAPI를 바탕으로 Python·PySide6·PostgreSQL 기반 스케줄러 기획·설계·개발·운영
-
-**SmartLinePlus**
-
-자사 MES와 Odoo ERP 연동 및 커스텀 모듈 개발
-
-**MES 장애 복구**
-
-고객사 실행 장애의 원인 분석, 복구와 재발 방지를 위한 재빌드
-
-**협동로봇 커피머신**
-
-키오스크·주문 관리 시스템 개발. 로봇 제어를 제외한 소프트웨어 담당
-
-**Fusion 360 KPI 수집**
-
-데이터 수집·전송 유틸리티 기획·개발·운영
-
-</details>
-
-## 경험과 기록
-
-보안·금융 IT → 직접 사업 운영 → AI 교육 → B2B 제품 개발로 경험을 넓혀 왔습니다. 자원이 제한된 환경에서도 필요한 기술을 스스로 익히며 프로젝트를 진행했습니다. AI를 개발에 활용하고 기술적 판단과 결과 검증을 직접 책임집니다.
-
-**현재** 와이씨코퍼레이션 · 2024.11–현재  
-**사업 운영** 2023.02–2024.02 · **알파코 교육** 2024.02–2024.08
-
-<details>
-<summary><strong>전체 경력·국비지원 교육·기술·수상·자격</strong></summary>
-
-보안·금융 IT 현장에서 시스템의 안정성과 운영 요구를 익혔고, 직접 사업을 운영하며 재고·매입·지출·근태·급여 관리를 시스템화했습니다. 지금은 그 경험을 고객의 업무와 비용을 이해하는 B2B 제품 개발에 연결하고 있습니다.
-
-**2024.11–현재 · 와이씨코퍼레이션 · DX사업본부 수석연구원 / 매니저**
-
-재직 · B2B SaaS·MES 기획과 개발, 인프라·운영, PM, 고객 컨설팅과 기술영업
-
-**2024.02–2024.08 · 알파코 · 딥러닝 부트 캠프**
-
-국비지원 교육 · 머신러닝·딥러닝, NLP·음성·이미지 모델 연구와 팀 프로젝트
-
-**2023.02–2024.02 · 직접 사업 운영**
-
-사업 · 재고·매입·지출·근태·급여 관리 시스템화 및 운영 프로세스 개선 후 사업 정리
-
-**2021.08–2023.02 · 센텍정보기술 · 기술본부 대리 / 매니저**
-
-재직 · 금융·기업 고객의 배치 자동화 솔루션 JobMind 구축, POC, 운영과 기술지원
-
-**2019.04–2020.05 · 에스에스앤씨 · 기술본부 대리 / 매니저**
-
-재직 · 엔드포인트·스마트팩토리 보안 솔루션 구축과 운영, POC, DB 마이그레이션
-
-**2018.08–2019.04 · 미래능력개발교육원 · 웹개발자를 위한 보안프로그램 전문가**
-
-국비지원 교육 · Java·Spring·JSP·RDBMS·Linux 기반 웹 개발과 보안 교육, 팀 프로젝트 최우수상
-
-**2017.10–2018.02 · 아이디스트**
-
-프리랜서 · SNS 마케팅 자동화 서비스 판매 페이지 개발, CS와 원격 기술지원
-
 <details>
 <summary><strong>사용 기술과 적용 영역</strong></summary>
 
@@ -501,16 +361,28 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 </details>
 
-</details>
+## 도구와 연구 모음
 
-## 연구·학습 기록
-
-LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 경험의 관점으로 정리합니다. 아래에는 팀 실험과 연구·학습 자료, 그 밖의 공개 작업을 모았습니다. 각 저장소 README에서 역할과 구현 범위를 확인할 수 있습니다.
+직접 구현한 도구와 문서, 연구 기록, 참고용 외부 프로젝트를 용도에 맞게 찾아볼 수 있습니다.
 
 <details>
-<summary><strong>팀 프로젝트·AI 실험</strong></summary>
+<summary><strong>개인 도구·구현·집필 자료</strong></summary>
 
-| 프로젝트 | 내용 |
+| 도구·자료 | 용도와 구현 범위 |
+| --- | --- |
+| [BuildBrief](https://github.com/YoungsikMoon/buildbrief) · [사용하기](https://buildbrief.moon0sik.cloud/) | 아이디어를 기획 초안과 AI 전달문으로 정리하는 상용화 전 프로토타입 |
+| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest) | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
+| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest) | 사용자 규칙·미리보기·작업 되돌리기를 지원하는 파일 정리 도구 |
+| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases) | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
+| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF) | Vue·Spring Boot 웹 에디터와 Playwright PDF 변환 구현 |
+| [Secu Book](https://github.com/YoungsikMoon/secu-book) | 비개발자·바이브코더를 위한 웹 실무 보안 책과 무료 PDF |
+
+</details>
+
+<details>
+<summary><strong>AI 연구·팀 실험·인증 학습</strong></summary>
+
+| 기록 | 연구·학습 내용 |
 | --- | --- |
 | [InBest](https://github.com/YoungsikMoon/05.-InBest) | 주가·뉴스 분석 팀 프로젝트. 뉴스 수집·분석, LLM 실험과 Streamlit 화면 담당 |
 | [Object Detection](https://github.com/YoungsikMoon/04.-ObjectDetection) | 쓰러짐 감지 팀 프로젝트와 사람 탐지 개인 실험 |
@@ -518,22 +390,12 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 | [FORS](https://github.com/YoungsikMoon/02.-FORS) | 음성 인식·LLM 서비스 실험. 음성 데이터 가공과 한국어 모델 실험 참여 |
 | [Alpha911](https://github.com/YoungsikMoon/01.-alpha911) | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
 | [전세버스 서비스 시연](https://www.youtube.com/watch?v=BDou4zE-RDQ) | Java 웹 개발 팀 프로젝트 |
-
-</details>
-
-<details>
-<summary><strong>그 밖의 구현·연구·학습·집필</strong></summary>
-
-| 작업 | 내용 |
-| --- | --- |
-| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF) | Vue·Spring Boot 기반 문서 편집과 Playwright PDF 변환 |
-| [Secu Book](https://github.com/YoungsikMoon/secu-book) | 커뮤니티와 함께 개선하는 웹 실무 보안 책 |
 | [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining) | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
 | [Spring Security](https://github.com/YoungsikMoon/SpringSecurity) · [Spring JWT](https://github.com/YoungsikMoon/SpringJWT) | 세션·토큰 인증 흐름 학습 |
 
 </details>
 
-## 포크한 도구 모음
+### 포크한 도구 모음
 
 필요할 때 찾아 쓰기 위해 보관한 외부 프로젝트 **59개**를 용도별로 모았습니다. 분류를 펼치면 한국어 설명과 내 포크 저장소 링크를 볼 수 있습니다. 프로젝트의 저작권과 기여는 각 원저작자에게 있으며, 설치·지원 환경·이용 조건은 해당 저장소에서 확인할 수 있습니다.
 
