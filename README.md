@@ -50,12 +50,7 @@ B2B SaaS를 기획·개발·운영하고, 일상의 불편을 해결하는 개�
 
 [사용해 보기](https://buildbrief.moon0sik.cloud/) · [코드와 설계 설명](https://github.com/YoungsikMoon/buildbrief)
 
-<details>
-<summary><strong>구현과 현재 단계</strong></summary>
-
 현재는 **상용화 전 프로토타입**입니다. 핵심 사용 흐름을 먼저 구현하기 위해 HTML·CSS·JavaScript로 개발했으며, 사용자 피드백에 따라 상용 솔루션으로 발전시킬 계획입니다. 서비스 안에서 AI를 직접 호출하는 방식은 아닙니다.
-
-</details>
 
 ### HWPX-HWP 변환기
 
@@ -65,12 +60,7 @@ B2B SaaS를 기획·개발·운영하고, 일상의 불편을 해결하는 개�
 
 [소스 코드](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)
 
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
 Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과의 좌우 미리보기, 문서 비교 경고와 덮어쓰기 방지를 구현했습니다. 최신 문서 개체는 변환 결과가 달라질 수 있어 직접 비교할 수 있도록 했습니다.
-
-</details>
 
 ### CleanFolder
 
@@ -80,12 +70,7 @@ Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과
 
 [소스 코드](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)
 
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
 실행 전 미리보기와 마지막 작업 되돌리기를 제공하며, Windows 실행 파일과 소스를 공개했습니다.
-
-</details>
 
 ### YouTube Downloader
 
@@ -95,12 +80,7 @@ Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과
 
 [소스 코드와 사용법](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)
 
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
 기존 오픈소스 GUI를 바탕으로 Excel 일괄 처리, 목록 편집과 입력 검증, 진행률·속도·남은 시간 표시, 성공·실패 통계와 실행 로그 기능을 확장했습니다. 다운로드에는 yt-dlp, 영상·음성 병합에는 FFmpeg를 사용합니다.
-
-</details>
 
 </details>
 
@@ -450,7 +430,7 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 **사업 운영** 2023.02–2024.02 · **알파코 교육** 2024.02–2024.08
 
 <details>
-<summary><strong>전체 경력·국비지원 교육·기술·연구 기록</strong></summary>
+<summary><strong>전체 경력·국비지원 교육·기술·수상·자격</strong></summary>
 
 보안·금융 IT 현장에서 시스템의 안정성과 운영 요구를 익혔고, 직접 사업을 운영하며 재고·매입·지출·근태·급여 관리를 시스템화했습니다. 지금은 그 경험을 고객의 업무와 비용을 이해하는 B2B 제품 개발에 연결하고 있습니다.
 
@@ -521,7 +501,9 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 </details>
 
-## 공개 기록
+</details>
+
+## 연구·학습 기록
 
 LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 경험의 관점으로 정리합니다. 아래에는 팀 실험과 연구·학습 자료, 그 밖의 공개 작업을 모았습니다. 각 저장소 README에서 역할과 구현 범위를 확인할 수 있습니다.
 
@@ -548,8 +530,6 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 | [Secu Book](https://github.com/YoungsikMoon/secu-book) | 커뮤니티와 함께 개선하는 웹 실무 보안 책 |
 | [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining) | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
 | [Spring Security](https://github.com/YoungsikMoon/SpringSecurity) · [Spring JWT](https://github.com/YoungsikMoon/SpringJWT) | 세션·토큰 인증 흐름 학습 |
-
-</details>
 
 </details>
 
