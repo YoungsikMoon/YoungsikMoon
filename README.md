@@ -293,8 +293,10 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 </details>
 
+### 그 밖의 실무 프로젝트
+
 <details>
-<summary><strong>그 밖의 실무 프로젝트 · MES·KPI·ERP 연동</strong></summary>
+<summary><strong>MES·KPI·ERP 연동에서 담당한 일</strong></summary>
 
 **SmartLine2 · MES**
 
