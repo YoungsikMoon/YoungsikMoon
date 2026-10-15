@@ -1,6 +1,6 @@
 # 문영식 · Youngsik Moon
 
-## 사업을 이해하고,<br>고객의 문제를 제품으로 해결합니다.
+## 사업을 이해하고,<br>고객의 문제를 해결합니다.
 
 **Product Engineer · Business & IT**
 
