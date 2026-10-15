@@ -1,14 +1,121 @@
-# 문영식 | Youngsik Moon
+# 문영식 · Youngsik Moon
 
-**고객의 문제를 사업과 연결하고, 기획부터 개발·배포·운영까지 책임지는 Product Engineer입니다.**
+**Product Engineer — 사업의 문제를 찾고, 고객이 쓰는 제품까지 만듭니다.**
 
-B2B 제품 개발, 보안·금융 IT, 직접 사업을 운영한 경험을 바탕으로 무엇을 왜 만들어야 하는지 판단합니다. 작은 조직과 자원이 제한된 환경에서도 필요한 기술을 스스로 익히며 일을 완수해 왔습니다. 개발에 AI를 적극 활용하고, 기술적 판단과 결과 검증은 직접 책임집니다.
+B2B SaaS를 기획·개발·운영하고, 일상의 불편을 해결하는 개인 도구를 만듭니다. 보안·금융 IT와 직접 사업을 운영한 경험을 제품 개발에 연결합니다.
 
-[LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
+[BuildBrief 사용해 보기](https://buildbrief.moon0sik.cloud/) · [LinkedIn](https://www.linkedin.com/in/moonyoungsik95) · [이메일](mailto:moonyoungsik95@gmail.com)
 
-[실무 프로젝트](#실무-프로젝트) · [개인 제품](#직접-만든-개인-제품) · [경력·교육](#경력사업교육) · [공개 기록](#공개-기록) · [포크한 도구](#포크한-도구-모음)
+## 직접 만든 제품
 
-## 실무 프로젝트
+<table>
+<tr>
+<td valign="top" width="50%">
+<h3><a href="https://github.com/YoungsikMoon/buildbrief">BuildBrief</a></h3>
+<p>아이디어를 기획 초안과 AI 개발 요청으로 정리하는 도구.</p>
+<p><sub>상용화 전 프로토타입 · HTML / CSS / JavaScript</sub></p>
+<p><a href="https://buildbrief.moon0sik.cloud/">서비스 이용</a> · <a href="https://github.com/YoungsikMoon/buildbrief">코드</a></p>
+</td>
+<td valign="top" width="50%">
+<h3><a href="https://github.com/YoungsikMoon/hwpx-hwp-converter">HWPX → HWP</a></h3>
+<p>한컴오피스 없이 문서를 변환하고 원본과 결과를 비교하는 앱.</p>
+<p><sub>Windows · Python / PySide6</sub></p>
+<p><a href="https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest">다운로드</a> · <a href="https://github.com/YoungsikMoon/hwpx-hwp-converter">코드</a></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+<h3><a href="https://github.com/YoungsikMoon/CleanFolder">CleanFolder</a></h3>
+<p>규칙으로 파일을 정리하고, 실행 전에 확인하고, 작업을 되돌리는 앱.</p>
+<p><sub>Windows · Python / PySide6</sub></p>
+<p><a href="https://github.com/YoungsikMoon/CleanFolder/releases/latest">다운로드</a> · <a href="https://github.com/YoungsikMoon/CleanFolder">코드</a></p>
+</td>
+<td valign="top" width="50%">
+<h3><a href="https://github.com/YoungsikMoon/youtube-downloader-gui">YouTube Downloader</a></h3>
+<p>Excel 목록으로 영상을 일괄 다운로드하고 진행 상황을 확인하는 앱.</p>
+<p><sub>Windows · yt-dlp / FFmpeg</sub></p>
+<p><a href="https://github.com/YoungsikMoon/youtube-downloader-gui/releases">릴리스</a> · <a href="https://github.com/YoungsikMoon/youtube-downloader-gui">코드</a></p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>제품별 구현과 개발 배경</strong></summary>
+
+### BuildBrief
+
+**아이디어를 개발 가능한 기획으로**
+
+아이디어는 있지만 구체적으로 설명하거나 AI 개발 도구에 전달하기 어려운 사람을 위해 만들었습니다. 질문에 답하고 화면을 구성하면, 함께 검토할 기획 초안과 AI 전달문으로 정리할 수 있습니다.
+
+[사용해 보기](https://buildbrief.moon0sik.cloud/) · [코드와 설계 설명](https://github.com/YoungsikMoon/buildbrief)
+
+<details>
+<summary><strong>구현과 현재 단계</strong></summary>
+
+현재는 **상용화 전 프로토타입**입니다. 핵심 사용 흐름을 먼저 구현하기 위해 HTML·CSS·JavaScript로 개발했으며, 사용자 피드백에 따라 상용 솔루션으로 발전시킬 계획입니다. 서비스 안에서 AI를 직접 호출하는 방식은 아닙니다.
+
+</details>
+
+### HWPX-HWP 변환기
+
+**구형 한컴오피스의 문서 호환 문제 해결**
+
+한컴오피스 설치나 인터넷 연결 없이 HWPX를 HWP 5.x 문서로 변환하는 Windows 프로그램입니다.
+
+[소스 코드](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)
+
+<details>
+<summary><strong>구현과 주요 기능</strong></summary>
+
+Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과의 좌우 미리보기, 문서 비교 경고와 덮어쓰기 방지를 구현했습니다. 최신 문서 개체는 변환 결과가 달라질 수 있어 직접 비교할 수 있도록 했습니다.
+
+</details>
+
+### CleanFolder
+
+**확인하고 되돌릴 수 있는 파일 정리**
+
+확장자·정규식·크기별 사용자 규칙으로 파일을 정리하는 Python·PySide6 데스크톱 프로그램입니다.
+
+[소스 코드](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)
+
+<details>
+<summary><strong>구현과 주요 기능</strong></summary>
+
+실행 전 미리보기와 마지막 작업 되돌리기를 제공하며, Windows 실행 파일과 소스를 공개했습니다.
+
+</details>
+
+### YouTube Downloader
+
+**반복 다운로드를 한 번에 처리하는 도구**
+
+여러 영상과 재생목록을 목록으로 관리하고 내려받는 Windows GUI 프로그램입니다. URL을 직접 입력하거나 Excel 목록을 불러와 항목별 저장 폴더와 파일명을 지정할 수 있어, 반복적인 다운로드와 파일 정리 작업에 활용합니다.
+
+[소스 코드와 사용법](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)
+
+<details>
+<summary><strong>구현과 주요 기능</strong></summary>
+
+기존 오픈소스 GUI를 바탕으로 Excel 일괄 처리, 목록 편집과 입력 검증, 진행률·속도·남은 시간 표시, 성공·실패 통계와 실행 로그 기능을 확장했습니다. 다운로드에는 yt-dlp, 영상·음성 병합에는 FFmpeg를 사용합니다.
+
+</details>
+
+</details>
+
+## 지금 만드는 제품 · SmartDash
+
+**기업의 CRM·견적·수주·생산·재고·인사·결재를 연결하는 B2B SaaS.**
+
+와이씨코퍼레이션에서 Odoo 기반 사업의 예상 문제와 기존 솔루션의 한계를 파악하고, 새로운 자사 제품의 비즈니스 모델을 제안했습니다. 기능 기획부터 풀스택 개발, 배포·운영과 고객 기술영업까지 혼자 맡아 진행하고 있습니다.
+
+고객을 직접 만나 요구사항을 제품에 반영하며, 기술영업을 진행한 **9개 고객사에서 도입 의향을 확인**했습니다.
+
+`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `AWS`
+
+<details>
+<summary><strong>SmartDash의 담당 역할과 사업 방향</strong></summary>
 
 ### SmartDash
 
@@ -23,6 +130,17 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 **핵심 기술:** Python · FastAPI · React · TypeScript · PostgreSQL · AWS
 
 인증·권한 → 화면 구성 → 업무 처리 → 데이터 정합성 → 감사·운영의 흐름으로 설계했습니다.
+
+</details>
+
+## 기술적으로 고민한 것
+
+- **계정과 회사의 경계** — MFA·서버 세션·민감 작업 재인증을 연결하고, 회사·조직·업무별 데이터 접근을 검증했습니다.
+- **고객사마다 다른 업무 화면** — 제품을 복제하는 대신 메뉴·권한·테이블 설정을 회사·부서·사용자 정책으로 조합했습니다.
+- **업무 기록의 일관성** — 결재·단가·생산 기준을 스냅샷으로 보존하고, 재고 할당과 동시 변경에 잠금·멱등 처리를 적용했습니다.
+- **조회 성능의 근거** — 결재선 일괄 조회로 격리 재현 테스트의 SQL 실행을 **401회 → 5회**로 줄이고 응답 동일성을 확인했습니다.¹
+
+¹ SQLite에서 결재선 100개·각 1단계·공통 결재자 조건으로 재현한 결과입니다.
 
 <details>
 <summary><strong>SmartDash 기술 설계와 문제 해결 · 92개 사례</strong></summary>
@@ -324,69 +442,15 @@ Odoo 기반 사업을 준비하며 예상되는 도입·운영 문제와 기존 
 
 </details>
 
-## 직접 만든 개인 제품
+## 경험과 기록
 
-### BuildBrief
+보안·금융 IT → 직접 사업 운영 → AI 교육 → B2B 제품 개발로 경험을 넓혀 왔습니다. 자원이 제한된 환경에서도 필요한 기술을 스스로 익히며 프로젝트를 진행했습니다. AI를 개발에 활용하고 기술적 판단과 결과 검증을 직접 책임집니다.
 
-**아이디어를 개발 가능한 기획으로**
-
-아이디어는 있지만 구체적으로 설명하거나 AI 개발 도구에 전달하기 어려운 사람을 위해 만들었습니다. 질문에 답하고 화면을 구성하면, 함께 검토할 기획 초안과 AI 전달문으로 정리할 수 있습니다.
-
-[사용해 보기](https://buildbrief.moon0sik.cloud/) · [코드와 설계 설명](https://github.com/YoungsikMoon/buildbrief)
+**현재** 와이씨코퍼레이션 · 2024.11–현재  
+**사업 운영** 2023.02–2024.02 · **알파코 교육** 2024.02–2024.08
 
 <details>
-<summary><strong>구현과 현재 단계</strong></summary>
-
-현재는 **상용화 전 프로토타입**입니다. 핵심 사용 흐름을 먼저 구현하기 위해 HTML·CSS·JavaScript로 개발했으며, 사용자 피드백에 따라 상용 솔루션으로 발전시킬 계획입니다. 서비스 안에서 AI를 직접 호출하는 방식은 아닙니다.
-
-</details>
-
-### HWPX-HWP 변환기
-
-**구형 한컴오피스의 문서 호환 문제 해결**
-
-한컴오피스 설치나 인터넷 연결 없이 HWPX를 HWP 5.x 문서로 변환하는 Windows 프로그램입니다.
-
-[소스 코드](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [Windows 다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)
-
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
-Python·PySide6 UI에 오픈소스 변환 엔진을 통합하고, 원본·결과의 좌우 미리보기, 문서 비교 경고와 덮어쓰기 방지를 구현했습니다. 최신 문서 개체는 변환 결과가 달라질 수 있어 직접 비교할 수 있도록 했습니다.
-
-</details>
-
-### CleanFolder
-
-**확인하고 되돌릴 수 있는 파일 정리**
-
-확장자·정규식·크기별 사용자 규칙으로 파일을 정리하는 Python·PySide6 데스크톱 프로그램입니다.
-
-[소스 코드](https://github.com/YoungsikMoon/CleanFolder) · [Windows 다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)
-
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
-실행 전 미리보기와 마지막 작업 되돌리기를 제공하며, Windows 실행 파일과 소스를 공개했습니다.
-
-</details>
-
-### YouTube Downloader
-
-**반복 다운로드를 한 번에 처리하는 도구**
-
-여러 영상과 재생목록을 목록으로 관리하고 내려받는 Windows GUI 프로그램입니다. URL을 직접 입력하거나 Excel 목록을 불러와 항목별 저장 폴더와 파일명을 지정할 수 있어, 반복적인 다운로드와 파일 정리 작업에 활용합니다.
-
-[소스 코드와 사용법](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)
-
-<details>
-<summary><strong>구현과 주요 기능</strong></summary>
-
-기존 오픈소스 GUI를 바탕으로 Excel 일괄 처리, 목록 편집과 입력 검증, 진행률·속도·남은 시간 표시, 성공·실패 통계와 실행 로그 기능을 확장했습니다. 다운로드에는 yt-dlp, 영상·음성 병합에는 FFmpeg를 사용합니다.
-
-</details>
-
-## 경력·사업·교육
+<summary><strong>전체 경력·국비지원 교육·기술·연구 기록</strong></summary>
 
 보안·금융 IT 현장에서 시스템의 안정성과 운영 요구를 익혔고, 직접 사업을 운영하며 재고·매입·지출·근태·급여 관리를 시스템화했습니다. 지금은 그 경험을 고객의 업무와 비용을 이해하는 B2B 제품 개발에 연결하고 있습니다.
 
@@ -487,11 +551,16 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 
 </details>
 
+</details>
+
 ## 포크한 도구 모음
 
 필요할 때 찾아 쓰기 위해 보관한 외부 프로젝트 **59개**를 용도별로 모았습니다. 분류를 펼치면 한국어 설명과 내 포크 저장소 링크를 볼 수 있습니다. 프로젝트의 저작권과 기여는 각 원저작자에게 있으며, 설치·지원 환경·이용 조건은 해당 저장소에서 확인할 수 있습니다.
 
 목록 기준: **2026.10.15** · 분류 안에서 도구를 찾으려면 먼저 펼친 뒤 브라우저의 페이지 검색을 사용하세요.
+
+<details>
+<summary><strong>용도별 도구 목록 펼치기 · 59개 / 11개 분류</strong></summary>
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 5개</summary>
@@ -659,5 +728,7 @@ LinkedIn에는 실무 문제 해결 과정을 운영·보안·비용·사용자 
 | [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation) | Odoo 사용·개발 문서의 원본 소스 |
 | [cs-network-http](https://github.com/YoungsikMoon/cs-network-http) | 제로초의 HTTP·네트워크 CS 강의 교안 |
 | [webgcode](https://github.com/YoungsikMoon/webgcode) | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
+
+</details>
 
 </details>
