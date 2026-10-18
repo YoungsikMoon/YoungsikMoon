@@ -59,12 +59,12 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **74개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **76개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.15**
+목록 기준: **2026.10.19**
 
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 5개</summary>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 7개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -73,6 +73,8 @@
 | [orca-orchestration-dev](https://github.com/YoungsikMoon/orca-orchestration-dev)<br><sub>포크</sub> | 감독형 멀티 에이전트로 웹·앱 기능 개발을 조율하는 Claude 스킬 |
 | [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything)<br><sub>포크</sub> | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
 | [akb](https://github.com/YoungsikMoon/akb)<br><sub>포크</sub> | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
+| [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
+| [bbarit-terminal-opensource](https://github.com/YoungsikMoon/bbarit-terminal-opensource)<br><sub>포크</sub> | 터미널·AI CLI·편집기·브라우저·에이전트 작업을 한곳에서 관리하는 데스크톱 AI 개발 환경 |
 
 </details>
 
