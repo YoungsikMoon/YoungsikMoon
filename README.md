@@ -59,9 +59,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **76개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **77개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.19**
+목록 기준: **2026.10.20**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 7개</summary>
@@ -248,5 +248,14 @@
 | --- | --- |
 | [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining)<br><sub>연구 노트</sub> | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
 | [Alpha911](https://github.com/YoungsikMoon/01.-alpha911)<br><sub>팀 연구</sub> | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
+
+</details>
+
+<details>
+<summary><strong>취업·이직·지원서 작성</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [ai-job-search](https://github.com/YoungsikMoon/ai-job-search)<br><sub>포크</sub> | 채용공고를 평가하고 맞춤 이력서·자기소개서와 면접 준비 자료를 만드는 Claude Code 기반 구직 도구 |
 
 </details>
