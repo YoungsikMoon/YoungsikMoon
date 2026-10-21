@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **82개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **83개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.21**
+목록 기준: **2026.10.22**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 8개</summary>
@@ -94,7 +94,7 @@
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 5개</summary>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 6개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -103,6 +103,7 @@
 | [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill)<br><sub>포크</sub> | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
 | [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
 | [rea](https://github.com/YoungsikMoon/rea)<br><sub>포크</sub> | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
+| [PentAGI](https://github.com/YoungsikMoon/pentagi)<br><sub>포크</sub> | AI 에이전트가 보안 도구로 침투 테스트를 계획·수행하고 결과를 보고하는 자가 호스팅 플랫폼 |
 
 </details>
 
