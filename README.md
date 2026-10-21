@@ -60,12 +60,12 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **77개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **82개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.20**
+목록 기준: **2026.10.21**
 
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 7개</summary>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 8개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -76,6 +76,7 @@
 | [akb](https://github.com/YoungsikMoon/akb)<br><sub>포크</sub> | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
 | [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
 | [bbarit-terminal-opensource](https://github.com/YoungsikMoon/bbarit-terminal-opensource)<br><sub>포크</sub> | 터미널·AI CLI·편집기·브라우저·에이전트 작업을 한곳에서 관리하는 데스크톱 AI 개발 환경 |
+| [paperclip](https://github.com/YoungsikMoon/paperclip)<br><sub>포크</sub> | AI 에이전트 팀의 업무·역할·승인·예산을 통합 관리하는 플랫폼 |
 
 </details>
 
@@ -148,7 +149,7 @@
 </details>
 
 <details>
-<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 8개</summary>
+<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 9개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -160,6 +161,7 @@
 | [zzabis](https://github.com/YoungsikMoon/zzabis)<br><sub>포크</sub> | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
 | [kekedubing](https://github.com/YoungsikMoon/kekedubing)<br><sub>포크</sub> | 영상의 자동 번역과 음성 더빙을 위한 도구 |
 | [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
+| [VoiceStudio](https://github.com/YoungsikMoon/VoiceStudio)<br><sub>포크</sub> | 음성 복제·설계, 영상 더빙, 받아쓰기와 오디오북 제작을 지원하는 앱 |
 
 </details>
 
@@ -234,11 +236,12 @@
 </details>
 
 <details>
-<summary><strong>금융·데이터 분석</strong> · 1개</summary>
+<summary><strong>금융·데이터 분석</strong> · 2개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [InBest](https://github.com/YoungsikMoon/05.-InBest)<br><sub>팀 연구</sub> | 주가·뉴스 분석 팀 프로젝트. 뉴스 수집·분석, LLM 실험과 Streamlit 화면 담당 |
+| [Vibe-Trading](https://github.com/YoungsikMoon/Vibe-Trading)<br><sub>포크</sub> | 자연어로 시장 조사·전략 생성·백테스트·거래 분석을 수행하는 AI 연구 도구 |
 
 </details>
 
@@ -260,3 +263,22 @@
 | [ai-job-search](https://github.com/YoungsikMoon/ai-job-search)<br><sub>포크</sub> | 채용공고를 평가하고 맞춤 이력서·자기소개서와 면접 준비 자료를 만드는 Claude Code 기반 구직 도구 |
 
 </details>
+
+<details>
+<summary><strong>지도·공간 데이터 시각화</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [gods-eye-view](https://github.com/YoungsikMoon/gods-eye-view)<br><sub>포크</sub> | 항공기·선박·위성·지진 등 공개 데이터를 3D 지구본에서 탐색하는 도구 |
+
+</details>
+
+<details>
+<summary><strong>교육·학습 콘텐츠 제작</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [OpenMAIC](https://github.com/YoungsikMoon/OpenMAIC)<br><sub>포크</sub> | 주제나 문서로 AI 교사·학생, 슬라이드·퀴즈·시뮬레이션을 생성하는 플랫폼 |
+
+</details>
+
