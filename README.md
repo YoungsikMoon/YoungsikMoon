@@ -60,12 +60,12 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **83개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **84개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
 목록 기준: **2026.10.22**
 
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 8개</summary>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 9개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -77,6 +77,7 @@
 | [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
 | [bbarit-terminal-opensource](https://github.com/YoungsikMoon/bbarit-terminal-opensource)<br><sub>포크</sub> | 터미널·AI CLI·편집기·브라우저·에이전트 작업을 한곳에서 관리하는 데스크톱 AI 개발 환경 |
 | [paperclip](https://github.com/YoungsikMoon/paperclip)<br><sub>포크</sub> | AI 에이전트 팀의 업무·역할·승인·예산을 통합 관리하는 플랫폼 |
+| [Stagehand](https://github.com/YoungsikMoon/stagehand)<br><sub>포크</sub> | 자연어로 웹페이지를 조작하고 구조화된 데이터를 추출하는 브라우저 자동화 SDK |
 
 </details>
 
