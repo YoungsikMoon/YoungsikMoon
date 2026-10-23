@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **84개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **85개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.22**
+목록 기준: **2026.10.23**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 9개</summary>
@@ -109,10 +109,11 @@
 </details>
 
 <details>
-<summary><strong>UI·UX·디자인·다이어그램</strong> · 4개</summary>
+<summary><strong>UI·UX·디자인·다이어그램</strong> · 5개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
+| [taste-skill](https://github.com/YoungsikMoon/taste-skill)<br><sub>포크</sub> | AI가 만든 화면의 획일적 구성을 줄이고 디자인 방향·이미지 선택·브라우저 검증을 돕는 스킬 |
 | [impeccable](https://github.com/YoungsikMoon/impeccable)<br><sub>포크</sub> | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
 | [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
 | [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
