@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **86개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **88개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.24**
+목록 기준: **2026.10.27**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 10개</summary>
@@ -123,7 +123,7 @@
 </details>
 
 <details>
-<summary><strong>문서·한글·PDF·OCR</strong> · 9개</summary>
+<summary><strong>문서·한글·PDF·OCR</strong> · 10개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -131,6 +131,7 @@
 | [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)<br><sub>개인 구현</sub> | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
 | [kordoc](https://github.com/YoungsikMoon/kordoc)<br><sub>포크</sub> | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
 | [rhwp](https://github.com/YoungsikMoon/rhwp)<br><sub>포크</sub> | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
+| [HOP](https://github.com/YoungsikMoon/hop)<br><sub>포크</sub> | HWP·HWPX 문서 열기·편집과 PDF 내보내기·인쇄를 지원하는 데스크톱 앱 |
 | [markitdown](https://github.com/YoungsikMoon/markitdown)<br><sub>포크</sub> | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
 | [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf)<br><sub>포크</sub> | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
 | [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector)<br><sub>포크</sub> | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
@@ -153,7 +154,7 @@
 </details>
 
 <details>
-<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 9개</summary>
+<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 10개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -166,6 +167,7 @@
 | [kekedubing](https://github.com/YoungsikMoon/kekedubing)<br><sub>포크</sub> | 영상의 자동 번역과 음성 더빙을 위한 도구 |
 | [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
 | [VoiceStudio](https://github.com/YoungsikMoon/VoiceStudio)<br><sub>포크</sub> | 음성 복제·설계, 영상 더빙, 받아쓰기와 오디오북 제작을 지원하는 앱 |
+| [HyperFrames](https://github.com/YoungsikMoon/hyperframes)<br><sub>포크</sub> | HTML·CSS·애니메이션을 MP4 영상으로 만드는 렌더링 프레임워크와 AI 에이전트 스킬 |
 
 </details>
 
