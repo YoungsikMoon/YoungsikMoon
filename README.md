@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **88개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **92개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.27**
+목록 기준: **2026.10.28**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 10개</summary>
@@ -96,7 +96,7 @@
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 6개</summary>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 9개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -106,6 +106,9 @@
 | [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
 | [rea](https://github.com/YoungsikMoon/rea)<br><sub>포크</sub> | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
 | [PentAGI](https://github.com/YoungsikMoon/pentagi)<br><sub>포크</sub> | AI 에이전트가 보안 도구로 침투 테스트를 계획·수행하고 결과를 보고하는 자가 호스팅 플랫폼 |
+| [agent-formal-verify](https://github.com/YoungsikMoon/agent-formal-verify)<br><sub>포크</sub> | TLA+·Lean 4·Kani로 동시성·상태 전이·Rust 코드의 오류를 검증하는 AI 코딩 스킬 |
+| [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
+| [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
 
 </details>
 
@@ -248,6 +251,15 @@
 | --- | --- |
 | [InBest](https://github.com/YoungsikMoon/05.-InBest)<br><sub>팀 연구</sub> | 주가·뉴스 분석 팀 프로젝트. 뉴스 수집·분석, LLM 실험과 Streamlit 화면 담당 |
 | [Vibe-Trading](https://github.com/YoungsikMoon/Vibe-Trading)<br><sub>포크</sub> | 자연어로 시장 조사·전략 생성·백테스트·거래 분석을 수행하는 AI 연구 도구 |
+
+</details>
+
+<details>
+<summary><strong>AI 연구·논문·벤치마크</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [paperswithcode](https://github.com/YoungsikMoon/paperswithcode)<br><sub>포크</sub> | 논문을 구현 코드·모델·데이터셋·벤치마크와 연결하는 Papers with Code 웹서비스 |
 
 </details>
 
