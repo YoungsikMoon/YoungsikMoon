@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **92개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **94개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.28**
+목록 기준: **2026.10.29**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 10개</summary>
@@ -113,10 +113,11 @@
 </details>
 
 <details>
-<summary><strong>UI·UX·디자인·다이어그램</strong> · 5개</summary>
+<summary><strong>UI·UX·디자인·다이어그램</strong> · 6개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
+| [anatomy](https://github.com/YoungsikMoon/anatomy)<br><sub>포크</sub> | 기계·시스템의 작동 원리를 인터랙티브 SVG·WebGL·3D 그림으로 설명하는 AI 에이전트 스킬 |
 | [taste-skill](https://github.com/YoungsikMoon/taste-skill)<br><sub>포크</sub> | AI가 만든 화면의 획일적 구성을 줄이고 디자인 방향·이미지 선택·브라우저 검증을 돕는 스킬 |
 | [impeccable](https://github.com/YoungsikMoon/impeccable)<br><sub>포크</sub> | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
 | [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
@@ -260,6 +261,15 @@
 | 도구·자료 | 용도 |
 | --- | --- |
 | [paperswithcode](https://github.com/YoungsikMoon/paperswithcode)<br><sub>포크</sub> | 논문을 구현 코드·모델·데이터셋·벤치마크와 연결하는 Papers with Code 웹서비스 |
+
+</details>
+
+<details>
+<summary><strong>AI 코딩 동향·뉴스</strong> · 1개</summary>
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [vibe-coding-news](https://github.com/YoungsikMoon/vibe-coding-news)<br><sub>포크</sub> | AI 코딩 도구의 최신 소식·릴리스를 출처와 함께 정리하고 SNS 글 초안을 만드는 에이전트 스킬 |
 
 </details>
 
