@@ -60,15 +60,16 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **94개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **95개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.10.29**
+목록 기준: **2026.10.31**
 
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 10개</summary>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 11개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
+| [oh-my-hermes](https://github.com/YoungsikMoon/oh-my-hermes)<br><sub>포크</sub> | Hermes Agent의 모델·스킬 선택, 병렬 작업, 결과 검증과 프로젝트 기억을 관리하는 도구 |
 | [harness2](https://github.com/YoungsikMoon/harness2)<br><sub>포크</sub> | 실행 결과로 프롬프트·도구·메모리·스킬 구성을 반복 개선하는 AI 에이전트 연구 프레임워크 |
 | [herdr-web-ui](https://github.com/YoungsikMoon/herdr-web-ui)<br><sub>포크</sub> | 터미널의 Claude Code 에이전트를 웹·모바일에서 관리하는 herdr 플러그인 |
 | [skills](https://github.com/YoungsikMoon/skills)<br><sub>포크</sub> | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
