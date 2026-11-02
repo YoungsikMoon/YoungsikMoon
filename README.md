@@ -60,9 +60,9 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **97개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **99개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.11.01**
+목록 기준: **2026.11.02**
 
 <details>
 <summary><strong>AI 에이전트 관리·스킬·협업</strong> · 12개</summary>
@@ -85,7 +85,7 @@
 </details>
 
 <details>
-<summary><strong>코드 검색·구조 분석·문서화</strong> · 5개</summary>
+<summary><strong>코드 검색·구조 분석·문서화</strong> · 6개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -94,6 +94,7 @@
 | [GitNexus](https://github.com/YoungsikMoon/GitNexus)<br><sub>포크</sub> | 브라우저에서 저장소·ZIP을 지식 그래프로 만들고 Graph RAG로 코드를 탐색하는 도구 |
 | [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/YoungsikMoon/PocketFlow-Tutorial-Codebase-Knowledge)<br><sub>포크</sub> | 코드베이스를 분석해 구조와 동작을 설명하는 튜토리얼을 생성하는 도구 |
 | [code_to_tutorial](https://github.com/YoungsikMoon/code_to_tutorial)<br><sub>포크</sub> | 소스 코드를 이해하기 쉬운 튜토리얼로 정리하는 도구 |
+| [graphify](https://github.com/YoungsikMoon/graphify)<br><sub>포크</sub> | 코드·문서·SQL 스키마·설정·PDF를 검색 가능한 지식 그래프로 정리하는 AI 코딩 에이전트 스킬 |
 
 </details>
 
@@ -115,7 +116,7 @@
 </details>
 
 <details>
-<summary><strong>UI·UX·디자인·다이어그램</strong> · 6개</summary>
+<summary><strong>UI·UX·디자인·다이어그램</strong> · 7개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -125,6 +126,7 @@
 | [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
 | [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
 | [vive-md](https://github.com/YoungsikMoon/vive-md)<br><sub>포크</sub> | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
+| [hallmark](https://github.com/YoungsikMoon/hallmark)<br><sub>포크</sub> | 테마 선택·화면 설계·브라우저 점검으로 AI가 만든 웹페이지의 획일적인 디자인을 줄이는 에이전트 스킬 |
 
 </details>
 
