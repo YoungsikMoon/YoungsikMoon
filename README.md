@@ -60,12 +60,12 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **99개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **103개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
-목록 기준: **2026.11.02**
+목록 기준: **2026.11.03**
 
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 12개</summary>
+<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 13개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -81,6 +81,7 @@
 | [paperclip](https://github.com/YoungsikMoon/paperclip)<br><sub>포크</sub> | AI 에이전트 팀의 업무·역할·승인·예산을 통합 관리하는 플랫폼 |
 | [Stagehand](https://github.com/YoungsikMoon/stagehand)<br><sub>포크</sub> | 자연어로 웹페이지를 조작하고 구조화된 데이터를 추출하는 브라우저 자동화 SDK |
 | [agent-desktop](https://github.com/YoungsikMoon/agent-desktop)<br><sub>포크</sub> | 운영체제의 접근성 트리로 화면 요소를 읽고 AI 에이전트가 데스크톱 앱을 조작하도록 연결하는 CLI·라이브러리 |
+| [thinkrail](https://github.com/YoungsikMoon/thinkrail)<br><sub>포크</sub> | pi 코딩 에이전트와 격리 작업공간·명세·편집기·터미널을 통합한 AI 개발 환경 |
 
 </details>
 
@@ -99,7 +100,7 @@
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 9개</summary>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 10개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -112,6 +113,7 @@
 | [agent-formal-verify](https://github.com/YoungsikMoon/agent-formal-verify)<br><sub>포크</sub> | TLA+·Lean 4·Kani로 동시성·상태 전이·Rust 코드의 오류를 검증하는 AI 코딩 스킬 |
 | [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
 | [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
+| [AiSOC](https://github.com/YoungsikMoon/AiSOC)<br><sub>포크</sub> | 보안 경보를 통합하고 AI로 사고 조사·위협 분석·대응 승인과 이력을 관리하는 자가 호스팅 플랫폼 |
 
 </details>
 
@@ -162,7 +164,7 @@
 </details>
 
 <details>
-<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 10개</summary>
+<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 12개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -176,6 +178,8 @@
 | [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
 | [VoiceStudio](https://github.com/YoungsikMoon/VoiceStudio)<br><sub>포크</sub> | 음성 복제·설계, 영상 더빙, 받아쓰기와 오디오북 제작을 지원하는 앱 |
 | [HyperFrames](https://github.com/YoungsikMoon/hyperframes)<br><sub>포크</sub> | HTML·CSS·애니메이션을 MP4 영상으로 만드는 렌더링 프레임워크와 AI 에이전트 스킬 |
+| [hex](https://github.com/YoungsikMoon/hex)<br><sub>포크</sub> | Windows·macOS·Linux에서 음성을 로컬로 받아쓰는 데스크톱 도구 |
+| [hypit](https://github.com/YoungsikMoon/hypit)<br><sub>포크</sub> | AI 에이전트로 영상·자막·효과를 구성하고 기존 영상이나 템플릿에서 여러 변형을 제작하는 도구 |
 
 </details>
 
