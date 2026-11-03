@@ -19,7 +19,7 @@
 | Data & Messaging | PostgreSQL, MS SQL Server, Valkey / Redis, MQTT, InfluxDB |
 | Infrastructure | Linux, AWS, Oracle Cloud Infrastructure, Docker, GitHub Actions |
 | Desktop & Automation | PySide6, tkinter, Selenium, n8n |
-| AI 프로젝트 경험 | LLM, NLP, 객체 탐지, STT / TTS, PyTorch |
+| AI 프로젝트 경험 | ML, DL, LLM, RAG, NLP, 객체 탐지, STT / TTS, PyTorch |
 
 ## 경험과 기록
 
