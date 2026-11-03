@@ -60,7 +60,7 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **120개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **122개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
@@ -146,7 +146,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
-<summary><strong>UI 디자인·다이어그램</strong> · 6개</summary>
+<summary><strong>UI 디자인·다이어그램</strong> · 8개</summary>
 
 화면의 디자인·접근성을 다듬거나 구조와 작동 원리를 시각화할 때.
 
@@ -158,6 +158,8 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
 | [anatomy](https://github.com/YoungsikMoon/anatomy)<br><sub>포크</sub> | 기계·시스템의 작동 원리를 인터랙티브 SVG·WebGL·3D 그림으로 설명하는 AI 에이전트 스킬 |
 | [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
+| [emilkowalski-skills](https://github.com/YoungsikMoon/emilkowalski-skills)<br><sub>포크</sub> | UI 애니메이션의 곡선·속도·성능과 인터랙션을 설계·검토하는 에이전트 스킬 모음 |
+| [jakubkrehel-skills](https://github.com/YoungsikMoon/jakubkrehel-skills)<br><sub>포크</sub> | 화면의 타이포그래피·색상·레이아웃·접근성·문구를 점검·개선하는 에이전트 스킬 모음 |
 
 </details>
 
