@@ -60,7 +60,7 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **103개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+도구와 연구·학습 자료 **120개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
 
 목록 기준: **2026.11.03**
 
@@ -100,7 +100,7 @@
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 10개</summary>
+<summary><strong>코드 품질·보안 점검·역공학</strong> · 27개</summary>
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -114,6 +114,23 @@
 | [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
 | [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
 | [AiSOC](https://github.com/YoungsikMoon/AiSOC)<br><sub>포크</sub> | 보안 경보를 통합하고 AI로 사고 조사·위협 분석·대응 승인과 이력을 관리하는 자가 호스팅 플랫폼 |
+| [ghidra](https://github.com/YoungsikMoon/ghidra)<br><sub>포크</sub> | 실행 파일을 디스어셈블·디컴파일하고 제어 흐름을 분석하는 역공학 프레임워크 |
+| [GhidraMCP](https://github.com/YoungsikMoon/GhidraMCP)<br><sub>포크</sub> | Ghidra의 디컴파일·함수 탐색·이름 변경 기능을 AI 에이전트에 연결하는 MCP 서버·플러그인 |
+| [ida-pro-mcp](https://github.com/YoungsikMoon/ida-pro-mcp)<br><sub>포크</sub> | IDA Pro의 바이너리 분석 기능을 AI 코딩 에이전트에 연결하는 MCP 도구 |
+| [jadx](https://github.com/YoungsikMoon/jadx)<br><sub>포크</sub> | Android APK·DEX를 Java 코드로 디컴파일하고 리소스·참조를 탐색하는 CLI·GUI |
+| [Apktool](https://github.com/YoungsikMoon/Apktool)<br><sub>포크</sub> | Android APK의 리소스·smali를 분석하고 수정한 앱을 다시 빌드하는 도구 |
+| [frida](https://github.com/YoungsikMoon/frida)<br><sub>포크</sub> | 실행 중인 프로그램에 스크립트를 연결해 함수 호출과 동작을 관찰·수정하는 동적 계측 도구 |
+| [ILSpy](https://github.com/YoungsikMoon/ILSpy)<br><sub>포크</sub> | .NET 어셈블리를 C# 코드로 디컴파일하고 형식·메서드·참조를 탐색하는 도구 |
+| [radare2](https://github.com/YoungsikMoon/radare2)<br><sub>포크</sub> | 바이너리의 디스어셈블·디버깅·메모리 분석을 자동화하는 CLI 역공학 프레임워크 |
+| [x64dbg](https://github.com/YoungsikMoon/x64dbg)<br><sub>포크</sub> | Windows 32·64비트 실행 파일의 명령어·메모리·실행 흐름을 분석하는 디버거 |
+| [ImHex](https://github.com/YoungsikMoon/ImHex)<br><sub>포크</sub> | 바이너리를 16진수로 편집하고 패턴 언어로 파일 구조를 해석·시각화하는 도구 |
+| [angr](https://github.com/YoungsikMoon/angr)<br><sub>포크</sub> | 심볼릭 실행·제어 흐름·데이터 의존성으로 바이너리 동작을 분석하는 Python 프레임워크 |
+| [mitmproxy](https://github.com/YoungsikMoon/mitmproxy)<br><sub>포크</sub> | HTTP·HTTPS·WebSocket 통신을 가로채 요청·응답을 확인하고 수정하는 프록시 |
+| [dnSpy](https://github.com/YoungsikMoon/dnSpy)<br><sub>포크</sub> | .NET·Unity 어셈블리를 디컴파일·편집·디버깅하는 dnSpy의 커뮤니티 후속 프로젝트 |
+| [rizin](https://github.com/YoungsikMoon/rizin)<br><sub>포크</sub> | 바이너리·메모리·파일 구조를 분석하고 디스어셈블·디버깅하는 CLI 역공학 프레임워크 |
+| [raddebugger](https://github.com/YoungsikMoon/raddebugger)<br><sub>포크</sub> | Windows·Linux의 네이티브 x64 프로그램을 분석하는 다중 프로세스 GUI 디버거 |
+| [awesome-ai-reverse-engineering](https://github.com/YoungsikMoon/awesome-ai-reverse-engineering)<br><sub>포크</sub> | AI 에이전트용 역공학 MCP·스킬·모바일 분석 도구와 사례를 정리한 자료 목록 |
+| [awesome-reverse-engineering](https://github.com/YoungsikMoon/awesome-reverse-engineering)<br><sub>포크</sub> | 바이너리·앱·펌웨어·파일 형식·프로토콜 분석 도구와 학습 자료를 용도별로 정리한 목록 |
 
 </details>
 
