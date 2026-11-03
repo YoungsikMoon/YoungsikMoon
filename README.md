@@ -60,115 +60,140 @@
 
 ## 도구 모음
 
-도구와 연구·학습 자료 **120개**를 용도별로 모았습니다. 항목 아래에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다. 사용법과 이용 조건은 각 저장소에서 확인할 수 있습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **120개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+
+[기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
 목록 기준: **2026.11.03**
 
+### 기획과 개발
+
 <details>
-<summary><strong>AI 에이전트 관리·스킬·협업</strong> · 13개</summary>
+<summary><strong>제품 기획·글쓰기</strong> · 4개</summary>
+
+아이디어를 기능·요구사항으로 구체화하거나 설명 문장을 다듬을 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [BuildBrief](https://github.com/YoungsikMoon/buildbrief) · [사용하기](https://buildbrief.moon0sik.cloud/)<br><sub>개인 구현</sub> | 아이디어를 기획 초안과 AI 전달문으로 정리하는 상용화 전 프로토타입 |
+| [pm-skills](https://github.com/YoungsikMoon/pm-skills)<br><sub>포크</sub> | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
+| [im-not-ai](https://github.com/YoungsikMoon/im-not-ai)<br><sub>포크</sub> | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
+| [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean)<br><sub>포크</sub> | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
+
+</details>
+
+<details>
+<summary><strong>AI 개발 환경·팀 운영</strong> · 7개</summary>
+
+여러 AI 코딩 에이전트의 작업·역할·예산과 개발 환경을 관리할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [oh-my-hermes](https://github.com/YoungsikMoon/oh-my-hermes)<br><sub>포크</sub> | Hermes Agent의 모델·스킬 선택, 병렬 작업, 결과 검증과 프로젝트 기억을 관리하는 도구 |
 | [harness2](https://github.com/YoungsikMoon/harness2)<br><sub>포크</sub> | 실행 결과로 프롬프트·도구·메모리·스킬 구성을 반복 개선하는 AI 에이전트 연구 프레임워크 |
 | [herdr-web-ui](https://github.com/YoungsikMoon/herdr-web-ui)<br><sub>포크</sub> | 터미널의 Claude Code 에이전트를 웹·모바일에서 관리하는 herdr 플러그인 |
-| [skills](https://github.com/YoungsikMoon/skills)<br><sub>포크</sub> | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
 | [orca-orchestration-dev](https://github.com/YoungsikMoon/orca-orchestration-dev)<br><sub>포크</sub> | 감독형 멀티 에이전트로 웹·앱 기능 개발을 조율하는 Claude 스킬 |
-| [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything)<br><sub>포크</sub> | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
-| [akb](https://github.com/YoungsikMoon/akb)<br><sub>포크</sub> | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
-| [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
 | [bbarit-terminal-opensource](https://github.com/YoungsikMoon/bbarit-terminal-opensource)<br><sub>포크</sub> | 터미널·AI CLI·편집기·브라우저·에이전트 작업을 한곳에서 관리하는 데스크톱 AI 개발 환경 |
 | [paperclip](https://github.com/YoungsikMoon/paperclip)<br><sub>포크</sub> | AI 에이전트 팀의 업무·역할·승인·예산을 통합 관리하는 플랫폼 |
-| [Stagehand](https://github.com/YoungsikMoon/stagehand)<br><sub>포크</sub> | 자연어로 웹페이지를 조작하고 구조화된 데이터를 추출하는 브라우저 자동화 SDK |
-| [agent-desktop](https://github.com/YoungsikMoon/agent-desktop)<br><sub>포크</sub> | 운영체제의 접근성 트리로 화면 요소를 읽고 AI 에이전트가 데스크톱 앱을 조작하도록 연결하는 CLI·라이브러리 |
 | [thinkrail](https://github.com/YoungsikMoon/thinkrail)<br><sub>포크</sub> | pi 코딩 에이전트와 격리 작업공간·명세·편집기·터미널을 통합한 AI 개발 환경 |
 
 </details>
 
 <details>
-<summary><strong>코드 검색·구조 분석·문서화</strong> · 6개</summary>
+<summary><strong>코딩 스킬·활용 가이드</strong> · 6개</summary>
+
+AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [skills](https://github.com/YoungsikMoon/skills)<br><sub>포크</sub> | npx skills로 AI 에이전트 스킬을 설치하고 관리하는 도구 |
+| [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
+| [vive-md](https://github.com/YoungsikMoon/vive-md)<br><sub>포크</sub> | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
+| [codex-101](https://github.com/YoungsikMoon/codex-101)<br><sub>포크</sub> | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
+| [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips)<br><sub>포크</sub> | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
+| [vibe-coding-news](https://github.com/YoungsikMoon/vibe-coding-news)<br><sub>포크</sub> | AI 코딩 도구의 최신 소식·릴리스를 출처와 함께 정리하고 SNS 글 초안을 만드는 에이전트 스킬 |
+
+</details>
+
+<details>
+<summary><strong>브라우저·데스크톱 자동화</strong> · 3개</summary>
+
+웹페이지와 데스크톱 프로그램을 에이전트나 CLI로 조작할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything)<br><sub>포크</sub> | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
+| [Stagehand](https://github.com/YoungsikMoon/stagehand)<br><sub>포크</sub> | 자연어로 웹페이지를 조작하고 구조화된 데이터를 추출하는 브라우저 자동화 SDK |
+| [agent-desktop](https://github.com/YoungsikMoon/agent-desktop)<br><sub>포크</sub> | 운영체제의 접근성 트리로 화면 요소를 읽고 AI 에이전트가 데스크톱 앱을 조작하도록 연결하는 CLI·라이브러리 |
+
+</details>
+
+<details>
+<summary><strong>코드·문서 검색·구조 이해</strong> · 7개</summary>
+
+필요한 코드와 문서를 찾고, 시스템 구조·변경 영향을 파악할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [semble](https://github.com/YoungsikMoon/semble)<br><sub>포크</sub> | 자연어로 필요한 코드만 찾아 에이전트의 읽기 범위와 토큰 사용을 줄이는 CLI·MCP |
 | [Cascade](https://github.com/YoungsikMoon/Cascade)<br><sub>포크</sub> | 화면부터 DB 컬럼까지 연결해 코드 변경 영향 범위를 추적하는 지식 그래프·MCP |
 | [GitNexus](https://github.com/YoungsikMoon/GitNexus)<br><sub>포크</sub> | 브라우저에서 저장소·ZIP을 지식 그래프로 만들고 Graph RAG로 코드를 탐색하는 도구 |
+| [graphify](https://github.com/YoungsikMoon/graphify)<br><sub>포크</sub> | 코드·문서·SQL 스키마·설정·PDF를 검색 가능한 지식 그래프로 정리하는 AI 코딩 에이전트 스킬 |
+| [akb](https://github.com/YoungsikMoon/akb)<br><sub>포크</sub> | 문서·표·파일을 URI 그래프로 연결해 AI 에이전트에 제공하는 지식 저장소·MCP |
 | [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/YoungsikMoon/PocketFlow-Tutorial-Codebase-Knowledge)<br><sub>포크</sub> | 코드베이스를 분석해 구조와 동작을 설명하는 튜토리얼을 생성하는 도구 |
 | [code_to_tutorial](https://github.com/YoungsikMoon/code_to_tutorial)<br><sub>포크</sub> | 소스 코드를 이해하기 쉬운 튜토리얼로 정리하는 도구 |
-| [graphify](https://github.com/YoungsikMoon/graphify)<br><sub>포크</sub> | 코드·문서·SQL 스키마·설정·PDF를 검색 가능한 지식 그래프로 정리하는 AI 코딩 에이전트 스킬 |
 
 </details>
 
 <details>
-<summary><strong>코드 품질·보안 점검·역공학</strong> · 27개</summary>
+<summary><strong>UI 디자인·다이어그램</strong> · 6개</summary>
+
+화면의 디자인·접근성을 다듬거나 구조와 작동 원리를 시각화할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
-| [Secu Book](https://github.com/YoungsikMoon/secu-book)<br><sub>집필</sub> | 비개발자·바이브코더를 위한 웹 실무 보안 책과 무료 PDF |
-| [ponytail](https://github.com/YoungsikMoon/ponytail)<br><sub>포크</sub> | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
-| [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill)<br><sub>포크</sub> | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
-| [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
-| [rea](https://github.com/YoungsikMoon/rea)<br><sub>포크</sub> | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
-| [PentAGI](https://github.com/YoungsikMoon/pentagi)<br><sub>포크</sub> | AI 에이전트가 보안 도구로 침투 테스트를 계획·수행하고 결과를 보고하는 자가 호스팅 플랫폼 |
-| [agent-formal-verify](https://github.com/YoungsikMoon/agent-formal-verify)<br><sub>포크</sub> | TLA+·Lean 4·Kani로 동시성·상태 전이·Rust 코드의 오류를 검증하는 AI 코딩 스킬 |
-| [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
-| [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
-| [AiSOC](https://github.com/YoungsikMoon/AiSOC)<br><sub>포크</sub> | 보안 경보를 통합하고 AI로 사고 조사·위협 분석·대응 승인과 이력을 관리하는 자가 호스팅 플랫폼 |
-| [ghidra](https://github.com/YoungsikMoon/ghidra)<br><sub>포크</sub> | 실행 파일을 디스어셈블·디컴파일하고 제어 흐름을 분석하는 역공학 프레임워크 |
-| [GhidraMCP](https://github.com/YoungsikMoon/GhidraMCP)<br><sub>포크</sub> | Ghidra의 디컴파일·함수 탐색·이름 변경 기능을 AI 에이전트에 연결하는 MCP 서버·플러그인 |
-| [ida-pro-mcp](https://github.com/YoungsikMoon/ida-pro-mcp)<br><sub>포크</sub> | IDA Pro의 바이너리 분석 기능을 AI 코딩 에이전트에 연결하는 MCP 도구 |
-| [jadx](https://github.com/YoungsikMoon/jadx)<br><sub>포크</sub> | Android APK·DEX를 Java 코드로 디컴파일하고 리소스·참조를 탐색하는 CLI·GUI |
-| [Apktool](https://github.com/YoungsikMoon/Apktool)<br><sub>포크</sub> | Android APK의 리소스·smali를 분석하고 수정한 앱을 다시 빌드하는 도구 |
-| [frida](https://github.com/YoungsikMoon/frida)<br><sub>포크</sub> | 실행 중인 프로그램에 스크립트를 연결해 함수 호출과 동작을 관찰·수정하는 동적 계측 도구 |
-| [ILSpy](https://github.com/YoungsikMoon/ILSpy)<br><sub>포크</sub> | .NET 어셈블리를 C# 코드로 디컴파일하고 형식·메서드·참조를 탐색하는 도구 |
-| [radare2](https://github.com/YoungsikMoon/radare2)<br><sub>포크</sub> | 바이너리의 디스어셈블·디버깅·메모리 분석을 자동화하는 CLI 역공학 프레임워크 |
-| [x64dbg](https://github.com/YoungsikMoon/x64dbg)<br><sub>포크</sub> | Windows 32·64비트 실행 파일의 명령어·메모리·실행 흐름을 분석하는 디버거 |
-| [ImHex](https://github.com/YoungsikMoon/ImHex)<br><sub>포크</sub> | 바이너리를 16진수로 편집하고 패턴 언어로 파일 구조를 해석·시각화하는 도구 |
-| [angr](https://github.com/YoungsikMoon/angr)<br><sub>포크</sub> | 심볼릭 실행·제어 흐름·데이터 의존성으로 바이너리 동작을 분석하는 Python 프레임워크 |
-| [mitmproxy](https://github.com/YoungsikMoon/mitmproxy)<br><sub>포크</sub> | HTTP·HTTPS·WebSocket 통신을 가로채 요청·응답을 확인하고 수정하는 프록시 |
-| [dnSpy](https://github.com/YoungsikMoon/dnSpy)<br><sub>포크</sub> | .NET·Unity 어셈블리를 디컴파일·편집·디버깅하는 dnSpy의 커뮤니티 후속 프로젝트 |
-| [rizin](https://github.com/YoungsikMoon/rizin)<br><sub>포크</sub> | 바이너리·메모리·파일 구조를 분석하고 디스어셈블·디버깅하는 CLI 역공학 프레임워크 |
-| [raddebugger](https://github.com/YoungsikMoon/raddebugger)<br><sub>포크</sub> | Windows·Linux의 네이티브 x64 프로그램을 분석하는 다중 프로세스 GUI 디버거 |
-| [awesome-ai-reverse-engineering](https://github.com/YoungsikMoon/awesome-ai-reverse-engineering)<br><sub>포크</sub> | AI 에이전트용 역공학 MCP·스킬·모바일 분석 도구와 사례를 정리한 자료 목록 |
-| [awesome-reverse-engineering](https://github.com/YoungsikMoon/awesome-reverse-engineering)<br><sub>포크</sub> | 바이너리·앱·펌웨어·파일 형식·프로토콜 분석 도구와 학습 자료를 용도별로 정리한 목록 |
-
-</details>
-
-<details>
-<summary><strong>UI·UX·디자인·다이어그램</strong> · 7개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [anatomy](https://github.com/YoungsikMoon/anatomy)<br><sub>포크</sub> | 기계·시스템의 작동 원리를 인터랙티브 SVG·WebGL·3D 그림으로 설명하는 AI 에이전트 스킬 |
 | [taste-skill](https://github.com/YoungsikMoon/taste-skill)<br><sub>포크</sub> | AI가 만든 화면의 획일적 구성을 줄이고 디자인 방향·이미지 선택·브라우저 검증을 돕는 스킬 |
 | [impeccable](https://github.com/YoungsikMoon/impeccable)<br><sub>포크</sub> | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
-| [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
-| [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
-| [vive-md](https://github.com/YoungsikMoon/vive-md)<br><sub>포크</sub> | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
 | [hallmark](https://github.com/YoungsikMoon/hallmark)<br><sub>포크</sub> | 테마 선택·화면 설계·브라우저 점검으로 AI가 만든 웹페이지의 획일적인 디자인을 줄이는 에이전트 스킬 |
+| [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
+| [anatomy](https://github.com/YoungsikMoon/anatomy)<br><sub>포크</sub> | 기계·시스템의 작동 원리를 인터랙티브 SVG·WebGL·3D 그림으로 설명하는 AI 에이전트 스킬 |
+| [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
 
 </details>
 
 <details>
-<summary><strong>문서·한글·PDF·OCR</strong> · 10개</summary>
+<summary><strong>코드 품질·정형 검증</strong> · 3개</summary>
+
+코드를 검토하고 동시성·상태 전이 등 구현의 정확성을 검증할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
-| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF)<br><sub>개인 구현</sub> | Vue·Spring Boot 웹 에디터와 Playwright PDF 변환 구현 |
-| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)<br><sub>개인 구현</sub> | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
-| [kordoc](https://github.com/YoungsikMoon/kordoc)<br><sub>포크</sub> | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
-| [rhwp](https://github.com/YoungsikMoon/rhwp)<br><sub>포크</sub> | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
-| [HOP](https://github.com/YoungsikMoon/hop)<br><sub>포크</sub> | HWP·HWPX 문서 열기·편집과 PDF 내보내기·인쇄를 지원하는 데스크톱 앱 |
-| [markitdown](https://github.com/YoungsikMoon/markitdown)<br><sub>포크</sub> | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
-| [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf)<br><sub>포크</sub> | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
-| [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector)<br><sub>포크</sub> | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
-| [GLM-OCR](https://github.com/YoungsikMoon/GLM-OCR)<br><sub>포크</sub> | 문서 이미지에서 텍스트와 내용을 추출하는 GLM 기반 OCR 모델 |
-| [genoffice](https://github.com/YoungsikMoon/genoffice)<br><sub>포크</sub> | AI 에이전트를 내장한 Word·Excel·PowerPoint·PDF·Markdown 편집 앱 |
+| [ponytail](https://github.com/YoungsikMoon/ponytail)<br><sub>포크</sub> | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
+| [agent-formal-verify](https://github.com/YoungsikMoon/agent-formal-verify)<br><sub>포크</sub> | TLA+·Lean 4·Kani로 동시성·상태 전이·Rust 코드의 오류를 검증하는 AI 코딩 스킬 |
+| [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
 
 </details>
 
 <details>
-<summary><strong>로컬 LLM·추론·RAG</strong> · 5개</summary>
+<summary><strong>웹 인증·백엔드·네트워크 학습</strong> · 6개</summary>
+
+인증·서버 개발·HTTP를 예제로 살펴보거나 학습 결과를 확인할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [Spring JWT](https://github.com/YoungsikMoon/SpringJWT)<br><sub>학습</sub> | 토큰 기반 인증 흐름 학습 |
+| [Spring Security](https://github.com/YoungsikMoon/SpringSecurity)<br><sub>학습</sub> | 세션 기반 인증 흐름 학습 |
+| [nodejs-nestJS-](https://github.com/YoungsikMoon/nodejs-nestJS-)<br><sub>포크</sub> | Node.js·NestJS 교과서의 예제 소스 코드 |
+| [basic_app1](https://github.com/YoungsikMoon/basic_app1)<br><sub>포크</sub> | Spring Boot 게시판·소셜 로그인·파일 업로드 예제 |
+| [cs-network-http](https://github.com/YoungsikMoon/cs-network-http)<br><sub>포크</sub> | 제로초의 HTTP·네트워크 CS 강의 교안 |
+| [전세버스 서비스 시연](https://www.youtube.com/watch?v=BDou4zE-RDQ)<br><sub>팀 프로젝트 시연</sub> | Java 웹 개발 팀 프로젝트 |
+
+</details>
+
+<details>
+<summary><strong>로컬 LLM 실행·추론·RAG</strong> · 5개</summary>
+
+내 장비에 맞는 모델을 찾고 실행하거나 문서 검색과 생성 모델을 연결할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -180,28 +205,281 @@
 
 </details>
 
+### 보안과 역공학
+
 <details>
-<summary><strong>음성 생성·받아쓰기·영상 활용</strong> · 12개</summary>
+<summary><strong>보안 감사·침투 테스트·관제</strong> · 6개</summary>
+
+서비스의 취약점을 점검하거나 보안 경보·사고 조사와 대응을 관리할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
-| [FORS](https://github.com/YoungsikMoon/02.-FORS)<br><sub>팀 연구</sub> | 음성 인식·LLM 서비스 실험. 음성 데이터 가공과 한국어 모델 실험 참여 |
-| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)<br><sub>확장 개발</sub> | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
-| [supertonic](https://github.com/YoungsikMoon/supertonic)<br><sub>포크</sub> | 텍스트를 음성으로 합성하는 경량 음성 생성 모델 |
-| [dia-TTS](https://github.com/YoungsikMoon/dia-TTS)<br><sub>포크</sub> | 텍스트에서 대화형 음성을 생성하는 Dia 음성 합성 모델 |
-| [voicebox](https://github.com/YoungsikMoon/voicebox)<br><sub>포크</sub> | 음성 복제·받아쓰기·음성 생성을 위한 오픈소스 음성 작업 앱 |
-| [zzabis](https://github.com/YoungsikMoon/zzabis)<br><sub>포크</sub> | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
-| [kekedubing](https://github.com/YoungsikMoon/kekedubing)<br><sub>포크</sub> | 영상의 자동 번역과 음성 더빙을 위한 도구 |
-| [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
-| [VoiceStudio](https://github.com/YoungsikMoon/VoiceStudio)<br><sub>포크</sub> | 음성 복제·설계, 영상 더빙, 받아쓰기와 오디오북 제작을 지원하는 앱 |
-| [HyperFrames](https://github.com/YoungsikMoon/hyperframes)<br><sub>포크</sub> | HTML·CSS·애니메이션을 MP4 영상으로 만드는 렌더링 프레임워크와 AI 에이전트 스킬 |
-| [hex](https://github.com/YoungsikMoon/hex)<br><sub>포크</sub> | Windows·macOS·Linux에서 음성을 로컬로 받아쓰는 데스크톱 도구 |
-| [hypit](https://github.com/YoungsikMoon/hypit)<br><sub>포크</sub> | AI 에이전트로 영상·자막·효과를 구성하고 기존 영상이나 템플릿에서 여러 변형을 제작하는 도구 |
+| [Secu Book](https://github.com/YoungsikMoon/secu-book)<br><sub>집필</sub> | 비개발자·바이브코더를 위한 웹 실무 보안 책과 무료 PDF |
+| [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill)<br><sub>포크</sub> | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
+| [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
+| [PentAGI](https://github.com/YoungsikMoon/pentagi)<br><sub>포크</sub> | AI 에이전트가 보안 도구로 침투 테스트를 계획·수행하고 결과를 보고하는 자가 호스팅 플랫폼 |
+| [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
+| [AiSOC](https://github.com/YoungsikMoon/AiSOC)<br><sub>포크</sub> | 보안 경보를 통합하고 AI로 사고 조사·위협 분석·대응 승인과 이력을 관리하는 자가 호스팅 플랫폼 |
 
 </details>
 
 <details>
-<summary><strong>영상 인식·객체 추적·3D 복원</strong> · 5개</summary>
+<summary><strong>AI와 역공학 도구 연결</strong> · 3개</summary>
+
+AI 에이전트에 REA·Ghidra·IDA의 분석 기능을 연결할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [rea](https://github.com/YoungsikMoon/rea)<br><sub>포크</sub> | AI 에이전트로 앱 동작·실행 과정·바이너리를 분석하는 MCP 도구 |
+| [GhidraMCP](https://github.com/YoungsikMoon/GhidraMCP)<br><sub>포크</sub> | Ghidra의 디컴파일·함수 탐색·이름 변경 기능을 AI 에이전트에 연결하는 MCP 서버·플러그인 |
+| [ida-pro-mcp](https://github.com/YoungsikMoon/ida-pro-mcp)<br><sub>포크</sub> | IDA Pro의 바이너리 분석 기능을 AI 코딩 에이전트에 연결하는 MCP 도구 |
+
+</details>
+
+<details>
+<summary><strong>실행 파일·바이너리 분석</strong> · 8개</summary>
+
+실행 흐름·메모리·파일 구조를 조사하고 디버깅할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [ghidra](https://github.com/YoungsikMoon/ghidra)<br><sub>포크</sub> | 실행 파일을 디스어셈블·디컴파일하고 제어 흐름을 분석하는 역공학 프레임워크 |
+| [radare2](https://github.com/YoungsikMoon/radare2)<br><sub>포크</sub> | 바이너리의 디스어셈블·디버깅·메모리 분석을 자동화하는 CLI 역공학 프레임워크 |
+| [rizin](https://github.com/YoungsikMoon/rizin)<br><sub>포크</sub> | 바이너리·메모리·파일 구조를 분석하고 디스어셈블·디버깅하는 CLI 역공학 프레임워크 |
+| [angr](https://github.com/YoungsikMoon/angr)<br><sub>포크</sub> | 심볼릭 실행·제어 흐름·데이터 의존성으로 바이너리 동작을 분석하는 Python 프레임워크 |
+| [ImHex](https://github.com/YoungsikMoon/ImHex)<br><sub>포크</sub> | 바이너리를 16진수로 편집하고 패턴 언어로 파일 구조를 해석·시각화하는 도구 |
+| [frida](https://github.com/YoungsikMoon/frida)<br><sub>포크</sub> | 실행 중인 프로그램에 스크립트를 연결해 함수 호출과 동작을 관찰·수정하는 동적 계측 도구 |
+| [x64dbg](https://github.com/YoungsikMoon/x64dbg)<br><sub>포크</sub> | Windows 32·64비트 실행 파일의 명령어·메모리·실행 흐름을 분석하는 디버거 |
+| [raddebugger](https://github.com/YoungsikMoon/raddebugger)<br><sub>포크</sub> | Windows·Linux의 네이티브 x64 프로그램을 분석하는 다중 프로세스 GUI 디버거 |
+
+</details>
+
+<details>
+<summary><strong>Android APK 분석·재빌드</strong> · 2개</summary>
+
+APK·DEX의 코드와 리소스를 확인하고 수정한 앱을 다시 빌드할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [jadx](https://github.com/YoungsikMoon/jadx)<br><sub>포크</sub> | Android APK·DEX를 Java 코드로 디컴파일하고 리소스·참조를 탐색하는 CLI·GUI |
+| [Apktool](https://github.com/YoungsikMoon/Apktool)<br><sub>포크</sub> | Android APK의 리소스·smali를 분석하고 수정한 앱을 다시 빌드하는 도구 |
+
+</details>
+
+<details>
+<summary><strong>.NET 디컴파일·디버깅</strong> · 2개</summary>
+
+.NET·Unity 어셈블리의 코드를 확인하거나 실행을 추적할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [ILSpy](https://github.com/YoungsikMoon/ILSpy)<br><sub>포크</sub> | .NET 어셈블리를 C# 코드로 디컴파일하고 형식·메서드·참조를 탐색하는 도구 |
+| [dnSpy](https://github.com/YoungsikMoon/dnSpy)<br><sub>포크</sub> | .NET·Unity 어셈블리를 디컴파일·편집·디버깅하는 dnSpy의 커뮤니티 후속 프로젝트 |
+
+</details>
+
+<details>
+<summary><strong>HTTP·HTTPS 통신 분석</strong> · 1개</summary>
+
+앱과 서버 사이의 요청·응답을 관찰하고 변경해 동작을 확인할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [mitmproxy](https://github.com/YoungsikMoon/mitmproxy)<br><sub>포크</sub> | HTTP·HTTPS·WebSocket 통신을 가로채 요청·응답을 확인하고 수정하는 프록시 |
+
+</details>
+
+<details>
+<summary><strong>역공학 도구·자료 탐색</strong> · 2개</summary>
+
+분석 대상에 맞는 도구·MCP·스킬과 학습 자료를 찾아볼 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [awesome-ai-reverse-engineering](https://github.com/YoungsikMoon/awesome-ai-reverse-engineering)<br><sub>포크</sub> | AI 에이전트용 역공학 MCP·스킬·모바일 분석 도구와 사례를 정리한 자료 목록 |
+| [awesome-reverse-engineering](https://github.com/YoungsikMoon/awesome-reverse-engineering)<br><sub>포크</sub> | 바이너리·앱·펌웨어·파일 형식·프로토콜 분석 도구와 학습 자료를 용도별로 정리한 목록 |
+
+</details>
+
+### 문서와 콘텐츠
+
+<details>
+<summary><strong>문서 편집·형식 변환</strong> · 7개</summary>
+
+HWP·HWPX·Office 문서를 다루거나 웹 편집 내용을 PDF로 내보낼 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [HWPX-HWP 변환기](https://github.com/YoungsikMoon/hwpx-hwp-converter) · [다운로드](https://github.com/YoungsikMoon/hwpx-hwp-converter/releases/latest)<br><sub>개인 구현</sub> | 한컴오피스 없이 문서를 변환하고 원본·결과를 비교하는 Windows 도구 |
+| [CKEditorToPDF](https://github.com/YoungsikMoon/CKEditorToPDF)<br><sub>개인 구현</sub> | Vue·Spring Boot 웹 에디터와 Playwright PDF 변환 구현 |
+| [kordoc](https://github.com/YoungsikMoon/kordoc)<br><sub>포크</sub> | HWP·HWPX·PDF·Office를 Markdown으로 바꾸고 양식 채우기·문서 비교를 제공하는 CLI·MCP |
+| [rhwp](https://github.com/YoungsikMoon/rhwp)<br><sub>포크</sub> | Rust·WebAssembly 기반 HWP 문서 뷰어와 편집기 |
+| [HOP](https://github.com/YoungsikMoon/hop)<br><sub>포크</sub> | HWP·HWPX 문서 열기·편집과 PDF 내보내기·인쇄를 지원하는 데스크톱 앱 |
+| [markitdown](https://github.com/YoungsikMoon/markitdown)<br><sub>포크</sub> | Office 등 여러 파일 형식을 Markdown으로 변환하는 Python 도구 |
+| [genoffice](https://github.com/YoungsikMoon/genoffice)<br><sub>포크</sub> | AI 에이전트를 내장한 Word·Excel·PowerPoint·PDF·Markdown 편집 앱 |
+
+</details>
+
+<details>
+<summary><strong>PDF 구조 분석·OCR</strong> · 3개</summary>
+
+PDF의 구조·접근성을 검사하거나 문서 이미지에서 내용을 추출할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [opendataloader-pdf](https://github.com/YoungsikMoon/opendataloader-pdf)<br><sub>포크</sub> | PDF를 AI 처리용 데이터로 파싱하고 문서 접근성 자동화를 지원하는 도구 |
+| [pdf-inspector](https://github.com/YoungsikMoon/pdf-inspector)<br><sub>포크</sub> | 텍스트·스캔 PDF를 구분하고 문서를 검사·분류·추출하는 Rust 라이브러리 |
+| [GLM-OCR](https://github.com/YoungsikMoon/GLM-OCR)<br><sub>포크</sub> | 문서 이미지에서 텍스트와 내용을 추출하는 GLM 기반 OCR 모델 |
+
+</details>
+
+<details>
+<summary><strong>음성 합성·복제·더빙</strong> · 5개</summary>
+
+텍스트를 음성으로 만들거나 목소리·언어를 바꿔 콘텐츠를 제작할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [supertonic](https://github.com/YoungsikMoon/supertonic)<br><sub>포크</sub> | 텍스트를 음성으로 합성하는 경량 음성 생성 모델 |
+| [dia-TTS](https://github.com/YoungsikMoon/dia-TTS)<br><sub>포크</sub> | 텍스트에서 대화형 음성을 생성하는 Dia 음성 합성 모델 |
+| [voicebox](https://github.com/YoungsikMoon/voicebox)<br><sub>포크</sub> | 음성 복제·받아쓰기·음성 생성을 위한 오픈소스 음성 작업 앱 |
+| [VoiceStudio](https://github.com/YoungsikMoon/VoiceStudio)<br><sub>포크</sub> | 음성 복제·설계, 영상 더빙, 받아쓰기와 오디오북 제작을 지원하는 앱 |
+| [kekedubing](https://github.com/YoungsikMoon/kekedubing)<br><sub>포크</sub> | 영상의 자동 번역과 음성 더빙을 위한 도구 |
+
+</details>
+
+<details>
+<summary><strong>음성 인식·받아쓰기</strong> · 3개</summary>
+
+말을 텍스트로 입력하거나 음성 인식 모델과 데이터를 연구할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [hex](https://github.com/YoungsikMoon/hex)<br><sub>포크</sub> | Windows·macOS·Linux에서 음성을 로컬로 받아쓰는 데스크톱 도구 |
+| [zzabis](https://github.com/YoungsikMoon/zzabis)<br><sub>포크</sub> | Whisper 받아쓰기와 GPT 기반 문체 변환을 연결한 AI 음성 타이핑 도구 |
+| [FORS](https://github.com/YoungsikMoon/02.-FORS)<br><sub>팀 연구</sub> | 음성 인식·LLM 서비스 실험. 음성 데이터 가공과 한국어 모델 실험 참여 |
+
+</details>
+
+<details>
+<summary><strong>영상 제작·다운로드·재생</strong> · 4개</summary>
+
+영상을 생성·편집하거나 내려받아 정리하고 재생할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [HyperFrames](https://github.com/YoungsikMoon/hyperframes)<br><sub>포크</sub> | HTML·CSS·애니메이션을 MP4 영상으로 만드는 렌더링 프레임워크와 AI 에이전트 스킬 |
+| [hypit](https://github.com/YoungsikMoon/hypit)<br><sub>포크</sub> | AI 에이전트로 영상·자막·효과를 구성하고 기존 영상이나 템플릿에서 여러 변형을 제작하는 도구 |
+| [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)<br><sub>확장 개발</sub> | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
+| [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
+
+</details>
+
+### 업무와 서비스
+
+<details>
+<summary><strong>국내 서비스·공공 API 연동</strong> · 3개</summary>
+
+국내 서비스와 공개 API를 활용하거나 공공기관 상담 서비스를 살펴볼 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr)<br><sub>포크</sub> | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
+| [k-skill](https://github.com/YoungsikMoon/k-skill)<br><sub>포크</sub> | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
+| [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot)<br><sub>포크</sub> | 공공기관용 카카오톡 상담 챗봇 |
+
+</details>
+
+<details>
+<summary><strong>법령·약관·지원사업</strong> · 3개</summary>
+
+법령과 판례를 조회하고 서비스 정책 초안·지원사업 정보를 정리할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [korean-law-mcp](https://github.com/YoungsikMoon/korean-law-mcp)<br><sub>포크</sub> | 한국 법령·판례·조례·해석을 조회하는 MCP 서버·CLI |
+| [korean-privacy-terms](https://github.com/YoungsikMoon/korean-privacy-terms)<br><sub>포크</sub> | 한국 서비스용 개인정보처리방침·이용약관 초안을 생성하는 Claude Code 스킬 |
+| [sole-search](https://github.com/YoungsikMoon/sole-search)<br><sub>포크</sub> | 소상공인 지원사업을 수집하고 사업자 조건에 맞는 신청 후보를 찾는 에이전트 스킬 |
+
+</details>
+
+<details>
+<summary><strong>재고·쇼핑몰·ERP 운영</strong> · 4개</summary>
+
+판매·재고 업무를 관리하거나 Odoo의 사용·개발 방법을 확인할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [smartku](https://github.com/YoungsikMoon/smartku)<br><sub>포크</sub> | 스마트스토어·쿠팡 업무를 통합 관리하는 Tauri·Rust 데스크톱 앱 |
+| [stock_mvp](https://github.com/YoungsikMoon/stock_mvp)<br><sub>포크</sub> | 재고 관리 서비스의 MVP 코드 |
+| [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation)<br><sub>포크</sub> | Odoo 사용·개발 문서의 원본 소스 |
+| [Odoo_partner-training](https://github.com/YoungsikMoon/Odoo_partner-training)<br><sub>포크</sub> | 파트너 교육을 단계별 브랜치로 따라가는 예제 코드 |
+
+</details>
+
+<details>
+<summary><strong>교육 서비스·학습 콘텐츠</strong> · 2개</summary>
+
+온라인 교육 서비스를 구축하거나 강의·퀴즈·학습 콘텐츠를 만들 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [edu-platform](https://github.com/YoungsikMoon/edu-platform)<br><sub>포크</sub> | Next.js·Prisma·MySQL 기반 온라인 교육 서비스 프레임워크 |
+| [OpenMAIC](https://github.com/YoungsikMoon/OpenMAIC)<br><sub>포크</sub> | 주제나 문서로 AI 교사·학생, 슬라이드·퀴즈·시뮬레이션을 생성하는 플랫폼 |
+
+</details>
+
+<details>
+<summary><strong>파일 정리</strong> · 1개</summary>
+
+규칙과 미리보기를 이용해 파일을 분류하고 정리 작업을 되돌릴 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)<br><sub>개인 구현</sub> | 사용자 규칙·미리보기·작업 되돌리기를 지원하는 파일 정리 도구 |
+
+</details>
+
+<details>
+<summary><strong>취업·이직·지원서 작성</strong> · 1개</summary>
+
+채용공고를 검토하고 이력서·자기소개서·면접 준비를 진행할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [ai-job-search](https://github.com/YoungsikMoon/ai-job-search)<br><sub>포크</sub> | 채용공고를 평가하고 맞춤 이력서·자기소개서와 면접 준비 자료를 만드는 Claude Code 기반 구직 도구 |
+
+</details>
+
+<details>
+<summary><strong>제조·G-code 시뮬레이션</strong> · 1개</summary>
+
+G-code 경로를 시뮬레이션하거나 CNC 컨트롤러 연동 도구를 살펴볼 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [webgcode](https://github.com/YoungsikMoon/webgcode)<br><sub>포크</sub> | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
+
+</details>
+
+### 데이터와 연구
+
+<details>
+<summary><strong>텍스트 분석·NLP</strong> · 2개</summary>
+
+텍스트를 수집·전처리하고 표현·분류·토픽 모델링을 연구할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining)<br><sub>연구 노트</sub> | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
+| [Alpha911](https://github.com/YoungsikMoon/01.-alpha911)<br><sub>팀 연구</sub> | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
+
+</details>
+
+<details>
+<summary><strong>컴퓨터 비전·객체 추적·3D</strong> · 5개</summary>
+
+이미지·영상 모델을 실험하거나 사람·객체 추적과 3D 복원을 살펴볼 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -214,64 +492,9 @@
 </details>
 
 <details>
-<summary><strong>한국 서비스·법령·지원사업·업무 도구</strong> · 8개</summary>
+<summary><strong>금융·시장 데이터 분석</strong> · 2개</summary>
 
-| 도구·자료 | 용도 |
-| --- | --- |
-| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr)<br><sub>포크</sub> | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
-| [k-skill](https://github.com/YoungsikMoon/k-skill)<br><sub>포크</sub> | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
-| [korean-law-mcp](https://github.com/YoungsikMoon/korean-law-mcp)<br><sub>포크</sub> | 한국 법령·판례·조례·해석을 조회하는 MCP 서버·CLI |
-| [korean-privacy-terms](https://github.com/YoungsikMoon/korean-privacy-terms)<br><sub>포크</sub> | 한국 서비스용 개인정보처리방침·이용약관 초안을 생성하는 Claude Code 스킬 |
-| [sole-search](https://github.com/YoungsikMoon/sole-search)<br><sub>포크</sub> | 소상공인 지원사업을 수집하고 사업자 조건에 맞는 신청 후보를 찾는 에이전트 스킬 |
-| [smartku](https://github.com/YoungsikMoon/smartku)<br><sub>포크</sub> | 스마트스토어·쿠팡 업무를 통합 관리하는 Tauri·Rust 데스크톱 앱 |
-| [stock_mvp](https://github.com/YoungsikMoon/stock_mvp)<br><sub>포크</sub> | 재고 관리 서비스의 MVP 코드 |
-| [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot)<br><sub>포크</sub> | 공공기관용 카카오톡 상담 챗봇 |
-
-</details>
-
-<details>
-<summary><strong>제품 기획·글쓰기</strong> · 4개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [BuildBrief](https://github.com/YoungsikMoon/buildbrief) · [사용하기](https://buildbrief.moon0sik.cloud/)<br><sub>개인 구현</sub> | 아이디어를 기획 초안과 AI 전달문으로 정리하는 상용화 전 프로토타입 |
-| [pm-skills](https://github.com/YoungsikMoon/pm-skills)<br><sub>포크</sub> | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
-| [im-not-ai](https://github.com/YoungsikMoon/im-not-ai)<br><sub>포크</sub> | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
-| [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean)<br><sub>포크</sub> | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
-
-</details>
-
-<details>
-<summary><strong>개발 학습·예제·프레임워크</strong> · 12개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [Spring JWT](https://github.com/YoungsikMoon/SpringJWT)<br><sub>학습</sub> | 토큰 기반 인증 흐름 학습 |
-| [Spring Security](https://github.com/YoungsikMoon/SpringSecurity)<br><sub>학습</sub> | 세션 기반 인증 흐름 학습 |
-| [전세버스 서비스 시연](https://www.youtube.com/watch?v=BDou4zE-RDQ)<br><sub>팀 프로젝트 시연</sub> | Java 웹 개발 팀 프로젝트 |
-| [codex-101](https://github.com/YoungsikMoon/codex-101)<br><sub>포크</sub> | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
-| [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips)<br><sub>포크</sub> | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
-| [nodejs-nestJS-](https://github.com/YoungsikMoon/nodejs-nestJS-)<br><sub>포크</sub> | Node.js·NestJS 교과서의 예제 소스 코드 |
-| [basic_app1](https://github.com/YoungsikMoon/basic_app1)<br><sub>포크</sub> | Spring Boot 게시판·소셜 로그인·파일 업로드 예제 |
-| [edu-platform](https://github.com/YoungsikMoon/edu-platform)<br><sub>포크</sub> | Next.js·Prisma·MySQL 기반 온라인 교육 서비스 프레임워크 |
-| [Odoo_partner-training](https://github.com/YoungsikMoon/Odoo_partner-training)<br><sub>포크</sub> | 파트너 교육을 단계별 브랜치로 따라가는 예제 코드 |
-| [Odoo_documentation](https://github.com/YoungsikMoon/Odoo_documentation)<br><sub>포크</sub> | Odoo 사용·개발 문서의 원본 소스 |
-| [cs-network-http](https://github.com/YoungsikMoon/cs-network-http)<br><sub>포크</sub> | 제로초의 HTTP·네트워크 CS 강의 교안 |
-| [webgcode](https://github.com/YoungsikMoon/webgcode)<br><sub>포크</sub> | 브라우저용 G-code 시뮬레이터와 STM32 컨트롤러·전송 확장 프로그램 |
-
-</details>
-
-<details>
-<summary><strong>파일 정리·관리</strong> · 1개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [CleanFolder](https://github.com/YoungsikMoon/CleanFolder) · [다운로드](https://github.com/YoungsikMoon/CleanFolder/releases/latest)<br><sub>개인 구현</sub> | 사용자 규칙·미리보기·작업 되돌리기를 지원하는 파일 정리 도구 |
-
-</details>
-
-<details>
-<summary><strong>금융·데이터 분석</strong> · 2개</summary>
+주가·뉴스를 분석하거나 투자 전략을 조사하고 백테스트할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -281,7 +504,9 @@
 </details>
 
 <details>
-<summary><strong>AI 시뮬레이션·시나리오 분석</strong> · 1개</summary>
+<summary><strong>가상 시나리오·여론 실험</strong> · 1개</summary>
+
+문서·뉴스로 다중 에이전트 환경을 만들어 시나리오를 비교할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -290,7 +515,9 @@
 </details>
 
 <details>
-<summary><strong>AI 연구·논문·벤치마크</strong> · 1개</summary>
+<summary><strong>AI 논문·코드·벤치마크</strong> · 1개</summary>
+
+연구 논문의 구현 코드·모델·데이터셋·성능 비교 자료를 찾아볼 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -299,48 +526,12 @@
 </details>
 
 <details>
-<summary><strong>AI 코딩 동향·뉴스</strong> · 1개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [vibe-coding-news](https://github.com/YoungsikMoon/vibe-coding-news)<br><sub>포크</sub> | AI 코딩 도구의 최신 소식·릴리스를 출처와 함께 정리하고 SNS 글 초안을 만드는 에이전트 스킬 |
-
-</details>
-
-<details>
-<summary><strong>텍스트 분석·NLP</strong> · 2개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [Text Mining](https://github.com/YoungsikMoon/00.-Text-Mining)<br><sub>연구 노트</sub> | 텍스트 전처리·표현·분류 방법을 탐구한 연구 노트 |
-| [Alpha911](https://github.com/YoungsikMoon/01.-alpha911)<br><sub>팀 연구</sub> | 한·영 웹툰 댓글 수집·전처리·토픽 모델링 |
-
-</details>
-
-<details>
-<summary><strong>취업·이직·지원서 작성</strong> · 1개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [ai-job-search](https://github.com/YoungsikMoon/ai-job-search)<br><sub>포크</sub> | 채용공고를 평가하고 맞춤 이력서·자기소개서와 면접 준비 자료를 만드는 Claude Code 기반 구직 도구 |
-
-</details>
-
-<details>
 <summary><strong>지도·공간 데이터 시각화</strong> · 1개</summary>
+
+항공기·선박·위성 등 공개 위치 데이터를 3D 지도에서 탐색할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [gods-eye-view](https://github.com/YoungsikMoon/gods-eye-view)<br><sub>포크</sub> | 항공기·선박·위성·지진 등 공개 데이터를 3D 지구본에서 탐색하는 도구 |
 
 </details>
-
-<details>
-<summary><strong>교육·학습 콘텐츠 제작</strong> · 1개</summary>
-
-| 도구·자료 | 용도 |
-| --- | --- |
-| [OpenMAIC](https://github.com/YoungsikMoon/OpenMAIC)<br><sub>포크</sub> | 주제나 문서로 AI 교사·학생, 슬라이드·퀴즈·시뮬레이션을 생성하는 플랫폼 |
-
-</details>
-
