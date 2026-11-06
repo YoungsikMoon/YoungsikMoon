@@ -60,11 +60,11 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **122개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **123개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
-목록 기준: **2026.11.03**
+목록 기준: **2026.11.06**
 
 ### 기획과 개발
 
@@ -210,7 +210,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 ### 보안과 역공학
 
 <details>
-<summary><strong>보안 감사·침투 테스트·관제</strong> · 6개</summary>
+<summary><strong>보안 감사·침투 테스트·관제</strong> · 7개</summary>
 
 서비스의 취약점을 점검하거나 보안 경보·사고 조사와 대응을 관리할 때.
 
@@ -220,6 +220,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [security-audit-skill](https://github.com/YoungsikMoon/security-audit-skill)<br><sub>포크</sub> | AI 코딩 에이전트의 단계별 보안 감사와 결과 검증·구조화 보고 스킬 |
 | [shannon](https://github.com/YoungsikMoon/shannon)<br><sub>포크</sub> | 웹앱의 취약점을 탐색하고 실제 공격 가능성을 확인하는 자율 AI 보안 에이전트 |
 | [PentAGI](https://github.com/YoungsikMoon/pentagi)<br><sub>포크</sub> | AI 에이전트가 보안 도구로 침투 테스트를 계획·수행하고 결과를 보고하는 자가 호스팅 플랫폼 |
+| [Strix](https://github.com/YoungsikMoon/strix)<br><sub>포크</sub> | AI 에이전트가 웹앱·API·코드 취약점을 탐지·재현하고 수정안과 보고서를 만드는 침투 테스트 도구 |
 | [podori](https://github.com/YoungsikMoon/podori)<br><sub>포크</sub> | 취약점·의존성을 점검하고 미끼 파일로 무단 탐색을 탐지하는 AI 코딩 에이전트 스킬 |
 | [AiSOC](https://github.com/YoungsikMoon/AiSOC)<br><sub>포크</sub> | 보안 경보를 통합하고 AI로 사고 조사·위협 분석·대응 승인과 이력을 관리하는 자가 호스팅 플랫폼 |
 
