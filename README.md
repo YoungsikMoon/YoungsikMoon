@@ -60,11 +60,11 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **123개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **125개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
-목록 기준: **2026.11.06**
+목록 기준: **2026.11.08**
 
 ### 기획과 개발
 
@@ -254,6 +254,17 @@ AI 에이전트에 REA·Ghidra·IDA의 분석 기능을 연결할 때.
 | [frida](https://github.com/YoungsikMoon/frida)<br><sub>포크</sub> | 실행 중인 프로그램에 스크립트를 연결해 함수 호출과 동작을 관찰·수정하는 동적 계측 도구 |
 | [x64dbg](https://github.com/YoungsikMoon/x64dbg)<br><sub>포크</sub> | Windows 32·64비트 실행 파일의 명령어·메모리·실행 흐름을 분석하는 디버거 |
 | [raddebugger](https://github.com/YoungsikMoon/raddebugger)<br><sub>포크</sub> | Windows·Linux의 네이티브 x64 프로그램을 분석하는 다중 프로세스 GUI 디버거 |
+
+</details>
+
+<details>
+<summary><strong>CTF·익스플로잇 개발</strong> · 1개</summary>
+
+CTF 문제를 풀거나 취약점 재현 코드의 통신·바이너리 처리를 자동화할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [pwntools](https://github.com/YoungsikMoon/pwntools)<br><sub>포크</sub> | CTF 문제 풀이와 취약점 재현 코드 개발을 돕는 Python 프레임워크·라이브러리 |
 
 </details>
 
@@ -480,7 +491,7 @@ G-code 경로를 시뮬레이션하거나 CNC 컨트롤러 연동 도구를 살�
 </details>
 
 <details>
-<summary><strong>컴퓨터 비전·객체 추적·3D</strong> · 5개</summary>
+<summary><strong>컴퓨터 비전·객체 추적·3D</strong> · 6개</summary>
 
 이미지·영상 모델을 실험하거나 사람·객체 추적과 3D 복원을 살펴볼 때.
 
@@ -488,6 +499,7 @@ G-code 경로를 시뮬레이션하거나 CNC 컨트롤러 연동 도구를 살�
 | --- | --- |
 | [Find Imo](https://github.com/YoungsikMoon/03.-Find_Imo)<br><sub>팀 연구</sub> | ViT·MLP-Mixer 이미지 모델 연구. AI 면접 적용은 구상 단계 |
 | [Object Detection](https://github.com/YoungsikMoon/04.-ObjectDetection)<br><sub>팀·개인 실험</sub> | 쓰러짐 감지 팀 프로젝트와 사람 탐지 개인 실험 |
+| [supervision](https://github.com/YoungsikMoon/supervision)<br><sub>포크</sub> | 객체 탐지 결과의 시각화·추적·집계와 데이터셋 처리를 돕는 Python 라이브러리 |
 | [remind-reid-tracker](https://github.com/YoungsikMoon/remind-reid-tracker)<br><sub>포크</sub> | 외형 특징·주변 관계·적응형 메모리로 사라졌다 다시 나타난 객체를 재식별하는 추적기 |
 | [lingbot-map](https://github.com/YoungsikMoon/lingbot-map)<br><sub>포크</sub> | 연속으로 들어오는 영상 데이터에서 장면을 3D로 재구성하는 모델 |
 | [4DAnyone](https://github.com/YoungsikMoon/4DAnyone)<br><sub>포크</sub> | 단일 카메라 영상에서 인물의 시간에 따른 3D 표현을 생성하는 연구 코드 |
