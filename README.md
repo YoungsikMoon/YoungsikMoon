@@ -60,11 +60,11 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **125개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **128개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
-목록 기준: **2026.11.08**
+목록 기준: **2026.11.10**
 
 ### 기획과 개발
 
@@ -100,7 +100,7 @@
 </details>
 
 <details>
-<summary><strong>코딩 스킬·활용 가이드</strong> · 6개</summary>
+<summary><strong>코딩 스킬·활용 가이드</strong> · 7개</summary>
 
 AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할 때.
 
@@ -110,6 +110,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [ECC](https://github.com/YoungsikMoon/ECC)<br><sub>포크</sub> | Claude Code·Codex 등의 계획·테스트·리뷰·기억·보안 점검을 돕는 에이전트와 스킬 모음 |
 | [vive-md](https://github.com/YoungsikMoon/vive-md)<br><sub>포크</sub> | CLAUDE.md 템플릿과 웹 개발·보안·디자인 시스템의 단계별 산출물 모음 |
 | [codex-101](https://github.com/YoungsikMoon/codex-101)<br><sub>포크</sub> | OpenAI Codex의 사용법과 작업 흐름을 정리한 한국어·영어 가이드 |
+| [learn-harness-engineering](https://github.com/YoungsikMoon/learn-harness-engineering)<br><sub>포크</sub> | AI 코딩 에이전트의 실행환경·상태 관리·검증·제어를 실습으로 익히는 하네스 엔지니어링 입문 과정 |
 | [claude-code-tips](https://github.com/YoungsikMoon/claude-code-tips)<br><sub>포크</sub> | 작업 효율·상태 표시·다른 모델 연동·컨테이너 실행 등 실전 팁과 플러그인 |
 | [vibe-coding-news](https://github.com/YoungsikMoon/vibe-coding-news)<br><sub>포크</sub> | AI 코딩 도구의 최신 소식·릴리스를 출처와 함께 정리하고 SNS 글 초안을 만드는 에이전트 스킬 |
 
@@ -146,20 +147,31 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
-<summary><strong>UI 디자인·다이어그램</strong> · 8개</summary>
+<summary><strong>UI 설계·디자인 개선</strong> · 6개</summary>
 
-화면의 디자인·접근성을 다듬거나 구조와 작동 원리를 시각화할 때.
+웹·앱 화면의 레이아웃·타이포그래피·접근성·인터랙션을 설계하거나 개선할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [taste-skill](https://github.com/YoungsikMoon/taste-skill)<br><sub>포크</sub> | AI가 만든 화면의 획일적 구성을 줄이고 디자인 방향·이미지 선택·브라우저 검증을 돕는 스킬 |
 | [impeccable](https://github.com/YoungsikMoon/impeccable)<br><sub>포크</sub> | AI 코딩 도구의 화면 설계·타이포그래피·레이아웃·접근성을 개선하는 스킬 |
 | [hallmark](https://github.com/YoungsikMoon/hallmark)<br><sub>포크</sub> | 테마 선택·화면 설계·브라우저 점검으로 AI가 만든 웹페이지의 획일적인 디자인을 줄이는 에이전트 스킬 |
+| [emilkowalski-skills](https://github.com/YoungsikMoon/emilkowalski-skills)<br><sub>포크</sub> | UI 애니메이션의 곡선·속도·성능과 인터랙션을 설계·검토하는 에이전트 스킬 모음 |
+| [jakubkrehel-skills](https://github.com/YoungsikMoon/jakubkrehel-skills)<br><sub>포크</sub> | 화면의 타이포그래피·색상·레이아웃·접근성·문구를 점검·개선하는 에이전트 스킬 모음 |
+| [unslop](https://github.com/YoungsikMoon/unslop)<br><sub>포크</sub> | AI 화면의 획일적인 구성을 진단하고 제품 맥락에 맞춰 디자인을 단계별로 개선하는 에이전트 스킬 |
+
+</details>
+
+<details>
+<summary><strong>다이어그램·인포그래픽</strong> · 3개</summary>
+
+구조와 정보를 다이어그램·인터랙티브 그림·인포그래픽으로 설명할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
 | [Pretty-mermaid-skills](https://github.com/YoungsikMoon/Pretty-mermaid-skills)<br><sub>포크</sub> | Mermaid를 테마가 적용된 SVG·터미널 ASCII로 생성·렌더링하는 에이전트 스킬 |
 | [anatomy](https://github.com/YoungsikMoon/anatomy)<br><sub>포크</sub> | 기계·시스템의 작동 원리를 인터랙티브 SVG·WebGL·3D 그림으로 설명하는 AI 에이전트 스킬 |
 | [octo-design](https://github.com/YoungsikMoon/octo-design)<br><sub>포크</sub> | 채팅으로 카드뉴스·슬라이드·인포그래픽을 만들고 PNG·PDF로 내보내는 macOS 앱 |
-| [emilkowalski-skills](https://github.com/YoungsikMoon/emilkowalski-skills)<br><sub>포크</sub> | UI 애니메이션의 곡선·속도·성능과 인터랙션을 설계·검토하는 에이전트 스킬 모음 |
-| [jakubkrehel-skills](https://github.com/YoungsikMoon/jakubkrehel-skills)<br><sub>포크</sub> | 화면의 타이포그래피·색상·레이아웃·접근성·문구를 점검·개선하는 에이전트 스킬 모음 |
 
 </details>
 
@@ -477,6 +489,17 @@ G-code 경로를 시뮬레이션하거나 CNC 컨트롤러 연동 도구를 살�
 </details>
 
 ### 데이터와 연구
+
+<details>
+<summary><strong>AI 모델 설계·최적화·배포</strong> · 1개</summary>
+
+데이터와 목표 장치의 조건에 맞춰 AI 모델을 만들고 학습·배포할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [TANGO](https://github.com/YoungsikMoon/TANGO)<br><sub>포크</sub> | 목표 장치에 맞춘 신경망 설계·학습·최적화·배포를 지원하는 노코드 AI 프레임워크 |
+
+</details>
 
 <details>
 <summary><strong>텍스트 분석·NLP</strong> · 2개</summary>
