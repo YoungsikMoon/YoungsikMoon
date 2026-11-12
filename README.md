@@ -60,7 +60,7 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **129개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **140개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
@@ -130,6 +130,17 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
+<summary><strong>데스크톱 앱 패키징</strong> · 1개</summary>
+
+웹사이트나 웹 빌드 결과물을 Windows·macOS·Linux용 데스크톱 앱으로 배포할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [Pake](https://github.com/YoungsikMoon/Pake)<br><sub>포크</sub> | 웹사이트나 웹 빌드 결과물을 가벼운 데스크톱 앱으로 패키징하는 Tauri 기반 CLI |
+
+</details>
+
+<details>
 <summary><strong>코드·문서 검색·구조 이해</strong> · 7개</summary>
 
 필요한 코드와 문서를 찾고, 시스템 구조·변경 영향을 파악할 때.
@@ -189,6 +200,18 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
+<summary><strong>공개 API 탐색</strong> · 2개</summary>
+
+서비스에 연결할 공개 API를 분야별로 찾고 인증·접속 조건을 비교할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [public-apis](https://github.com/YoungsikMoon/public-apis)<br><sub>포크</sub> | 분야별 공개 API와 인증·HTTPS·CORS 조건을 찾아볼 수 있는 개발 자료 모음 |
+| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr)<br><sub>포크</sub> | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
+
+</details>
+
+<details>
 <summary><strong>웹 인증·백엔드·네트워크 학습</strong> · 6개</summary>
 
 인증·서버 개발·HTTP를 예제로 살펴보거나 학습 결과를 확인할 때.
@@ -216,6 +239,64 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [turbo-fieldfare](https://github.com/YoungsikMoon/turbo-fieldfare)<br><sub>포크</sub> | Apple M 시리즈 Mac에서 Gemma 4 26B-A4B의 메모리 사용을 줄여 추론하는 코드 |
 | [Personal-AI-Router](https://github.com/YoungsikMoon/Personal-AI-Router)<br><sub>포크</sub> | 집 안의 여러 기기에 AI 추론 작업을 분배하는 라우터 |
 | [OneRAG](https://github.com/YoungsikMoon/OneRAG)<br><sub>포크</sub> | 벡터 DB·LLM·재순위화 모델을 바꿔 연결할 수 있는 검색 증강 생성 서버 |
+
+</details>
+
+<details>
+<summary><strong>개발 학습 경로·교재</strong> · 3개</summary>
+
+직무별 학습 순서를 정하고 프로그래밍 교재·강좌·실습 과정을 찾을 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [developer-roadmap](https://github.com/YoungsikMoon/developer-roadmap)<br><sub>포크</sub> | 프런트엔드·백엔드·DevOps 등 직무·기술별 학습 순서와 참고 자료를 제공하는 인터랙티브 로드맵 |
+| [free-programming-books](https://github.com/YoungsikMoon/free-programming-books)<br><sub>포크</sub> | 한국어를 포함한 여러 언어의 프로그래밍 도서·강좌·연습 자료를 정리한 목록 |
+| [freeCodeCamp](https://github.com/YoungsikMoon/freeCodeCamp)<br><sub>포크</sub> | 웹 개발·프로그래밍을 무료 대화형 과제와 프로젝트로 배우는 freeCodeCamp의 교육과정·플랫폼 소스 |
+
+</details>
+
+<details>
+<summary><strong>기술 원리 구현 실습</strong> · 1개</summary>
+
+데이터베이스·브라우저 같은 기술을 직접 만들어 동작 원리를 익힐 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [build-your-own-x](https://github.com/YoungsikMoon/build-your-own-x)<br><sub>포크</sub> | 데이터베이스·운영체제·브라우저 등 기술을 직접 구현하며 원리를 익히는 단계별 튜토리얼 모음 |
+
+</details>
+
+<details>
+<summary><strong>CS 기초·기술 면접 준비</strong> · 2개</summary>
+
+CS 기초와 알고리즘을 복습하고 코딩·행동 면접을 준비할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [coding-interview-university](https://github.com/YoungsikMoon/coding-interview-university)<br><sub>포크</sub> | 자료구조·알고리즘·컴퓨터 기초를 단계별로 익히는 개발자 면접 대비 학습 계획 |
+| [tech-interview-handbook](https://github.com/YoungsikMoon/tech-interview-handbook)<br><sub>포크</sub> | 코딩 문제·알고리즘 요약부터 이력서·행동 면접·오퍼 협상까지 정리한 개발자 면접 준비 안내서 |
+
+</details>
+
+<details>
+<summary><strong>시스템 설계·아키텍처 학습</strong> · 1개</summary>
+
+대규모 서비스의 구조와 설계 판단을 사례로 익히고 설계 면접을 준비할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [system-design-academy](https://github.com/YoungsikMoon/system-design-academy)<br><sub>포크</sub> | 대규모 서비스 설계 사례와 분산 시스템 기초·설계 면접·AI 엔지니어링 자료 모음 |
+
+</details>
+
+<details>
+<summary><strong>시니어 엔지니어 성장</strong> · 1개</summary>
+
+기술 설계 역량과 소통·리더십을 키우고 다음 경력 단계를 준비할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [path-to-senior-engineer-handbook](https://github.com/YoungsikMoon/path-to-senior-engineer-handbook)<br><sub>포크</sub> | 시니어 엔지니어로 성장하기 위한 기술 설계·소통·리더십·경력 개발 학습 자료 모음 |
 
 </details>
 
@@ -404,13 +485,12 @@ PDF의 구조·접근성을 검사하거나 문서 이미지에서 내용을 추
 ### 업무와 서비스
 
 <details>
-<summary><strong>국내 서비스·공공 API 연동</strong> · 3개</summary>
+<summary><strong>국내 서비스 연동·공공 상담</strong> · 2개</summary>
 
-국내 서비스와 공개 API를 활용하거나 공공기관 상담 서비스를 살펴볼 때.
+국내 서비스 기능을 연결하거나 공공기관 상담 서비스를 살펴볼 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
-| [public-apis-4Kr](https://github.com/YoungsikMoon/public-apis-4Kr)<br><sub>포크</sub> | 한국 서비스 개발에 활용할 수 있는 공개 API 모음 |
 | [k-skill](https://github.com/YoungsikMoon/k-skill)<br><sub>포크</sub> | 기차·야구·카카오톡·한글 문서·미세먼지 등 한국 서비스용 에이전트 스킬 모음 |
 | [Gov-chat-bot](https://github.com/YoungsikMoon/Gov-chat-bot)<br><sub>포크</sub> | 공공기관용 카카오톡 상담 챗봇 |
 
@@ -491,13 +571,14 @@ G-code 경로를 시뮬레이션하거나 CNC 컨트롤러 연동 도구를 살�
 ### 데이터와 연구
 
 <details>
-<summary><strong>AI 모델 설계·최적화·배포</strong> · 1개</summary>
+<summary><strong>AI 모델 설계·최적화·배포</strong> · 2개</summary>
 
 데이터와 목표 장치의 조건에 맞춰 AI 모델을 만들고 학습·배포할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [TANGO](https://github.com/YoungsikMoon/TANGO)<br><sub>포크</sub> | 목표 장치에 맞춘 신경망 설계·학습·최적화·배포를 지원하는 노코드 AI 프레임워크 |
+| [TANGO2](https://github.com/YoungsikMoon/TANGO2)<br><sub>포크</sub> | LLM·VLM 데이터 구축·파인튜닝·양자화·배포·평가를 웹 UI로 관리하는 LLMOps 플랫폼 |
 
 </details>
 
