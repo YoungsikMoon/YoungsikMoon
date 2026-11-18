@@ -60,11 +60,11 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **140개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **143개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
-목록 기준: **2026.11.12**
+목록 기준: **2026.11.18**
 
 ### 기획과 개발
 
@@ -174,6 +174,17 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
+<summary><strong>React UI 컴포넌트·디자인 시스템</strong> · 1개</summary>
+
+React 앱의 화면을 일관된 컴포넌트와 테마로 구현할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [astryx](https://github.com/YoungsikMoon/astryx)<br><sub>포크</sub> | 접근성 컴포넌트·테마·템플릿·CLI를 제공하는 React 디자인 시스템 |
+
+</details>
+
+<details>
 <summary><strong>다이어그램·인포그래픽</strong> · 3개</summary>
 
 구조와 정보를 다이어그램·인터랙티브 그림·인포그래픽으로 설명할 때.
@@ -243,7 +254,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 </details>
 
 <details>
-<summary><strong>개발 학습 경로·교재</strong> · 3개</summary>
+<summary><strong>개발 학습 경로·교재</strong> · 4개</summary>
 
 직무별 학습 순서를 정하고 프로그래밍 교재·강좌·실습 과정을 찾을 때.
 
@@ -252,6 +263,7 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [developer-roadmap](https://github.com/YoungsikMoon/developer-roadmap)<br><sub>포크</sub> | 프런트엔드·백엔드·DevOps 등 직무·기술별 학습 순서와 참고 자료를 제공하는 인터랙티브 로드맵 |
 | [free-programming-books](https://github.com/YoungsikMoon/free-programming-books)<br><sub>포크</sub> | 한국어를 포함한 여러 언어의 프로그래밍 도서·강좌·연습 자료를 정리한 목록 |
 | [freeCodeCamp](https://github.com/YoungsikMoon/freeCodeCamp)<br><sub>포크</sub> | 웹 개발·프로그래밍을 무료 대화형 과제와 프로젝트로 배우는 freeCodeCamp의 교육과정·플랫폼 소스 |
+| [ai-engineering-from-scratch](https://github.com/YoungsikMoon/ai-engineering-from-scratch)<br><sub>포크</sub> | 모델 내부 구조·RAG·에이전트 구현과 평가를 실습으로 익히는 무료 교육과정 |
 
 </details>
 
@@ -469,14 +481,25 @@ PDF의 구조·접근성을 검사하거나 문서 이미지에서 내용을 추
 </details>
 
 <details>
-<summary><strong>영상 제작·다운로드·재생</strong> · 4개</summary>
+<summary><strong>영상·모션 그래픽·3D 제작</strong> · 3개</summary>
 
-영상을 생성·편집하거나 내려받아 정리하고 재생할 때.
+코드와 AI 에이전트로 영상·모션 그래픽을 만들거나 3D 장면을 렌더링할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
 | [HyperFrames](https://github.com/YoungsikMoon/hyperframes)<br><sub>포크</sub> | HTML·CSS·애니메이션을 MP4 영상으로 만드는 렌더링 프레임워크와 AI 에이전트 스킬 |
 | [hypit](https://github.com/YoungsikMoon/hypit)<br><sub>포크</sub> | AI 에이전트로 영상·자막·효과를 구성하고 기존 영상이나 템플릿에서 여러 변형을 제작하는 도구 |
+| [raea](https://github.com/YoungsikMoon/raea)<br><sub>포크</sub> | React·TypeScript로 영상·모션 그래픽·3D·게임을 만들고 로컬 GPU로 렌더링하는 엔진 |
+
+</details>
+
+<details>
+<summary><strong>영상 다운로드·재생</strong> · 2개</summary>
+
+온라인 영상을 내려받아 정리하거나 저장된 동영상을 재생할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
 | [YouTube Downloader](https://github.com/YoungsikMoon/youtube-downloader-gui) · [릴리스](https://github.com/YoungsikMoon/youtube-downloader-gui/releases)<br><sub>확장 개발</sub> | 기존 오픈소스 GUI를 확장한 Excel 일괄 다운로드·진행 상태·로그 도구 |
 | [nextplayer](https://github.com/YoungsikMoon/nextplayer)<br><sub>포크</sub> | Android용 네이티브 동영상 플레이어 |
 
