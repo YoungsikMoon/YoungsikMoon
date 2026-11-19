@@ -60,11 +60,11 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **143개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **144개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
-목록 기준: **2026.11.18**
+목록 기준: **2026.11.19**
 
 ### 기획과 개발
 
@@ -126,6 +126,17 @@ AI 코딩 도구를 익히고 스킬·템플릿으로 작업 흐름을 확장할
 | [CLI-Anything](https://github.com/YoungsikMoon/CLI-Anything)<br><sub>포크</sub> | 기존 소프트웨어를 AI 에이전트가 조작할 수 있는 CLI로 연결하는 도구 |
 | [Stagehand](https://github.com/YoungsikMoon/stagehand)<br><sub>포크</sub> | 자연어로 웹페이지를 조작하고 구조화된 데이터를 추출하는 브라우저 자동화 SDK |
 | [agent-desktop](https://github.com/YoungsikMoon/agent-desktop)<br><sub>포크</sub> | 운영체제의 접근성 트리로 화면 요소를 읽고 AI 에이전트가 데스크톱 앱을 조작하도록 연결하는 CLI·라이브러리 |
+
+</details>
+
+<details>
+<summary><strong>브라우저 디버깅·성능 분석</strong> · 1개</summary>
+
+웹페이지의 오류·네트워크 요청·실행 성능을 조사하고 개선할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [chrome-devtools-mcp](https://github.com/YoungsikMoon/chrome-devtools-mcp)<br><sub>포크</sub> | AI 에이전트가 Chrome을 조작하고 네트워크·콘솔·성능 추적을 분석하도록 연결하는 MCP·CLI |
 
 </details>
 
