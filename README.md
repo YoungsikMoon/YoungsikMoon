@@ -60,7 +60,7 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **147개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **148개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
@@ -79,6 +79,17 @@
 | [pm-skills](https://github.com/YoungsikMoon/pm-skills)<br><sub>포크</sub> | 고객 탐색·전략·실행·출시·성장을 지원하는 PM용 에이전트 스킬·플러그인 모음 |
 | [im-not-ai](https://github.com/YoungsikMoon/im-not-ai)<br><sub>포크</sub> | AI가 쓴 글의 기계적인 표현을 자연스럽게 다듬는 윤문 스킬 |
 | [humanizer-korean](https://github.com/YoungsikMoon/humanizer-korean)<br><sub>포크</sub> | AI 글의 번역투·기계적인 문체를 자연스러운 한국어로 다듬는 스킬 |
+
+</details>
+
+<details>
+<summary><strong>요구사항·설계 검토</strong> · 1개</summary>
+
+개발 전에 질문으로 요구사항·설계의 빈틈을 점검하고 구현 계획을 구체화할 때.
+
+| 도구·자료 | 용도 |
+| --- | --- |
+| [mattpocock-skills](https://github.com/YoungsikMoon/mattpocock-skills)<br><sub>포크</sub> | grill-me 등으로 요구사항·설계를 구체화하고 명세·작업 분할·테스트·리뷰를 지원하는 스킬 모음 |
 
 </details>
 
