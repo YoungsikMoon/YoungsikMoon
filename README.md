@@ -60,7 +60,7 @@
 
 ## 도구 모음
 
-필요한 작업에 맞춰 도구와 연구·학습 자료 **145개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
+필요한 작업에 맞춰 도구와 연구·학습 자료 **147개**를 정리했습니다. 묶음을 펼치면 사용 시점과 저장소별 용도를 볼 수 있습니다. 각 항목에 개인 구현·연구·학습·포크 등의 성격을 표시했습니다.
 
 [기획과 개발](#기획과-개발) · [보안과 역공학](#보안과-역공학) · [문서와 콘텐츠](#문서와-콘텐츠) · [업무와 서비스](#업무와-서비스) · [데이터와 연구](#데이터와-연구)
 
@@ -83,9 +83,9 @@
 </details>
 
 <details>
-<summary><strong>AI 개발 환경·팀 운영</strong> · 7개</summary>
+<summary><strong>AI 개발 환경·팀 운영</strong> · 8개</summary>
 
-여러 AI 코딩 에이전트의 작업·역할·예산과 개발 환경을 관리할 때.
+AI 코딩 에이전트를 실행하고 작업·역할·예산과 개발 환경을 관리할 때.
 
 | 도구·자료 | 용도 |
 | --- | --- |
@@ -96,6 +96,7 @@
 | [bbarit-terminal-opensource](https://github.com/YoungsikMoon/bbarit-terminal-opensource)<br><sub>포크</sub> | 터미널·AI CLI·편집기·브라우저·에이전트 작업을 한곳에서 관리하는 데스크톱 AI 개발 환경 |
 | [paperclip](https://github.com/YoungsikMoon/paperclip)<br><sub>포크</sub> | AI 에이전트 팀의 업무·역할·승인·예산을 통합 관리하는 플랫폼 |
 | [thinkrail](https://github.com/YoungsikMoon/thinkrail)<br><sub>포크</sub> | pi 코딩 에이전트와 격리 작업공간·명세·편집기·터미널을 통합한 AI 개발 환경 |
+| [open-agents](https://github.com/YoungsikMoon/open-agents)<br><sub>포크</sub> | Vercel의 격리 환경에서 백그라운드 코딩 에이전트를 구축·실행하는 참조 앱 |
 
 </details>
 
@@ -220,7 +221,7 @@ React 앱의 화면을 일관된 컴포넌트와 테마로 구현할 때.
 </details>
 
 <details>
-<summary><strong>코드 품질·정형 검증</strong> · 3개</summary>
+<summary><strong>코드 품질·정형 검증</strong> · 4개</summary>
 
 코드를 검토하고 동시성·상태 전이 등 구현의 정확성을 검증할 때.
 
@@ -229,6 +230,7 @@ React 앱의 화면을 일관된 컴포넌트와 테마로 구현할 때.
 | [ponytail](https://github.com/YoungsikMoon/ponytail)<br><sub>포크</sub> | 과한 설계를 줄이고 버그·보안·테스트·성능을 점검하는 AI 코딩 스킬 |
 | [agent-formal-verify](https://github.com/YoungsikMoon/agent-formal-verify)<br><sub>포크</sub> | TLA+·Lean 4·Kani로 동시성·상태 전이·Rust 코드의 오류를 검증하는 AI 코딩 스킬 |
 | [proof-skills](https://github.com/YoungsikMoon/proof-skills)<br><sub>포크</sub> | TLA+·Lean 4로 동시성·상태 오류를 재현·수정하고 검증 근거를 남기는 Claude Code 스킬 |
+| [openreview](https://github.com/YoungsikMoon/openreview)<br><sub>포크</sub> | GitHub PR 댓글로 코드 리뷰를 요청하고 인라인 수정 제안을 받는 자가 호스팅 AI 봇 |
 
 </details>
 
